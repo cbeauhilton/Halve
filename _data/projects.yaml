@@ -1,22 +1,22 @@
 - title: Machine Learning Interest Group, CCLCM
   url: https://github.com/cbeauhilton/ML-Setup-and-Practice-for-CCLCM
   image: https://semiengineering.com/wp-content/uploads/2018/03/data-and-connections.jpg
-  completed: false
+  completed: true
 
 - title: AI for MDs
   url: https://github.com/cbeauhilton/AI-for-MDs
   image: https://github.com/cbeauhilton/AI-for-MDs/raw/master/rawpixel-618738-unsplash.jpg
-  completed: false
+  completed: true
 
 - title: Marrowless Diagnosis
   url: https://github.com/cbeauhilton/Marrowless-Diagnosis
   image: https://github.com/cbeauhilton/Marrowless-Diagnosis/raw/master/dawid-zawila-192545-unsplash.jpg
-  completed: false
+  completed: true
 
 - title: Deep Learning for Bone Marrow
   url: https://github.com/cbeauhilton/Deep-Learning-for-Bone-Marrow
   image: https://github.com/cbeauhilton/Deep-Learning-for-Bone-Marrow/raw/master/mds.PNG
-  completed: false
+  completed: true
 
 # - title: Block Icon Theme
 #   url: https://github.com/TaylanTatli/Block-Icon-Theme
