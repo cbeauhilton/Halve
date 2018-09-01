@@ -1,8 +1,8 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
-logo: halve.png                                       # Site logo
+title: cbh
+description: Beau, online.
+url: https://cbeauhilton.github.io/
+logo: favicon.png                                       # Site logo
 locale: en_US
 
 # Left Block Images
@@ -24,17 +24,18 @@ kramdown:
 sass:
   sass_dir:         assets/_sass
   style:            compressed
+show_drafts: true
 
 # Google Analytics
-#google-analytics: UA-XXXXX-Y
+google-analytics: UA-124056131-1
 
 # Social Links
-#email:             email
+email:             cbeauhilton@gmail.com
 #google.plus:        username
-twitter:            username
+twitter:            beauhilton
 #facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+github:             cbeauhilton
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
@@ -52,7 +53,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           username
 
 # Gems
 gems:
@@ -62,4 +63,5 @@ gems:
 
 # Exclude list
 include: [_pages]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
+exclude: [README.md, Gemfile, Gemfile.lock, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
+# exclude site? _site
