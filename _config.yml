@@ -2,7 +2,8 @@
 title: cbh
 description: Beau, online.
 url: https://cbeauhilton.github.io/
-logo: images\arsenic_cbh.png                                     # Site logo
+# Site logo
+logo: images\arsenic_cbh_150_131.png
 locale: en_US
 
 # Left Block Images
