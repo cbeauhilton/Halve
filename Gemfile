@@ -8,6 +8,7 @@ gem "jekyll"
 gem "nokogiri"
 gem "liquid_reading_time"
 
+gem 'github-pages'
 # gem "html-proofer"
 
 # Optional: Add any custom plugins here.
