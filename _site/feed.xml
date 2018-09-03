@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-03T09:55:29-04:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>How I made this website</title><link href="http://localhost:4000/on-making-this-website/" rel="alternate" type="text/html" title="How I made this website" /><published>2018-09-03T00:00:00-04:00</published><updated>2018-09-03T00:00:00-04:00</updated><id>http://localhost:4000/on-making-this-website</id><content type="html" xml:base="http://localhost:4000/on-making-this-website/">&lt;p&gt;I’m psyched about this little website. This post is about the resources I used to make it.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;one&lt;/li&gt;
-  &lt;li&gt;two&lt;/li&gt;
-  &lt;li&gt;three&lt;/li&gt;
-&lt;/ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-03T10:34:50-04:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>How I made this website</title><link href="http://localhost:4000/on-making-this-website/" rel="alternate" type="text/html" title="How I made this website" /><published>2018-09-03T00:00:00-04:00</published><updated>2018-09-03T00:00:00-04:00</updated><id>http://localhost:4000/on-making-this-website</id><content type="html" xml:base="http://localhost:4000/on-making-this-website/">&lt;p&gt;I’m psyched about this little website. This post is about the resources I used to make it.&lt;/p&gt;
 
 &lt;h3 id=&quot;static-web&quot;&gt;Static Web&lt;/h3&gt;
 
@@ -120,6 +114,7 @@ Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&
       &lt;li&gt;&lt;a href=&quot;http://www.jekyll-plugins.com/plugins/simple-jekyll-search&quot;&gt;Add search bar&lt;/a&gt;.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/robwierzbowski/jekyll-picture-tag&quot;&gt;Make the site pictures responsive&lt;/a&gt;.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://mademistakes.com/articles/jekyll-static-comments/#static-comments&quot;&gt;Add static comments to posts that would benefit from community&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;Get Table of Contents working for lengthy posts such as this one.``&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><category term="jekyll" /><category term="markdown" /><category term="atom" /><category term="hosting" /><category term="static web" /><category term="blog" /><summary>I’m psyched about this little website. This post is about the resources I used to make it.</summary></entry></feed>

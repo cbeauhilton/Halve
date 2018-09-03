@@ -2,9 +2,9 @@
 title: cbh
 description: sola dosis facit venenum
 url: https://cbeauhilton.github.io/
+locale: en_US
 # Site logo
 logo: arsenic_logo_300.svg
-locale: en_US
 
 # Left Block Images
 background:
@@ -63,6 +63,6 @@ gems:
   - jekyll-gist
 
 # Exclude list
-include: [_pages]
+include: [_pages, .nojekyll]
 exclude: [README.md, Gemfile, Gemfile.lock, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store, _site]
 # exclude site? _site

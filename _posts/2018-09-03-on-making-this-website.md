@@ -124,4 +124,4 @@ Pretty cool, eh?
   - [Add search bar](http://www.jekyll-plugins.com/plugins/simple-jekyll-search).
   - [Make the site pictures responsive](https://github.com/robwierzbowski/jekyll-picture-tag).
   - [Add static comments to posts that would benefit from community](https://mademistakes.com/articles/jekyll-static-comments/#static-comments).
-  - Get Table of Contents working for lengthy posts such as this one.
+  - Get Table of Contents working for lengthy posts such as this one.``
