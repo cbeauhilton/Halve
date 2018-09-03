@@ -73,12 +73,12 @@ gems:
   - nokogiri
 
 # Exclude list
-include:
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - Rakefile
-  - CNAME
+# include:
+# exclude:
+#   - vendor
+#   - Gemfile
+#   - Gemfile.lock
+#   - LICENSE
+#   - README.md
+#   - Rakefile
+#   - CNAME
