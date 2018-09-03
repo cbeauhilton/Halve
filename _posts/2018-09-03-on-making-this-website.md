@@ -21,7 +21,7 @@ I'm psyched about this little website. This post is about the resources I used t
 Most of the internet we interact with on a day-to-day basis is "dynamic," meaning we request something from a web server (e.g. click on a Facebook post or search for something on Amazon), which then talks to a database to pull all the relevant information and fill in a template (e.g. post content + comments, or product page with images, ratings, ads, etc.). The "static" web is much more old school: ask for something and the server gives you something, no database and comparatively little processing. Whatever is on the server has to be pretty much prebuilt and ready to go. This process is much simpler, faster, and more secure. The basic protocols are old and well established, unlikely to change or break.  For most online writing, such as a blog, static is the way to go, especially if it is likely to be consumed over a mobile internet connection.
 
 ### Jekyll
-[![Jekyll](https://jekyllrb.com/img/logo-2x.png)](https://jekyllrb.com/)
+[![Jekyll](https://jekyllrb.com/img/logo-2x.png){:class="img-responsive"}](https://jekyllrb.com/)
 
 Jekyll is an open-source suite of open-source software for making static web pages.
 

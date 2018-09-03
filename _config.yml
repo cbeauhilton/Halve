@@ -61,8 +61,24 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-compose
+  - jekyll-redirect-from
+  - jekyll-scholar
+  - jekyll-scholar-extras
+  - liquid_reading_time
+  - jekyll-pandoc-multiple-formats
+  - nokogiri
 
 # Exclude list
-include: [_pages, .nojekyll]
-exclude: [README.md, Gemfile, Gemfile.lock, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store, _site]
-# exclude site? _site
+include:
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Rakefile
+  - CNAME
