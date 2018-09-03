@@ -67,7 +67,7 @@ gems:
   - jekyll-compose
   - jekyll-redirect-from
   - jekyll-scholar
-  - jekyll-scholar-extras
+#  - jekyll-scholar-extras
   - jekyll-pandoc-multiple-formats
   - liquid_reading_time
   - nokogiri
