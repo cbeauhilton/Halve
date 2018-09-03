@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-03T09:55:29-04:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>How I made this website</title><link href="http://localhost:4000/on-making-this-website/" rel="alternate" type="text/html" title="How I made this website" /><published>2018-09-03T00:00:00-04:00</published><updated>2018-09-03T00:00:00-04:00</updated><id>http://localhost:4000/on-making-this-website</id><content type="html" xml:base="http://localhost:4000/on-making-this-website/">&lt;p&gt;I’m psyched about this little website. This post is about the resources I used to make it.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;one&lt;/li&gt;
+  &lt;li&gt;two&lt;/li&gt;
+  &lt;li&gt;three&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;static-web&quot;&gt;Static Web&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.zipboard.co/how-to-start-with-static-sites-807b8ddfecc&quot;&gt;&lt;img src=&quot;https://www.digett.com/sites/default/files/images/static_site_0.png&quot; alt=&quot;The linked post has a nice overview of most of the static web services&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Most of the internet we interact with on a day-to-day basis is “dynamic,” meaning we request something from a web server (e.g. click on a Facebook post or search for something on Amazon), which then talks to a database to pull all the relevant information and fill in a template (e.g. post content + comments, or product page with images, ratings, ads, etc.). The “static” web is much more old school: ask for something and the server gives you something, no database and comparatively little processing. Whatever is on the server has to be pretty much prebuilt and ready to go. This process is much simpler, faster, and more secure. The basic protocols are old and well established, unlikely to change or break.  For most online writing, such as a blog, static is the way to go, especially if it is likely to be consumed over a mobile internet connection.&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;&lt;img src=&quot;https://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll is an open-source suite of open-source software for making static web pages.&lt;/p&gt;
+
+&lt;p&gt;The basic idea is create a workflow that starts with just writing, followed by a predefined file structure and styling format to store all your stuff and make it pretty, and finally automatically translate it all into something a web browser can use. Jekyll also integrates nicely with GitHub, &lt;a href=&quot;https://help.github.com/articles/about-github-pages-and-jekyll/&quot;&gt;which will host the site for free&lt;/a&gt;. GitHub also makes my favorite text editor, &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt;. This leads to an integrated workflow: write in Atom → build in Jekyll+GitHub →  publish on GitHub.&lt;/p&gt;
+
+&lt;p&gt;I found out about Jekyll from the &lt;a href=&quot;https://ysbecca.github.io/programming/2018/05/22/py-wsi.html&quot;&gt;Rebecca Stone&lt;/a&gt;, who is writing the wonderful &lt;a href=&quot;https://github.com/ysbecca/py-wsi&quot;&gt;py-wsi package&lt;/a&gt;. (This package makes massive digital pathology images tractable for deep learning.) As I read through her blog, I found &lt;a href=&quot;https://ysbecca.github.io/programming/2017/04/29/jekyll-migration.html&quot;&gt;this post on Jekyll and why she switched from WordPress&lt;/a&gt;. I read a few more posts like hers and was converted.&lt;/p&gt;
+
+&lt;p&gt;Some user-friendly Jekyll walkthroughs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Programming Historian: complete Jekyll and GitHub pages walkthrough for non-programmers&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Assumes you know absolutely nothing, explains terminology and has copy-paste code plus instructions for Windows &lt;em&gt;and&lt;/em&gt; Mac.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bwThn0rxv7M&quot;&gt;WebJeda: YouTube videos&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Modular and step-by-step. Sometimes it’s nice to watch someone go through the process in real time.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://evanwill.github.io/go-go-ghpages/0-prep.html&quot;&gt;University of Idaho Library: workshop, with blog posts and video&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Comparable to Programming Historian, with the benefit of dual coverage in the blog and video. The video is from a workshop where they walked through the process in real time, from nothing to something in around an hour, and the students asked a lot of the same questions I had.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;jekyll-themes&quot;&gt;Jekyll Themes&lt;/h4&gt;
+
+&lt;p&gt;I stole the layout of this site from &lt;a href=&quot;https://vangeltzo.com/index.html&quot;&gt;vangeltzo.com&lt;/a&gt;, whose beautiful design was Jekyll-ified (with permission!) by &lt;a href=&quot;https://taylantatli.github.io/Halve/&quot;&gt;TaylanTatli on GitHub&lt;/a&gt;. I’m &lt;a href=&quot;https://github.com/cbeauhilton/cbeauhilton.github.io/network/members&quot;&gt;not the only one&lt;/a&gt; using this theme, &lt;a href=&quot;https://drivenbyentropy.github.io/&quot;&gt;by&lt;/a&gt; &lt;a href=&quot;https://ejieum.github.io/&quot;&gt;any&lt;/a&gt; &lt;a href=&quot;https://je553.github.io/&quot;&gt;means&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jekyll themes are &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;abundant online&lt;/a&gt;, generally &lt;a href=&quot;https://taylantatli.github.io/Halve/halve-theme/&quot;&gt;easy to fork&lt;/a&gt; (“fork” means “copy for your own use without affecting the original”), and often &lt;a href=&quot;https://taylantatli.github.io/Halve/posts&quot;&gt;well commented&lt;/a&gt; so they are straightforward to customize.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-this-theme&quot;&gt;Why this theme?&lt;/h4&gt;
+
+&lt;p&gt;I had two basic requirements for my theme. First, it had to be &lt;a href=&quot;http://www.leonardkoren.com/lkwh.html&quot;&gt;pretty&lt;/a&gt;. Second, I wanted a responsive split screen. “Responsive” means it can adapt itself to look nice on any device from a phone to a huge desktop monitor. The split screen confines the content to an easily readable width on the right and gives consistent navigation on the left. The 50/50 split screen is a little extreme, but I think I like it this way. If I ever want to change it to something like 66/33, it is &lt;a href=&quot;https://github.com/TaylanTatli/Halve/issues/32&quot;&gt;quite  easy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’ll say more about specific choices, such as color, logo, and tagline in another post.&lt;/p&gt;
+
+&lt;h3 id=&quot;atom&quot;&gt;Atom&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://atom.io/&quot;&gt;&lt;img src=&quot;https://avatars2.githubusercontent.com/u/1089146?s=200&amp;amp;v=4&quot; alt=&quot;Atom&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can write all of your code entirely within GitHub, which has its own text editor. The above tutorials use this approach to make it easy to start. There’s nothing wrong with that.&lt;/p&gt;
+
+&lt;p&gt;A friend of mine, a &lt;a href=&quot;https://github.com/JaretK&quot;&gt;fellow CCLCM student&lt;/a&gt; who is a much more legit programmer than me, recommended Atom, and I fell in love with only minimal doses of digital &lt;a href=&quot;http://harrypotter.wikia.com/wiki/Amortentia&quot;&gt;amortentia&lt;/a&gt;. It is ridiculously (almost dangerously) extensible, with community-supplied packages for an incredible breadth of programming languages and applications.&lt;/p&gt;
+
+&lt;p&gt;For the nerds, for example, it has full support for LaTeX and all the typesetting, figure-making, citation-porn, and mathy goodness you can handle. One of my favorite workflows is to write something in Markdown to get the basics down with minimal fuss in an easier language, and then use Pandoc to convert it to LaTeX, followed by any futzing with the LaTeX (if you like) before outputting to PDF. You can also (!) combine the languages rather seamlessly.&lt;/p&gt;
+
+&lt;p&gt;Here’s a &lt;a href=&quot;http://u.arizona.edu/~selisker/post/workflow/&quot;&gt;post that details a full plain-text academic workflow with Atom&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the poets, it can be a gorgeous and focused writing environment with infinitely more flexibility than Word. Here’s &lt;a href=&quot;https://8bitbuddhism.com/2017/12/29/a-novel-approach-to-writing-with-atom-and-markdown/&quot;&gt;a post that describes how one creative writer uses Atom&lt;/a&gt;. The &lt;a href=&quot;https://atom.io/packages/Zen&quot;&gt;Zen package&lt;/a&gt; alone should entice you Hemingway types, but also take a look at the writing assistance tools detailed in previous hyperlink or the hyperlink in the next paragraph.&lt;/p&gt;
+
+&lt;p&gt;For me, the coolest thing is that I can have &lt;a href=&quot;https://medium.com/@sroberts/how-i-atom-12988bce8fce&quot;&gt;one central hub&lt;/a&gt; to do it all, with very little need for Word. If I use Atom to push things to GitHub, it also nearly replaces Google Docs for keeping everything safely in the cloud (caveat for the latter:as long as I don’t mind making my work public).&lt;/p&gt;
+
+&lt;h3 id=&quot;markdown&quot;&gt;Markdown&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;&lt;img src=&quot;https://github.com/dcurtis/markdown-mark/blob/master/png/208x128.png?raw=true&quot; alt=&quot;Markdown&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Markdown is a “text-to-HTML conversion tool for web writers [that] allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).”  (click image or &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;here&lt;/a&gt; for source).&lt;/p&gt;
+
+&lt;p&gt;It’s inspired by the way people used to mark up their plain-text emails to make them more readable, with all the “#” and “-“ and “***” you can handle. Therefore, if you look at the source of something written in Markdown, it’s still pretty darn legible. Those of you who have read and written medical charts, many of these are still in common use (the “#” problem list, for example).&lt;/p&gt;
+
+&lt;p&gt;Here are examples from a great &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;GitHub Markdown cheatsheet&lt;/a&gt;. First is the code and then the rendered text.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Emphasis, aka italics, with *asterisks* or _underscores_.&lt;/code&gt;
+Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Strong emphasis, aka bold, with **asterisks** or __underscores__.&lt;/code&gt;
+Strong emphasis, aka bold, with &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscores&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Combined emphasis with **asterisks and _underscores_**.&lt;/code&gt;
+Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Section with a hashtag:
+# H1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Section with a hashtag:&lt;/p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;H1&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Alt-H1
+======
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;alt-h1&quot;&gt;Alt-H1&lt;/h1&gt;
+
+&lt;p&gt;Pretty cool, eh?&lt;/p&gt;
+
+&lt;h3 id=&quot;wishlistpossibilities&quot;&gt;Wishlist/possibilities&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clickable Zen &lt;em&gt;reading&lt;/em&gt; mode (remove all hyperlinks - whether or not hyperlinks impair focus is &lt;a href=&quot;https://books.google.com/books?id=QJxeBAAAQBAJ&amp;amp;pg=PA79&amp;amp;lpg=PA79&amp;amp;dq=On+Measuring+the+Impact+of+Hyperlinks+on+Reading&amp;amp;source=bl&amp;amp;ots=Ih_zN17-Nh&amp;amp;sig=F47u2HB7nBavnD3amydmJo5wNB4&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=2ahUKEwjs0Pif1Z3dAhUKXa0KHcEeCucQ6AEwCXoECAEQAQ#v=onepage&amp;amp;q&amp;amp;f=false&quot;&gt;hotly debated&lt;/a&gt;, he said with a meta-smirk).&lt;/li&gt;
+  &lt;li&gt;Clickable dark/light theme switch, a la &lt;a href=&quot;https://melangue.github.io/dactl//&quot;&gt;dactl&lt;/a&gt; (that black and white water drop button on the top right), for kinder day and night reading.&lt;/li&gt;
+  &lt;li&gt;Side notes, a la Tufte. &lt;a href=&quot;http://augmentingcognition.com/ltm.html&quot;&gt;Michael Nielsen’s blog&lt;/a&gt; has one implementation, and this &lt;a href=&quot;http://clayh53.github.io/tufte-jekyll/articles/15/tufte-style-jekyll-blog&quot;&gt;Tufte-ite Jekyll theme&lt;/a&gt; has another. I would probably have to reduce the page split from 50/50 to at least 66/33 for this to work properly.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Integrate fancy plugins&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://drewsilcock.co.uk/custom-jekyll-plugins&quot;&gt;Overview of how to integrate non GitHub-approved plugins, with nice script that automates the integration&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.janknappe.com/blog/Integrating-Academicons-with-Fontawesome-in-the-Millennial-Jekyll-template/&quot;&gt;Academicons&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gist.github.com/roachhd/ed8da4786ba79dfc4d91&quot;&gt;Jekyll Scholar&lt;/a&gt; and &lt;a href=&quot;https://github.com/jgoodall/jekyll-scholar-extras&quot;&gt;Jekyll Scholar Extras&lt;/a&gt;, see &lt;a href=&quot;https://caesr.uwaterloo.ca//publications/index.html&quot;&gt;example with clickable BibTex and PDF downloads&lt;/a&gt; in publications page that makes me salivate.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bethallchurch.github.io/jupyter-notebooks-with-jekyll/&quot;&gt;Integrate Jupyter Notebooks seamlessly&lt;/a&gt; (the way people usually do it, which is probably fine and doesn’t require moar code, is to write up a plain-language explanation for the blog and link to the ipynb file on GitHub).&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/bdesham/reading_time&quot;&gt;Add estimated reading time to pages&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.jekyll-plugins.com/plugins/simple-jekyll-search&quot;&gt;Add search bar&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/robwierzbowski/jekyll-picture-tag&quot;&gt;Make the site pictures responsive&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://mademistakes.com/articles/jekyll-static-comments/#static-comments&quot;&gt;Add static comments to posts that would benefit from community&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><category term="jekyll" /><category term="markdown" /><category term="atom" /><category term="hosting" /><category term="static web" /><category term="blog" /><summary>I’m psyched about this little website. This post is about the resources I used to make it.</summary></entry></feed>
