@@ -20,5 +20,5 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-scholar"
 #  gem "jekyll-scholar-extras"
-  gem "jekyll-pandoc-multiple-formats"
+#  gem "jekyll-pandoc-multiple-formats"
 end
