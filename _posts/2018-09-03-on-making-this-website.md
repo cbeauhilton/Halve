@@ -14,12 +14,6 @@ tags:
 
 I'm psyched about this little website. This post is about the resources I used to make it.
 
-1. one
-2. two
-3. three
-
-{:toc}
-
 ### Static Web
 
 [![The linked post has a nice overview of most of the static web services](https://www.digett.com/sites/default/files/images/static_site_0.png)](https://blog.zipboard.co/how-to-start-with-static-sites-807b8ddfecc)
@@ -130,3 +124,4 @@ Pretty cool, eh?
   - [Add search bar](http://www.jekyll-plugins.com/plugins/simple-jekyll-search).
   - [Make the site pictures responsive](https://github.com/robwierzbowski/jekyll-picture-tag).
   - [Add static comments to posts that would benefit from community](https://mademistakes.com/articles/jekyll-static-comments/#static-comments).
+  - Get Table of Contents working for lengthy posts such as this one.
