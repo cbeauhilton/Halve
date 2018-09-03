@@ -1,6 +1,7 @@
 # Site
 title: cbh
 description: sola dosis facit venenum
+baseurl: ''
 url: https://cbeauhilton.github.io/
 locale: en_US
 # Site logo

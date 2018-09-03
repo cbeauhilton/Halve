@@ -35,8 +35,6 @@ layout: compress
       </a>
       <div class="inner-post content">
         <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
-        {% capture time %}{{ content | reading_time }}{% endcapture %}
-        <p>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</p>
         {{ content }}
         <br>
         {% include share.html %}
