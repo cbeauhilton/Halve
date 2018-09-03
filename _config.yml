@@ -1,7 +1,6 @@
 # Site
 title: cbh
 description: sola dosis facit venenum
-baseurl: ''
 url: https://cbeauhilton.github.io/
 locale: en_US
 # Site logo
@@ -63,7 +62,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-paginate-v2
+#  - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-compose
   - jekyll-redirect-from
@@ -83,3 +82,4 @@ exclude:
   - README.md
   - Rakefile
   - CNAME
+  - jekgit.sh
