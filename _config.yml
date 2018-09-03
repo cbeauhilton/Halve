@@ -6,8 +6,6 @@ locale: en_US
 # Site logo
 logo: arsenic_logo_300.svg
 
-future: true
-
 # Left Block Images
 background:
   homepage: images/home.png                           # this image will be shown on homepage's left block
@@ -27,7 +25,7 @@ kramdown:
 sass:
   sass_dir:         assets/_sass
   style:            compressed
-show_drafts: false
+show_drafts: true
 
 # Google Analytics
 google-analytics: UA-124056131-1
@@ -58,30 +56,13 @@ github:             cbeauhilton
 #hackernews:        username
 #behance:           username
 
-# Gems are now called plugins
-plugins:
-  - jekyll
+# Gems
+gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-#  - jekyll-paginate-v2
-  - jekyll-seo-tag
-  - jekyll-compose
-  - jekyll-redirect-from
-  - jekyll-scholar
-#  - jekyll-scholar-extras
-#  - jekyll-pandoc-multiple-formats
-  - liquid_reading_time
-  - nokogiri
 
 # Exclude list
-include:
-  - .nojekyll
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - Rakefile
-  - jekgit.sh
+include: [_pages, .nojekyll]
+exclude: [README.md, Gemfile, Gemfile.lock, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store, _site]
+# exclude site? _site
