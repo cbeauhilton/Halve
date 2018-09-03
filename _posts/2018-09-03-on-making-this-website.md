@@ -116,7 +116,8 @@ Pretty cool, eh?
 - Side notes, a la Tufte. [Michael Nielsen's blog](http://augmentingcognition.com/ltm.html) has one implementation, and this [Tufte-ite Jekyll theme](http://clayh53.github.io/tufte-jekyll/articles/15/tufte-style-jekyll-blog) has another. I would probably have to reduce the page split from 50/50 to at least 66/33 for this to work properly.
 - Integrate fancy plugins
 
-  - [Overview of how to integrate non GitHub-approved plugins, with nice script that automates the integration](https://drewsilcock.co.uk/custom-jekyll-plugins).
+  - ~~[Overview of how to integrate non GitHub-approved plugins, with nice script that automates the integration](https://drewsilcock.co.uk/custom-jekyll-plugins).~~
+  - [Here's a better version that uses TravisCI.](http://joshfrankel.me/blog/deploying-a-jekyll-blog-to-github-pages-with-custom-plugins-and-travisci/) I got almost all the plugins working except for some older ones that produced incompatibilities. 
   - [Academicons](https://www.janknappe.com/blog/Integrating-Academicons-with-Fontawesome-in-the-Millennial-Jekyll-template/).
   - [Jekyll Scholar](https://gist.github.com/roachhd/ed8da4786ba79dfc4d91) and [Jekyll Scholar Extras](https://github.com/jgoodall/jekyll-scholar-extras), see [example with clickable BibTex and PDF downloads](https://caesr.uwaterloo.ca//publications/index.html) in publications page that makes me salivate.
   - [Integrate Jupyter Notebooks seamlessly](https://bethallchurch.github.io/jupyter-notebooks-with-jekyll/) (the way people usually do it, which is probably fine and doesn't require moar code, is to write up a plain-language explanation for the blog and link to the ipynb file on GitHub).
