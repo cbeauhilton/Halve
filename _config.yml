@@ -6,6 +6,8 @@ locale: en_US
 # Site logo
 logo: arsenic_logo_300.svg
 
+future: true
+
 # Left Block Images
 background:
   homepage: images/home.png                           # this image will be shown on homepage's left block
@@ -74,6 +76,7 @@ plugins:
 
 # Exclude list
 include:
+  - .nojekyll
 exclude:
   - vendor
   - Gemfile
