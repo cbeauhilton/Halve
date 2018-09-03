@@ -58,18 +58,18 @@ github:             cbeauhilton
 
 # Gems
 gems:
+  - jekyll
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-compose
   - jekyll-redirect-from
   - jekyll-scholar
   - jekyll-scholar-extras
-  - liquid_reading_time
   - jekyll-pandoc-multiple-formats
+  - liquid_reading_time
   - nokogiri
 
 # Exclude list
