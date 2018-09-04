@@ -64,5 +64,5 @@ plugins:
 
 # Exclude list
 include: [_pages, .nojekyll]
-exclude: [README.md, src, vendor, CNAME, LICENSE, .sass-cache, .DS_Store, _site]
-# Gemfile, Gemfile.lock,  Rakefile,
+exclude: [README.md, src, vendor, LICENSE, .sass-cache, .DS_Store, _site]
+# Gemfile, Gemfile.lock,  Rakefile, CNAME,
