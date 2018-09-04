@@ -57,12 +57,12 @@ github:             cbeauhilton
 #behance:           username
 
 # Gems
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
 
 # Exclude list
 include: [_pages, .nojekyll]
-exclude: [README.md, Gemfile, Gemfile.lock, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store, _site]
-# exclude site? _site
+exclude: [README.md, src, vendor, CNAME, LICENSE, .sass-cache, .DS_Store, _site]
+# Gemfile, Gemfile.lock,  Rakefile,
