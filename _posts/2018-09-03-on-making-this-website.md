@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How I made this website"
+title: "On making this website"
 categories:
   - meta
 tags:
