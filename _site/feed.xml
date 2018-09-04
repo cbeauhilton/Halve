@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-03T21:10:16-04:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>On making this website</title><link href="http://localhost:4000/on-making-this-website/" rel="alternate" type="text/html" title="On making this website" /><published>2018-09-03T00:00:00-04:00</published><updated>2018-09-03T00:00:00-04:00</updated><id>http://localhost:4000/on-making-this-website</id><content type="html" xml:base="http://localhost:4000/on-making-this-website/">&lt;p&gt;I’m psyched about this little website. This post is about the resources I used to make it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-03T21:25:50-04:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>On making this website</title><link href="http://localhost:4000/on-making-this-website/" rel="alternate" type="text/html" title="On making this website" /><published>2018-09-03T00:00:00-04:00</published><updated>2018-09-03T00:00:00-04:00</updated><id>http://localhost:4000/on-making-this-website</id><content type="html" xml:base="http://localhost:4000/on-making-this-website/">&lt;p&gt;I’m psyched about this little website. This post is about the resources I used to make it.&lt;/p&gt;
 
-&lt;h3 id=&quot;static-web&quot;&gt;Static Web&lt;/h3&gt;
+&lt;h2 id=&quot;static-web&quot;&gt;Static Web&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://blog.zipboard.co/how-to-start-with-static-sites-807b8ddfecc&quot;&gt;&lt;img src=&quot;https://www.digett.com/sites/default/files/images/static_site_0.png&quot; alt=&quot;The linked post has a nice overview of most of the static web services&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Most of the internet we interact with on a day-to-day basis is “dynamic,” meaning we request something from a web server (e.g. click on a Facebook post or search for something on Amazon), which then talks to a database to pull all the relevant information and fill in a template (e.g. post content + comments, or product page with images, ratings, ads, etc.). The “static” web is much more old school: ask for something and the server gives you something, no database and comparatively little processing. Whatever is on the server has to be pretty much prebuilt and ready to go. This process is much simpler, faster, and more secure. The basic protocols are old and well established, unlikely to change or break.  For most online writing, such as a blog, static is the way to go, especially if it is likely to be consumed over a mobile internet connection.&lt;/p&gt;
 
-&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;&lt;img src=&quot;https://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Jekyll is an open-source suite of open-source software for making static web pages.&lt;/p&gt;
@@ -35,19 +35,19 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;jekyll-themes&quot;&gt;Jekyll Themes&lt;/h4&gt;
+&lt;h3 id=&quot;jekyll-themes&quot;&gt;Jekyll Themes&lt;/h3&gt;
 
 &lt;p&gt;I stole the layout of this site from &lt;a href=&quot;https://vangeltzo.com/index.html&quot;&gt;vangeltzo.com&lt;/a&gt;, whose beautiful design was Jekyll-ified (with permission!) by &lt;a href=&quot;https://taylantatli.github.io/Halve/&quot;&gt;TaylanTatli on GitHub&lt;/a&gt;. I’m &lt;a href=&quot;https://github.com/cbeauhilton/cbeauhilton.github.io/network/members&quot;&gt;not the only one&lt;/a&gt; using this theme, &lt;a href=&quot;https://drivenbyentropy.github.io/&quot;&gt;by&lt;/a&gt; &lt;a href=&quot;https://ejieum.github.io/&quot;&gt;any&lt;/a&gt; &lt;a href=&quot;https://je553.github.io/&quot;&gt;means&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Jekyll themes are &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;abundant online&lt;/a&gt;, generally &lt;a href=&quot;https://taylantatli.github.io/Halve/halve-theme/&quot;&gt;easy to fork&lt;/a&gt; (“fork” means “copy for your own use without affecting the original”), and often &lt;a href=&quot;https://taylantatli.github.io/Halve/posts&quot;&gt;well commented&lt;/a&gt; so they are straightforward to customize.&lt;/p&gt;
 
-&lt;h4 id=&quot;why-this-theme&quot;&gt;Why this theme?&lt;/h4&gt;
+&lt;h3 id=&quot;why-this-theme&quot;&gt;Why this theme?&lt;/h3&gt;
 
 &lt;p&gt;I had two basic requirements for my theme. First, it had to be &lt;a href=&quot;http://www.leonardkoren.com/lkwh.html&quot;&gt;pretty&lt;/a&gt;. Second, I wanted a responsive split screen. “Responsive” means it can adapt itself to look nice on any device from a phone to a huge desktop monitor. The split screen confines the content to an easily readable width on the right and gives consistent navigation on the left. The 50/50 split screen is a little extreme, but I think I like it this way. If I ever want to change it to something like 66/33, it is &lt;a href=&quot;https://github.com/TaylanTatli/Halve/issues/32&quot;&gt;quite  easy&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I’ll say more about specific choices, such as color, logo, and tagline in another post.&lt;/p&gt;
 
-&lt;h3 id=&quot;atom&quot;&gt;Atom&lt;/h3&gt;
+&lt;h2 id=&quot;atom&quot;&gt;Atom&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://atom.io/&quot;&gt;&lt;img src=&quot;https://avatars2.githubusercontent.com/u/1089146?s=200&amp;amp;v=4&quot; alt=&quot;Atom&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -63,7 +63,7 @@
 
 &lt;p&gt;For me, the coolest thing is that I can have &lt;a href=&quot;https://medium.com/@sroberts/how-i-atom-12988bce8fce&quot;&gt;one central hub&lt;/a&gt; to do it all, with very little need for Word. If I use Atom to push things to GitHub, it also nearly replaces Google Docs for keeping everything safely in the cloud (caveat for the latter:as long as I don’t mind making my work public).&lt;/p&gt;
 
-&lt;h3 id=&quot;markdown&quot;&gt;Markdown&lt;/h3&gt;
+&lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;&lt;img src=&quot;https://github.com/dcurtis/markdown-mark/blob/master/png/208x128.png?raw=true&quot; alt=&quot;Markdown&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Markdown is a “text-to-HTML conversion tool for web writers [that] allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).”  (click image or &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;here&lt;/a&gt; for source).&lt;/p&gt;
@@ -88,15 +88,18 @@ Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&
 &lt;p&gt;Section with a hashtag:&lt;/p&gt;
 &lt;h1 id=&quot;h1&quot;&gt;H1&lt;/h1&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Alt-H1
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Section using underline style to accomplish the same thing:
+Alt-H1
 ======
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Section using underline style to accomplish the same thing:&lt;/p&gt;
 
 &lt;h1 id=&quot;alt-h1&quot;&gt;Alt-H1&lt;/h1&gt;
 
 &lt;p&gt;Pretty cool, eh?&lt;/p&gt;
 
-&lt;h3 id=&quot;wishlistpossibilities&quot;&gt;Wishlist/possibilities&lt;/h3&gt;
+&lt;h2 id=&quot;wishlistpossibilities&quot;&gt;Wishlist/possibilities&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Clickable Zen &lt;em&gt;reading&lt;/em&gt; mode (remove all hyperlinks - whether or not hyperlinks impair focus is &lt;a href=&quot;https://books.google.com/books?id=QJxeBAAAQBAJ&amp;amp;pg=PA79&amp;amp;lpg=PA79&amp;amp;dq=On+Measuring+the+Impact+of+Hyperlinks+on+Reading&amp;amp;source=bl&amp;amp;ots=Ih_zN17-Nh&amp;amp;sig=F47u2HB7nBavnD3amydmJo5wNB4&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=2ahUKEwjs0Pif1Z3dAhUKXa0KHcEeCucQ6AEwCXoECAEQAQ#v=onepage&amp;amp;q&amp;amp;f=false&quot;&gt;hotly debated&lt;/a&gt;, he said with a meta-smirk).&lt;/li&gt;
@@ -106,7 +109,7 @@ Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&
     &lt;p&gt;Integrate fancy plugins&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://drewsilcock.co.uk/custom-jekyll-plugins&quot;&gt;Overview of how to integrate non GitHub-approved plugins, with nice script that automates the integration&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;del&gt;&lt;a href=&quot;https://drewsilcock.co.uk/custom-jekyll-plugins&quot;&gt;Overview of how to integrate non GitHub-approved plugins, with nice script that automates the integration&lt;/a&gt;.&lt;/del&gt; Went with Travis CI instead, using &lt;a href=&quot;http://joshfrankel.me/blog/deploying-a-jekyll-blog-to-github-pages-with-custom-plugins-and-travisci/&quot;&gt;these instructions&lt;/a&gt;. I ended up breaking everything and fighting with it for a day, but it seems the whole issue was that the backend process of migrating from the github.io address to beauhilton.com was not instantaneous, and as soon as it was done I could change the internal reference to &lt;a href=&quot;https://beauhilton.com&quot;&gt;https://beauhilton.com&lt;/a&gt; and it came together. All that heroic hacking, for nothing…&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.janknappe.com/blog/Integrating-Academicons-with-Fontawesome-in-the-Millennial-Jekyll-template/&quot;&gt;Academicons&lt;/a&gt;.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://gist.github.com/roachhd/ed8da4786ba79dfc4d91&quot;&gt;Jekyll Scholar&lt;/a&gt; and &lt;a href=&quot;https://github.com/jgoodall/jekyll-scholar-extras&quot;&gt;Jekyll Scholar Extras&lt;/a&gt;, see &lt;a href=&quot;https://caesr.uwaterloo.ca//publications/index.html&quot;&gt;example with clickable BibTex and PDF downloads&lt;/a&gt; in publications page that makes me salivate.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://bethallchurch.github.io/jupyter-notebooks-with-jekyll/&quot;&gt;Integrate Jupyter Notebooks seamlessly&lt;/a&gt; (the way people usually do it, which is probably fine and doesn’t require moar code, is to write up a plain-language explanation for the blog and link to the ipynb file on GitHub).&lt;/li&gt;
@@ -114,7 +117,7 @@ Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&
       &lt;li&gt;&lt;a href=&quot;http://www.jekyll-plugins.com/plugins/simple-jekyll-search&quot;&gt;Add search bar&lt;/a&gt;.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/robwierzbowski/jekyll-picture-tag&quot;&gt;Make the site pictures responsive&lt;/a&gt;.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://mademistakes.com/articles/jekyll-static-comments/#static-comments&quot;&gt;Add static comments to posts that would benefit from community&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;Get Table of Contents working for lengthy posts such as this one.``&lt;/li&gt;
+      &lt;li&gt;Get Table of Contents working for lengthy posts such as this one.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><category term="jekyll" /><category term="markdown" /><category term="atom" /><category term="hosting" /><category term="static web" /><category term="blog" /><summary>I’m psyched about this little website. This post is about the resources I used to make it.</summary></entry></feed>

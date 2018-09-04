@@ -62,6 +62,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
 
+
 # Exclude list
 include: [_pages, .nojekyll]
 exclude: [README.md, src, vendor, LICENSE, .sass-cache, .DS_Store, _site]

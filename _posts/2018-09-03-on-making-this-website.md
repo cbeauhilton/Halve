@@ -14,13 +14,13 @@ tags:
 
 I'm psyched about this little website. This post is about the resources I used to make it.
 
-### Static Web
+## Static Web
 
 [![The linked post has a nice overview of most of the static web services](https://www.digett.com/sites/default/files/images/static_site_0.png)](https://blog.zipboard.co/how-to-start-with-static-sites-807b8ddfecc)
 
 Most of the internet we interact with on a day-to-day basis is "dynamic," meaning we request something from a web server (e.g. click on a Facebook post or search for something on Amazon), which then talks to a database to pull all the relevant information and fill in a template (e.g. post content + comments, or product page with images, ratings, ads, etc.). The "static" web is much more old school: ask for something and the server gives you something, no database and comparatively little processing. Whatever is on the server has to be pretty much prebuilt and ready to go. This process is much simpler, faster, and more secure. The basic protocols are old and well established, unlikely to change or break.  For most online writing, such as a blog, static is the way to go, especially if it is likely to be consumed over a mobile internet connection.
 
-### Jekyll
+## Jekyll
 [![Jekyll](https://jekyllrb.com/img/logo-2x.png)](https://jekyllrb.com/)
 
 Jekyll is an open-source suite of open-source software for making static web pages.
@@ -38,20 +38,20 @@ Some user-friendly Jekyll walkthroughs:
 - [University of Idaho Library: workshop, with blog posts and video](https://evanwill.github.io/go-go-ghpages/0-prep.html)
   - Comparable to Programming Historian, with the benefit of dual coverage in the blog and video. The video is from a workshop where they walked through the process in real time, from nothing to something in around an hour, and the students asked a lot of the same questions I had.
 
-#### Jekyll Themes
+### Jekyll Themes
 
 I stole the layout of this site from [vangeltzo.com](https://vangeltzo.com/index.html), whose beautiful design was Jekyll-ified (with permission!) by [TaylanTatli on GitHub](https://taylantatli.github.io/Halve/). I'm [not the only one](https://github.com/cbeauhilton/cbeauhilton.github.io/network/members) using this theme, [by](https://drivenbyentropy.github.io/) [any](https://ejieum.github.io/) [means](https://je553.github.io/).
 
 Jekyll themes are [abundant online](http://jekyllthemes.org/), generally [easy to fork](https://taylantatli.github.io/Halve/halve-theme/) ("fork" means "copy for your own use without affecting the original"), and often [well commented](https://taylantatli.github.io/Halve/posts) so they are straightforward to customize.
 
-#### Why this theme?
+### Why this theme?
 
 I had two basic requirements for my theme. First, it had to be [pretty](http://www.leonardkoren.com/lkwh.html). Second, I wanted a responsive split screen. "Responsive" means it can adapt itself to look nice on any device from a phone to a huge desktop monitor. The split screen confines the content to an easily readable width on the right and gives consistent navigation on the left. The 50/50 split screen is a little extreme, but I think I like it this way. If I ever want to change it to something like 66/33, it is [quite  easy](https://github.com/TaylanTatli/Halve/issues/32).
 
 I'll say more about specific choices, such as color, logo, and tagline in another post.
 
 
-### Atom
+## Atom
 
 [![Atom](https://avatars2.githubusercontent.com/u/1089146?s=200&v=4)](https://atom.io/)
 
@@ -70,7 +70,7 @@ For the poets, it can be a gorgeous and focused writing environment with infinit
 For me, the coolest thing is that I can have [one central hub](https://medium.com/@sroberts/how-i-atom-12988bce8fce) to do it all, with very little need for Word. If I use Atom to push things to GitHub, it also nearly replaces Google Docs for keeping everything safely in the cloud (caveat for the latter:as long as I don't mind making my work public).
 
 
-### Markdown
+## Markdown
 [![Markdown](https://github.com/dcurtis/markdown-mark/blob/master/png/208x128.png?raw=true)](https://daringfireball.net/projects/markdown/)
 
 Markdown is a "text-to-HTML conversion tool for web writers [that] allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)."  (click image or [here](https://daringfireball.net/projects/markdown/) for source).
@@ -96,10 +96,14 @@ Section with a hashtag:
 Section with a hashtag:
 # H1
 
+
 ```
+Section using underline style to accomplish the same thing:
 Alt-H1
 ======
 ```
+
+Section using underline style to accomplish the same thing:
 
 Alt-H1
 ======
@@ -108,7 +112,7 @@ Alt-H1
 Pretty cool, eh?
 
 
-### Wishlist/possibilities
+## Wishlist/possibilities
 
 
 - Clickable Zen *reading* mode (remove all hyperlinks - whether or not hyperlinks impair focus is [hotly debated](https://books.google.com/books?id=QJxeBAAAQBAJ&pg=PA79&lpg=PA79&dq=On+Measuring+the+Impact+of+Hyperlinks+on+Reading&source=bl&ots=Ih_zN17-Nh&sig=F47u2HB7nBavnD3amydmJo5wNB4&hl=en&sa=X&ved=2ahUKEwjs0Pif1Z3dAhUKXa0KHcEeCucQ6AEwCXoECAEQAQ#v=onepage&q&f=false), he said with a meta-smirk).
@@ -116,7 +120,7 @@ Pretty cool, eh?
 - Side notes, a la Tufte. [Michael Nielsen's blog](http://augmentingcognition.com/ltm.html) has one implementation, and this [Tufte-ite Jekyll theme](http://clayh53.github.io/tufte-jekyll/articles/15/tufte-style-jekyll-blog) has another. I would probably have to reduce the page split from 50/50 to at least 66/33 for this to work properly.
 - Integrate fancy plugins
 
-  - [Overview of how to integrate non GitHub-approved plugins, with nice script that automates the integration](https://drewsilcock.co.uk/custom-jekyll-plugins).
+  - ~~[Overview of how to integrate non GitHub-approved plugins, with nice script that automates the integration](https://drewsilcock.co.uk/custom-jekyll-plugins).~~ Went with Travis CI instead, using [these instructions](http://joshfrankel.me/blog/deploying-a-jekyll-blog-to-github-pages-with-custom-plugins-and-travisci/). I ended up breaking everything and fighting with it for a day, but it seems the whole issue was that the backend process of migrating from the github.io address to beauhilton.com was not instantaneous, and as soon as it was done I could change the internal reference to <https://beauhilton.com> and it came together. All that heroic hacking, for nothing...
   - [Academicons](https://www.janknappe.com/blog/Integrating-Academicons-with-Fontawesome-in-the-Millennial-Jekyll-template/).
   - [Jekyll Scholar](https://gist.github.com/roachhd/ed8da4786ba79dfc4d91) and [Jekyll Scholar Extras](https://github.com/jgoodall/jekyll-scholar-extras), see [example with clickable BibTex and PDF downloads](https://caesr.uwaterloo.ca//publications/index.html) in publications page that makes me salivate.
   - [Integrate Jupyter Notebooks seamlessly](https://bethallchurch.github.io/jupyter-notebooks-with-jekyll/) (the way people usually do it, which is probably fine and doesn't require moar code, is to write up a plain-language explanation for the blog and link to the ipynb file on GitHub).
@@ -124,4 +128,4 @@ Pretty cool, eh?
   - [Add search bar](http://www.jekyll-plugins.com/plugins/simple-jekyll-search).
   - [Make the site pictures responsive](https://github.com/robwierzbowski/jekyll-picture-tag).
   - [Add static comments to posts that would benefit from community](https://mademistakes.com/articles/jekyll-static-comments/#static-comments).
-  - Get Table of Contents working for lengthy posts such as this one.``
+  - Get Table of Contents working for lengthy posts such as this one.
