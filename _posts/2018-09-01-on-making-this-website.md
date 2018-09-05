@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "On making this website"
+toc: false
 categories:
   - meta
 tags:
@@ -13,6 +14,8 @@ tags:
 ---
 
 I'm psyched about this little website. This post is about the resources I used to make it.
+
+In summary, this is a _static website_ made with _Jekyll software_ using the code editor called _Atom_ to write posts in _Markdown language_. I also added a wishlist to the end, mostly to keep track of tools and tricks I may want to add.
 
 ## Static Web
 
@@ -116,8 +119,9 @@ Pretty cool, eh?
 
 
 - Clickable Zen *reading* mode (remove all hyperlinks - whether or not hyperlinks impair focus is [hotly debated](https://books.google.com/books?id=QJxeBAAAQBAJ&pg=PA79&lpg=PA79&dq=On+Measuring+the+Impact+of+Hyperlinks+on+Reading&source=bl&ots=Ih_zN17-Nh&sig=F47u2HB7nBavnD3amydmJo5wNB4&hl=en&sa=X&ved=2ahUKEwjs0Pif1Z3dAhUKXa0KHcEeCucQ6AEwCXoECAEQAQ#v=onepage&q&f=false), he said with a meta-smirk).
-- Clickable dark/light theme switch, a la [dactl](https://melangue.github.io/dactl//) (that black and white water drop button on the top right), for kinder day and night reading.
+- Clickable dark/light theme switch, a la [dactl](https://melangue.github.io/dactl//) (that black and white water drop button on the top right) or [Hagura](https://blog.webjeda.com/dark-theme-switch/) (the text that reads "Dark/Light" at the bottom of the page is a button), for kinder day and night reading. The Hagura author wrote a tutorial [here](https://blog.webjeda.com/dark-theme-switch/).
 - Side notes, a la Tufte. [Michael Nielsen's blog](http://augmentingcognition.com/ltm.html) has one implementation, and this [Tufte-ite Jekyll theme](http://clayh53.github.io/tufte-jekyll/articles/15/tufte-style-jekyll-blog) has another. I would probably have to reduce the page split from 50/50 to at least 66/33 for this to work properly.
+- Or: [Barefoot footnotes](https://github.com/philgruneich/barefoot) (click and they show up, like Wikipedia)
 - Integrate fancy plugins
 
   - ~~[Overview of how to integrate non GitHub-approved plugins, with nice script that automates the integration](https://drewsilcock.co.uk/custom-jekyll-plugins).~~ Went with Travis CI instead, using [these instructions](http://joshfrankel.me/blog/deploying-a-jekyll-blog-to-github-pages-with-custom-plugins-and-travisci/). I ended up breaking everything and fighting with it for a day, but it seems the whole issue was that the backend process of migrating from the github.io address to beauhilton.com was not instantaneous, and as soon as it was done I could change the internal reference to <https://beauhilton.com> and it came together. All that heroic hacking, for nothing...

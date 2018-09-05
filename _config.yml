@@ -61,7 +61,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-
+  - jekyll-toc
 
 # Exclude list
 include: [_pages, .nojekyll]

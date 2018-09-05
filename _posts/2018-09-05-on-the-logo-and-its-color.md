@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On the pretentious Latin slogan"
+title: "On the logo and its color"
 categories:
   - medicine
 tags:
@@ -11,37 +11,6 @@ tags:
   - iconography
   - color
 ---
-
-# sola dosis facit venenum
-
-### Everything is a poison, everything is a medicine.
-
-First, two quotes, one in English and one in German.
-
-Don't worry, we'll translate the German. This isn't one of those 19th century novels that expects you to know English, French, Latin, Italian, and German just to get through a page. I left the quote in the original because one of the words has a delightful dual meaning that is lost if not juxtaposed with an English translation.
-
-> Poisons in small doses are the best medicines; and the best medicines in too large doses are poisonous.
-
-> <cite><a href="http://theoncologist.alphamedpress.org/content/6/suppl_2/1.long">William Withering, 18th century* English physician, discoverer of digitalis (sort of), and proponent of arsenic therapy.</a></cite>
-
->Alle Dinge sind Gift, und nichts ist ohne Gift; allein die dosis machts, daß ein Ding kein Gift sei.
-
-> <cite><a href="http://www.zeno.org/Philosophie/M/Paracelsus/Septem+Defensiones/Die+dritte+Defension+wegen+des+Schreibens+der+neuen+Rezepte">From the 1538 *Septum Defensiones* by Philippus Aureolus Theophrastus Bombastus von Hohenheim, later known as Paracelsus, Swiss physician, "Father of Toxicology."</a></cite>
-
-The phrase "sola dosis facit venenum," (usually rendered "the dose makes the poison" in English) is a Latinization of the German phrase above from Paracelsus. He wrote this in his "Seven Defenses" when he was fighting against accusations of poisoning his patients (malpractice court, it seems, is one of the oldest traditions in medicine).
-
-Paracelsus is the Latin name given to von Hohenheim by his friends, who were probably screwing with him, or his scribe, whose poor fingers grew to hate the eighteen syllable German name.
-
-(I'm convinced that translating a name or phrase into Latin was the historic equivalent of becoming a friend on social media: OK, now it's official.)
-
-The basic idea of the poison-medicine continuum is given plainly by Withering, but here's my rough translation from Paracelsus' German:
-
-> All things are poison, and nothing is not a poison. Only the dose makes the thing not a poison.
-
-Throw in a couple of exclamation marks, italics, and fist pounds, and you have the makings of dialogue for a 16th century *Law and Order*.
-
-It makes me happy that the word for "poison" in German is "gift." English "gift," meaning "present," and German "gift" come from the same root, "[to give](https://www.etymonline.com/word/gift)," but language is also susceptible to [divergent evolution](https://en.wikipedia.org/wiki/Divergent_evolution), sometimes [amusingly](http://www.bbc.co.uk/languages/yoursay/false_friends/german/be_careful__its_a_gift_englishgerman.shtml). This dual meaning fits nicely with the general conceit --- medicine and poison are two sides of the same coin, gifts in either case, to be used [with judgment, not to excess](https://www.lds.org/scriptures/dc-testament/dc/59.20).
-
 
 ## Arsenic
 
@@ -60,7 +29,3 @@ Zhang P, Wang SY, Hu XH. Arsenic trioxide treated 72 cases of acute promyelocyti
 ↵ Soignet S, Frankel S, Tallman M et al. U.S. multicenter trial of arsenic trioxide (AT) in acute promyelocytic leukemia (APL) [abstract 3084]. Blood 1999;94(suppl 10):698a. Google Scholar
 
 [!['Bottle of iron, arsenic and digitalin tablets, London, 1916-' by Science Museum, London. Credit: Science Museum, London. CC BY](https://github.com/cbeauhilton/cbeauhilton.github.io/raw/code/images/arsenic-iron-digitalin-wellcome-collection.jpg)](https://wellcomecollection.org/works/z8ssmfqa?query=arsenic&page=1)
-
-
-\*The article from The Oncologist that gave the Withering quote made the unfortunate mistake of saying he was a *15th* century physician, which has, even more unfortunately, led to the persistence of the wrong century attached to his name. He was born in 1741, discovered digitalis in 1775, and died in 1799.
-![proof, because I'm completely insufferable](https://images.findagrave.com/photos/2007/261/12542514_119024797099.jpg)

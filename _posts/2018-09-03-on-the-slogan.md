@@ -1,0 +1,55 @@
+---
+layout: post
+title: "On the pretentious Latin slogan"
+categories:
+  - medicine
+tags:
+  - history
+  - balance
+  - humility
+  - medicine
+---
+
+# sola dosis facit venenum
+
+### Or: everything is a poison, everything is a medicine.
+___________
+
+
+First, two quotes, one in English and one in German.
+
+Don't worry, we'll translate the German, and it's the same basic idea found in the English quote. This isn't one of those 19th century novels that expects you to know English, French, Latin, Italian, and German just to get through a page. I left the quote in the original because one of the words has a delightful dual meaning that is lost if not juxtaposed with an English translation.
+
+> Poisons in small doses are the best medicines; and the best medicines in too large doses are poisonous.
+
+> <cite><a href="http://theoncologist.alphamedpress.org/content/6/suppl_2/1.long">William Withering, 18th century [^1] English physician, discoverer of digitalis (sort of) [^2], and proponent of arsenic therapy.</a></cite>
+
+>Alle Dinge sind Gift, und nichts ist ohne Gift; allein die dosis machts, daß ein Ding kein Gift sei.
+
+> <cite><a href="http://www.zeno.org/Philosophie/M/Paracelsus/Septem+Defensiones/Die+dritte+Defension+wegen+des+Schreibens+der+neuen+Rezepte"> 1538, *Septem Defensiones*, by Philippus Aureolus Theophrastus Bombastus von Hohenheim, also known as Paracelsus, Swiss physician, "Father of Toxicology."</a></cite>
+
+The phrase "sola dosis facit venenum," (usually rendered "the dose makes the poison" in English) is a Latinization of the German phrase above from Paracelsus. He wrote this in his "Seven Defenses" when he was fighting against accusations of poisoning his patients (malpractice court, it seems, is one of the oldest traditions in medicine).
+
+### Paracelsus
+
+Why did this German guy have a Latin name?
+
+Paracelsus' name is the subject of debate. Von Hohenheim's relationship with Latin and the humanistic antiquity it represented was complicated. Despite writing books with names such as *Septem Defensiones*, he was known for refusing to lecture in Latin, preferring vernacular German, and the content of his books was invariably German. My favorite version of the Paracelsus story is that the Latin name was first given to von Hohenheim by his friends, who were probably screwing with him, as they knew it would go against his anti-Latin bent. He ended up using it (with a glint in his eye) as an occasional pen name, and it eventually stuck.
+
+It is in this spirit that I decided on a Latin slogan, for now at least. It's a bit of a post-post-modern jab at myself, medical tradition, and old bearded white men, who sometimes knew how to make fun of themselves and occasionally had good ideas despite their bearded whiteness. Also, Latin is pretty. And the idea this phrase represents is possibly my favorite, in medicine and in life.
+
+Here's my rough translation from Paracelsus' German:
+
+> All things are poison, and nothing is not a poison. Only the dose makes the thing not a poison.
+
+Throw in a couple of exclamation marks, italics, and fist pounds, and you have the makings of dialogue for the defendent in a 16th century *Law and Order*.
+
+
+### *Gift*
+
+It makes me happy that the word for "poison" in German is "gift." English "gift," meaning "present," and German "gift" come from the same Proto-Indo-European root *ghebh*-, "[to give](https://www.etymonline.com/word/gift)." Language is, after all, susceptible to [divergent evolution](https://en.wikipedia.org/wiki/Divergent_evolution), sometimes [amusingly](http://www.bbc.co.uk/languages/yoursay/false_friends/german/be_careful__its_a_gift_englishgerman.shtml). This dual meaning fits nicely with the general conceit --- medicine and poison are two sides of the same coin, gifts in either case, to be used [with judgment, not to excess](https://www.lds.org/scriptures/dc-testament/dc/59.20).
+
+[^1]: The article from The Oncologist that gave us the Withering quote made the unfortunate mistake of saying he was a *15th* century physician, which has, even more unfortunately, led to the persistence of the wrong century attached to his name. He was born in 1741, discovered digitalis in 1775, and died in 1799.
+![proof, because I'm completely insufferable](https://images.findagrave.com/photos/2007/261/12542514_119024797099.jpg)
+
+[^2]: Foxglove, the common name for *Digitalis purpura*, has been used in medicine for centuries, most notably for "dropsy," the edema (fluid accumulation) associated with heart failure and other conditions. Withering was the one who figured out extraction methods, dosages, and side effects, and most thoroughly estabilshed it as a medicine rather than a folk remedy or poison, but it didn't come out of nowhere. This is almost always the case: we stand on the shoulders of giants, aspirin comes from bark, etc. While I kind of wish the story of Withering stealing it wholecloth from a local herbalist, Mother Hutton, was true, as it would fit my bias that most medicine is built on masculine appropriation of traditionally feminine arts without giving the proper credit, this particular story [does not appear to have any historical basis](https://doi.org/10.1016/S0735-1097(85)80457-5). (by the way: amniotomy hooks are sharpened crochet hooks, surgical technique is mostly translated sewing technique, pharmacy is fancy herbalism --- and it's not just in medicine: is a chef a man or a woman? What about a cook? Men make art, women make crafts. Etc., ad nauseum.)
