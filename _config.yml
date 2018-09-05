@@ -62,6 +62,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-toc
+  - octopress-littlefoot
 
 # Exclude list
 include: [_pages, .nojekyll]

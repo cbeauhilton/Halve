@@ -14,15 +14,15 @@ tags:
 
 ### Or: everything is a poison, everything is a medicine.
 ___________
-
+<p></p>
 
 First, two quotes, one in English and one in German.
 
-Don't worry, we'll translate the German, and it's the same basic idea found in the English quote. This isn't one of those 19th century novels that expects you to know English, French, Latin, Italian, and German just to get through a page. I left the quote in the original because one of the words has a delightful dual meaning that is lost if not juxtaposed with an English translation.
+Don't worry, we'll translate the German, and it's the same basic idea found in the English quote. This isn't one of those 19th century novels that expects you to know English, French, Latin, Italian, and German just to get through a page. I left the quote in German because one of the words has a delightful dual meaning that is lost if not juxtaposed with an English translation.
 
 > Poisons in small doses are the best medicines; and the best medicines in too large doses are poisonous.
 
-> <cite><a href="http://theoncologist.alphamedpress.org/content/6/suppl_2/1.long">William Withering, 18th century [^1] English physician, discoverer of digitalis (sort of) [^2], and proponent of arsenic therapy.</a></cite>
+> <cite><a href="http://theoncologist.alphamedpress.org/content/6/suppl_2/1.long">William Withering, 18th century English physician, discoverer of digitalis (sort of), and proponent of arsenic therapy.</a></cite> [^1] [^2]
 
 >Alle Dinge sind Gift, und nichts ist ohne Gift; allein die dosis machts, daß ein Ding kein Gift sei.
 
@@ -30,26 +30,34 @@ Don't worry, we'll translate the German, and it's the same basic idea found in t
 
 The phrase "sola dosis facit venenum," (usually rendered "the dose makes the poison" in English) is a Latinization of the German phrase above from Paracelsus. He wrote this in his "Seven Defenses" when he was fighting against accusations of poisoning his patients (malpractice court, it seems, is one of the oldest traditions in medicine).
 
-### Paracelsus
-
-Why did this German guy have a Latin name?
-
-Paracelsus' name is the subject of debate. Von Hohenheim's relationship with Latin and the humanistic antiquity it represented was complicated. Despite writing books with names such as *Septem Defensiones*, he was known for refusing to lecture in Latin, preferring vernacular German, and the content of his books was invariably German. My favorite version of the Paracelsus story is that the Latin name was first given to von Hohenheim by his friends, who were probably screwing with him, as they knew it would go against his anti-Latin bent. He ended up using it (with a glint in his eye) as an occasional pen name, and it eventually stuck.
-
-It is in this spirit that I decided on a Latin slogan, for now at least. It's a bit of a post-post-modern jab at myself, medical tradition, and old bearded white men, who sometimes knew how to make fun of themselves and occasionally had good ideas despite their bearded whiteness. Also, Latin is pretty. And the idea this phrase represents is possibly my favorite, in medicine and in life.
-
 Here's my rough translation from Paracelsus' German:
 
 > All things are poison, and nothing is not a poison. Only the dose makes the thing not a poison.
 
 Throw in a couple of exclamation marks, italics, and fist pounds, and you have the makings of dialogue for the defendent in a 16th century *Law and Order*.
 
+### Paracelsus
+
+Why did this German guy have a Latin name?
+
+Paracelsus' name is the subject of debate. Von Hohenheim's relationship with Latin and the humanistic antiquity it represented was complicated. Despite writing books with names such as *Septem Defensiones*, he was known for refusing to lecture in Latin, preferring vernacular German instead, and the content of his books was invariably German. He publicly burned old Latin medical texts, and, symbolically, their outdated ideas. My favorite version of the Paracelsus story is that the Latin name was first given to von Hohenheim by his friends, who were probably screwing with him, as they knew it would go against his anti-Latin bent. He used it (with a glint in his eye) as an occasional pen name, and it eventually stuck.
+
+It is in this spirit that I decided on a Latin slogan. It's a bit of a post-post-modern jab at myself, medical tradition, and old bearded white men, who sometimes knew how to make fun of themselves and occasionally had good ideas despite their bearded whiteness. Also, Latin is pretty. And the idea this phrase represents is possibly my favorite, in medicine and in life.
 
 ### *Gift*
 
 It makes me happy that the word for "poison" in German is "gift." English "gift," meaning "present," and German "gift" come from the same Proto-Indo-European root *ghebh*-, "[to give](https://www.etymonline.com/word/gift)." Language is, after all, susceptible to [divergent evolution](https://en.wikipedia.org/wiki/Divergent_evolution), sometimes [amusingly](http://www.bbc.co.uk/languages/yoursay/false_friends/german/be_careful__its_a_gift_englishgerman.shtml). This dual meaning fits nicely with the general conceit --- medicine and poison are two sides of the same coin, gifts in either case, to be used [with judgment, not to excess](https://www.lds.org/scriptures/dc-testament/dc/59.20).
 
-[^1]: The article from The Oncologist that gave us the Withering quote made the unfortunate mistake of saying he was a *15th* century physician, which has, even more unfortunately, led to the persistence of the wrong century attached to his name. He was born in 1741, discovered digitalis in 1775, and died in 1799.
-![proof, because I'm completely insufferable](https://images.findagrave.com/photos/2007/261/12542514_119024797099.jpg)
+I will most likely become either a hematologist-oncologist (blood cancer doc) or palliative care physician[^3], and in either case will help people decide which poison to take in an effort to get or feel better.
 
-[^2]: Foxglove, the common name for *Digitalis purpura*, has been used in medicine for centuries, most notably for "dropsy," the edema (fluid accumulation) associated with heart failure and other conditions. Withering was the one who figured out extraction methods, dosages, and side effects, and most thoroughly estabilshed it as a medicine rather than a folk remedy or poison, but it didn't come out of nowhere. This is almost always the case: we stand on the shoulders of giants, aspirin comes from bark, etc. While I kind of wish the story of Withering stealing it wholecloth from a local herbalist, Mother Hutton, was true, as it would fit my bias that most medicine is built on masculine appropriation of traditionally feminine arts without giving the proper credit, this particular story [does not appear to have any historical basis](https://doi.org/10.1016/S0735-1097(85)80457-5). (by the way: amniotomy hooks are sharpened crochet hooks, surgical technique is mostly translated sewing technique, pharmacy is fancy herbalism --- and it's not just in medicine: is a chef a man or a woman? What about a cook? Men make art, women make crafts. Etc., ad nauseum.)
+Crazily enough, some of the best treatments for some of the very worst diseases are classical poisons, such as arsenic for some leukemias. Arsenic is what the lucky ones get to take --- we have and regularly use other drugs that are much more dangerous. It's not just drugs, either --- if you are, again, lucky enough to be eligible for a bone marrow transplant, get ready to become friends with a nuclear reactor. We radiate the bone marrow until it gives up the ghost, then start over fresh, resurrection from the inside out.
+
+In palliative care it's not so different, even though the goal is symptom management and not cure. During a palliative care rotation I was trying to help the physician do some calculations she had been doing by hand. I thought, "there has to be an online calculator for this...", and proceeded to pull up several high quality medical calculators from respected organizations. In every case, after I put in the drug and dose I wanted, the website would say something like, "Hell no. We don't touch that stuff. We're not even going to do the calculation for you. If you need that medicine at that dose, call a palliative care doc. Consider our asses covered." We use derivatives of poppy that make heroin look tame, as well as amphetamines, and we're starting to get good at using LSD. Poisons, all. Medicines, all.
+
+In the right hands, with respect and care, even the most dangerous substances can be tools for healing. I love that. So, for now, the phrase stays: _Sola dosis facit venenum._
+
+[^2]: The article from The Oncologist that gave us the Withering quote made the unfortunate mistake of saying he was a 15th century physician, which has, even more unfortunately, led to the persistence of the wrong century attached to his name. He was born in 1741, discovered digitalis in 1775, and died in 1799. Because I'm completely insufferable: ![Withering Gravestone](https://images.findagrave.com/photos/2007/261/12542514_119024797099.jpg)
+
+[^1]: Foxglove, the common name for *Digitalis purpura*, has been used in medicine for centuries, most notably for "dropsy," the edema (fluid accumulation) associated with heart failure and other conditions. <p> Withering was the one who figured out extraction methods, dosages, and side effects, and most thoroughly estabilshed it as a medicine rather than a folk remedy or poison, but it didn't come out of nowhere. This is almost always the case: we stand on the shoulders of giants, aspirin comes from bark, etc.  </p> <p> While I kind of wish the story of Withering stealing it wholecloth from a local herbalist, Mother Hutton, was true, as it would fit my bias that most medicine is built on masculine appropriation of traditionally feminine arts without giving proper credit, this particular story [does not appear to have any historical basis](https://doi.org/10.1016/S0735-1097(85)80457-5). (by the way: amniotomy hooks are sharpened crochet hooks, surgical technique is mostly translated sewing technique, pharmacy is fancy herbalism --- and it's not just in medicine: is a chef a man or a woman? What about a cook? Men make art, women make crafts. Etc., ad nauseum.)
+
+[^3]: [Palliative care](https://getpalliativecare.org/whatis/) is all about helping people feel better when their disease or the treatment for it makes them feel crappy, physically and emotionally. They also know the legal system and end-of-life decision-making inside and out, and do a large portion of their work with worried and blindsided families.
