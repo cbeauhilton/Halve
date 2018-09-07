@@ -6,10 +6,9 @@ categories:
 tags:
   - arsenic
   - cancer
-  - balance
-  - humility
   - iconography
   - color
+  - medicine
 ---
 
 ## Arsenic
