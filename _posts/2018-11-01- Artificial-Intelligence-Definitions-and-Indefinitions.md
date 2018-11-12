@@ -15,7 +15,7 @@ tags:
 
 # Introduction
 
-![cheezy AI stock image for visual interest. Brain on one side, circuit on the other](https://cdn.pixabay.com/photo/2017/04/13/20/26/artificial-intelligence-2228610_1280.jpg)
+![cheezy AI stock image for visual interest. Brain on one side, circuit on the other]({{ site.url }}/images/pixabay-brain.jpg)
 
 Artificial Intelligence is [kind of a big deal](https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0mkz,potato). [^2] Despite real advances, particularly in medicine, for most clinicians "AI" is at best a shadowy figure, a vaguely defined ethereal mass of bits and bytes that lives in Silicon Valley basements and NYT headlines.
 
@@ -48,8 +48,8 @@ With that in mind, we offer three definitions:
 
     This view of AI takes into account the continual progression of the field, in sync with the progression of humans that produce and use the technology.
 
-    Kelly's quote calls to mind George R.R. Martin's [humerously sobering line](http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/), 
-    >Fantasy flies on the wings of Icarus, reality on Southwest airlines. 
+    Kelly's quote calls to mind George R.R. Martin's [humerously sobering line](http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/),
+    >Fantasy flies on the wings of Icarus, reality on Southwest airlines.
 
     If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet. AI is now, in the minds of many, more akin to Icarus than the 5:15 to Atlanta.
 
@@ -68,7 +68,7 @@ Imagine an AI agent that is shown input and output values of multiple cases. If 
 
 ![illustration of linear regression](https://thumbs.gfycat.com/JointPartialIslandcanary-size_restricted.gif)
 
-While linear regression is powerful and should not be underestimated, it depends on the [core assumption](https://xkcd.com/1725/) we outlined, that is, the data are arranged in something approaching a straight line. From linear and logistic regression through high-end algorithms such as gradient-boosting machines ([GBM](https://www.youtube.com/watch?v=OaTO8_KNcuo)s) and Deep Neural Networks (DNNs), each machine learning algorithm has certain assumptions. A major advantage of many newer algorithms is that their assumptions are far more flexible than the classic regression functions available on high school graphing calculators, but at their core they are still abstracted approximations of the real world, equations defined by humans. 
+While linear regression is powerful and should not be underestimated, it depends on the [core assumption](https://xkcd.com/1725/) we outlined, that is, the data are arranged in something approaching a straight line. From linear and logistic regression through high-end algorithms such as gradient-boosting machines ([GBM](https://www.youtube.com/watch?v=OaTO8_KNcuo)s) and Deep Neural Networks (DNNs), each machine learning algorithm has certain assumptions. A major advantage of many newer algorithms is that their assumptions are far more flexible than the classic regression functions available on high school graphing calculators, but at their core they are still abstracted approximations of the real world, equations defined by humans.
 
 Since the goal of this series is to help the reader try out some machine learning with hands-on coding, we should also note here that in most cases, running a GBM is exactly as easy as running linear regression (LR), if not easier: same number of lines of code, same basic syntax. Most of the time you have to change only one or a few words to switch, for example, from GBM to LR and vice versa. Often, an algorithm such as GBM is actually _easier_ to put into play, because it does not place as many requirements on the type and shape of data it will accept ([roughly 80% ](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/) of a data science job is collecting and whipping data into something palatable to the algorithm). Complexities may come later, when fine-tuning, and interpreting and implementing findings, but those problems are by no means intractable. We'll get to that in a later post.
 
@@ -85,28 +85,28 @@ Lastly, as always, regardless of the elegance of the algorithm, the machine can 
 
 Deep Learning (DL) is a subset of machine learning, best known for its use in computer vision and language processing. Most DL techniques use the analogy of the human brain. A "neural network" connects discrete "neurons," individual algorithms that each process a simple bit of information and decide whether it is worth passing to the next neuron. Over time the accumulation of simple decisions yields the ability to process huge amounts of complex data.
 
-![Deep learning free stock image from Pixabay](https://cdn.pixabay.com/photo/2018/08/28/13/20/neural-network-3637503_1280.png)
+![Deep learning free stock image from Pixabay]({{ site.url }}/images/pixabay-neural-network.png)
 
 For example, the neural network may be able to tell you [whether or not something is a hotdog](https://medium.com/@timanglade/how-hbos-silicon-valley-built-not-hotdog-with-mobile-tensorflow-keras-react-native-ef03260747f3), what you probably meant [when you asked Alexa to "play Prince,"](https://developer.amazon.com/blogs/alexa/post/4e6db03f-6048-4b62-ba4b-6544da9ac440/the-scalable-neural-architecture-behind-alexa-s-ability-to-arbitrate-skills) or whether the retina shows signs of [diabetic retinopathy](https://doi.org/10.1001/jama.2016.17216). These successes in previously intractable problems led researchers and pundits to claim that DL was the breakthrough that would lead to general AI, but, in line with Kevin Kelly's fluid definition cited above, experience has now tempered these claims with [specific concerns and shortcomings](https://arxiv.org/abs/1801.00631).
 
 
 # Big data
 
-![Most of the time, "big data" is an overkill term. Sometimes, it isn't. This is a picture of a tricycle chained to light pole.](https://cdn.pixabay.com/photo/2014/05/03/01/02/three-wheeler-336700_1280.jpg)
+![Most of the time, "big data" is an overkill term. Sometimes, it isn't. This is a picture of a tricycle chained to light pole.]({{ site.url }}/images/pixabay-trike.jpg)
 
 The best definition of "big data" borders on the tautological:
 >Data are "big" when they require specialized software to process.
 
 In other words, if you can deal with it easily in Microsoft Excel, your database probably is not big enough to qualify. If you need something fancy like Hadoop or NoSQL, you are probably dealing with big data. Put simply, these applications [excel](https://www.brainscape.com/blog/wp-content/uploads/2012/10/Jj5i1Ge.jpg) at breaking massive datasets into smaller chunks that are analyzed across many machines and/or in a step-wise fashion, with the results stitched together along the way or at the end.
 
-There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or bytes in a file, and no single "big data algorithm." In general, the size of big data is increasing rapidly, especially with such tools as always-on fitness trackers that include a growing number of sensors and can yield troves of data, per person, per day. The major task is to separate the wheat from the chaff, the signal from the noise, and find novel, actionable trends. The larger the data, the more the potential: for finding something meaningful; for drowning in so many meaningless bits and bobs. 
+There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or bytes in a file, and no single "big data algorithm." In general, the size of big data is increasing rapidly, especially with such tools as always-on fitness trackers that include a growing number of sensors and can yield troves of data, per person, per day. The major task is to separate the wheat from the chaff, the signal from the noise, and find novel, actionable trends. The larger the data, the more the potential: for finding something meaningful; for drowning in so many meaningless bits and bobs.
 
 # Summary
 
 AI and related terms have no completely satisfying or accepted definitions. They are relatively new and constantly evolving. Flexibility is required[^1]. Behind all of the technological terms, there are humans with mathematics and computers, creativity and bias, just as there is a human inside the white coat next to the EKG machine.
 
-[^1]: A linguistic gem from an early AI researcher is here apropos: "Time flies like an arrow. Fruit flies like a banana." There are a [delightful number of ways to interpret](https://en.wikipedia.org/wiki/Time_flies_like_an_arrow;_fruit_flies_like_a_banana#Analysis_of_the_basic_ambiguities) this sentence, especially if you happen to be a computer. How much flexibility is too much? Too little? 
-    
+[^1]: A linguistic gem from an early AI researcher is here apropos: "Time flies like an arrow. Fruit flies like a banana." There are a [delightful number of ways to interpret](https://en.wikipedia.org/wiki/Time_flies_like_an_arrow;_fruit_flies_like_a_banana#Analysis_of_the_basic_ambiguities) this sentence, especially if you happen to be a computer. How much flexibility is too much? Too little?
+
     The source of this Oettinger quote is frustratingly hard to find, as is often the case with classic papers from the middle of the 1900s. [Here's a PDF](http://worrydream.com/refs/Scientific%20American,%20September,%201966.pdf). The article starts on p. 166.
 
 [^2]: Lest you think I've lost perspective on what really matters, here's a [comparison of the Google search trends over time for "Artificial Intelligence" and "potato."](https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0mkz,potato) <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1605_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/0mkz","geo":"","time":"all"},{"keyword":"potato","geo":"","time":"all"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=%2Fm%2F0mkz,potato","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>  Happy Thanksgiving.
