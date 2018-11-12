@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-10T10:14:52-05:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>On the buzziest of buzzwords: what is AI, anyway?</title><link href="http://localhost:4000/Primer-on-Artificial-Intelligence-for-Oncologist/" rel="alternate" type="text/html" title="On the buzziest of buzzwords: what is AI, anyway?" /><published>2018-11-01T00:00:00-04:00</published><updated>2018-11-01T00:00:00-04:00</updated><id>http://localhost:4000/ Primer-on-Artificial-Intelligence-for-Oncologist</id><content type="html" xml:base="http://localhost:4000/Primer-on-Artificial-Intelligence-for-Oncologist/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-12T10:29:56-05:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>On the buzziest of buzzwords: what is AI, anyway?</title><link href="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/" rel="alternate" type="text/html" title="On the buzziest of buzzwords: what is AI, anyway?" /><published>2018-11-01T00:00:00-04:00</published><updated>2018-11-01T00:00:00-04:00</updated><id>http://localhost:4000/ Artificial-Intelligence-Definitions-and-Indefinitions</id><content type="html" xml:base="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn.pixabay.com/photo/2017/04/13/20/26/artificial-intelligence-2228610_1280.jpg&quot; alt=&quot;cheezy AI stock image for visual interest. Brain on one side, circuit on the other&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-brain.jpg&quot; alt=&quot;cheezy AI stock image for visual interest. Brain on one side, circuit on the other&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Artificial Intelligence is kind of a big deal. Despite real advances, particularly in medicine, for most clinicians “AI” is at best a shadowy figure, a vaguely defined ethereal mass of bits and bytes that lives in Silicon Valley basements and NYT headlines.&lt;/p&gt;
+&lt;p&gt;Artificial Intelligence is kind of a big deal.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Despite real advances, particularly in medicine, for most clinicians “AI” is at best a shadowy figure, a vaguely defined ethereal mass of bits and bytes that lives in Silicon Valley basements and NYT headlines.&lt;/p&gt;
 
 &lt;p&gt;“Bob, the AI is getting hungry.”&lt;/p&gt;
 
@@ -10,7 +10,7 @@
 
 &lt;p&gt;“AI AI AI, I think I’m getting a headache”.&lt;/p&gt;
 
-&lt;p&gt;This article is the first of a series meant to demystify AI, aimed at MDs and other clinicians but without too much medical jargon. We begin with definitions (and indefinitions) of a few of the most popular terms in the lay and technical presses.&lt;/p&gt;
+&lt;p&gt;This article is the first of a series meant to demystify AI, aimed at MDs and other clinicians but without too much medical jargon. We begin with definitions (and indefinitions), with examples, of a few of the most popular terms in the lay and technical presses.&lt;/p&gt;
 
 &lt;h1 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h1&gt;
 
@@ -18,7 +18,7 @@
 
 &lt;p&gt;This begins a theme that will run throughout this article, best illustrated with an analogy from Humanities 101.&lt;/p&gt;
 
-&lt;p&gt;If you pick up a stack of Western humanities textbooks with chronologies of the arts from prehistory to the present, you will likely find a &lt;a href=&quot;https://en.wikipedia.org/wiki/Western_canon&quot;&gt;fairly unified canon&lt;/a&gt; up until the 1970s or 1980s (try to find a textbook that does &lt;em&gt;not&lt;/em&gt; include Michelangelo and Bach, even if it is brand new and socially aware). At this point, scholarly consensus ceases. It has not had time to mature. As the present day approaches, the selection of important pieces and figures, and even the acknowledgement and naming of new artistic movements (e.g. “&lt;a href=&quot;https://en.wikipedia.org/wiki/Post-postmodernism&quot;&gt;post-postmodernism&lt;/a&gt;”), becomes idiosyncratic to the specific set of textbook writers.&lt;/p&gt;
+&lt;p&gt;If you pick up a stack of Western humanities textbooks with chronologies of the arts from prehistory to the present, you will likely find a &lt;a href=&quot;https://en.wikipedia.org/wiki/Western_canon&quot;&gt;fairly unified canon&lt;/a&gt; (try to find a textbook that does &lt;em&gt;not&lt;/em&gt; include Michelangelo and Bach, even if it is brand new and socially aware) up until the 1970s or 1980s . At this point, scholarly consensus wanes. It has not had time to mature. As the present day approaches, the selection of important pieces and figures, and even the acknowledgement and naming of new artistic movements (e.g. “&lt;a href=&quot;https://en.wikipedia.org/wiki/Post-postmodernism&quot;&gt;post-postmodernism&lt;/a&gt;”), becomes idiosyncratic to the specific set of textbook writers.&lt;/p&gt;
 
 &lt;p&gt;While the phrase “AI” has been around since &lt;a href=&quot;https://aaai.org/ojs/index.php/aimagazine/article/view/1904&quot;&gt;1955&lt;/a&gt;, the recent explosion in tools, techniques, and applications has destabilized the term. Everyone uses it in a slightly different way, and opinions vary as to what “counts” as AI. This reality requires a certain mental flexibility, and an acknowledgement that any definition of AI (or any of the other terms discussed below) will be incomplete, biased, and likely to change.&lt;/p&gt;
 
@@ -39,9 +39,16 @@
 
     &lt;p&gt;This view of AI takes into account the continual progression of the field, in sync with the progression of humans that produce and use the technology.&lt;/p&gt;
 
-    &lt;p&gt;Kelly’s quote calls to mind George R.R. Martin’s &lt;a href=&quot;http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/&quot;&gt;humerously sobering line&lt;/a&gt;, “Fantasy flies on the wings of Icarus, reality on Southwest airlines.” If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in the time with a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmoveably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet. AI is now, for many, more akin to Icarus than the 5:15 to Atlanta.&lt;/p&gt;
+    &lt;p&gt;Kelly’s quote calls to mind George R.R. Martin’s &lt;a href=&quot;http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/&quot;&gt;humerously sobering line&lt;/a&gt;,&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Fantasy flies on the wings of Icarus, reality on Southwest airlines.&lt;/p&gt;
+    &lt;/blockquote&gt;
 
-    &lt;p&gt;In this series we hope to gain the middle ground: help the reader maintain a sense of possibility and perspective, but also understand the mundane ins-and-outs of day-to-day AI.&lt;/p&gt;
+    &lt;p&gt;If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet.&lt;/p&gt;
+
+    &lt;p&gt;AI is now, in the minds of many, more akin to Icarus than the 5:15 to Atlanta.&lt;/p&gt;
+
+    &lt;p&gt;In this series we hope to gain the middle ground: help the reader gain and maintain a sense of possibility and perspective, but also understand the mundane ins-and-outs of day-to-day AI.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -52,7 +59,7 @@
   &lt;p&gt;Given examples and some set of inputs, an algorithm predicts the output without being told explicitly how to get there. It ‘learns’ the relationship between inputs and outputs.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This is reasonable, but incomplete. Each algorithm has its own flavor: assumptions, strengths, weaknesses, uses, and adherents.&lt;/p&gt;
+&lt;p&gt;This is reasonable, but incomplete. Each algorithm has its own &lt;a href=&quot;https://xkcd.com/2048/&quot;&gt;flavor&lt;/a&gt;: assumptions, strengths, weaknesses, uses, and adherents.&lt;/p&gt;
 
 &lt;p&gt;The simplest example generalizes well to more complex algorithms:&lt;/p&gt;
 
@@ -60,45 +67,52 @@
 
 &lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/JointPartialIslandcanary-size_restricted.gif&quot; alt=&quot;illustration of linear regression&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;While linear regression is powerful and should not be underestimated, it depends on the core assumption we outlined, that is, the data are arranged in something approaching a straight line. From linear and logistic regression through high-end algorithms such as gradient-boosting machines (&lt;a href=&quot;https://www.youtube.com/watch?v=OaTO8_KNcuo&quot;&gt;GBM&lt;/a&gt;s) and Deep Neural Networks (DNNs), each machine learning algorithm has certain assumptions. A major advantage of many newer algorithms is that their assumptions are far more flexible than the classic regression functions available on high school graphing calculators, but at their core they are still abstracted approximations of the real world, equations defined by humans.&lt;/p&gt;
+&lt;p&gt;While linear regression is powerful and should not be underestimated, it depends on the &lt;a href=&quot;https://xkcd.com/1725/&quot;&gt;core assumption&lt;/a&gt; we outlined, that is, the data are arranged in something approaching a straight line. From linear and logistic regression through high-end algorithms such as gradient-boosting machines (&lt;a href=&quot;https://www.youtube.com/watch?v=OaTO8_KNcuo&quot;&gt;GBM&lt;/a&gt;s) and Deep Neural Networks (DNNs), each machine learning algorithm has certain assumptions. A major advantage of many newer algorithms is that their assumptions are far more flexible than the classic regression functions available on high school graphing calculators, but at their core they are still abstracted approximations of the real world, equations defined by humans.&lt;/p&gt;
 
-&lt;p&gt;Even “unsupervised” machine learning, wherein the algorithm seeks to find relationships between groups of data points rather than being told exactly what these relationships should be, is based on iterations of simple rules. Below is an example of an unsupervised learning algorithm called &lt;a href=&quot;https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/&quot;&gt;DBSCAN&lt;/a&gt;. It randomly selects data points, applies a simple rule to see what other points are “close enough,” and repeats this until a predefined goal has been met.&lt;/p&gt;
+&lt;p&gt;Since the goal of this series is to help the reader try out some machine learning with hands-on coding, we should also note here that in most cases, running a GBM is exactly as easy as running linear regression (LR), if not easier: same number of lines of code, same basic syntax. Most of the time you have to change only one or a few words to switch, for example, from GBM to LR and vice versa. Often, an algorithm such as GBM is actually &lt;em&gt;easier&lt;/em&gt; to put into play, because it does not place as many requirements on the type and shape of data it will accept (&lt;a href=&quot;https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/&quot;&gt;roughly 80% &lt;/a&gt; of a data science job is collecting and whipping data into something palatable to the algorithm). Complexities may come later, when fine-tuning, and interpreting and implementing findings, but those problems are by no means intractable. We’ll get to that in a later post.&lt;/p&gt;
+
+&lt;p&gt;Even “unsupervised” machine learning, wherein the algorithm seeks to find relationships in data rather than being told exactly what these relationships should be, is based on iterations of simple rules. Below is an example of an unsupervised learning algorithm called &lt;a href=&quot;https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/&quot;&gt;DBSCAN&lt;/a&gt;. DBSCAN is meant to automatically detect groupings, for example, gene expression signatures or areas of interest in a radiographic image. It randomly selects data points, applies a simple rule to see what other points are “close enough,” and repeats this over and over to find groups. You have to choose which numbers to use for &lt;code class=&quot;highlighter-rouge&quot;&gt;epsilon&lt;/code&gt;: how close points have to be to share a group; and &lt;code class=&quot;highlighter-rouge&quot;&gt;minPts&lt;/code&gt;: the minimum number of points needed to count as a group. They chose 1 and 4, respectively.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://dashee87.github.io/images/DBSCAN_tutorial.gif&quot; alt=&quot;unsupervised learning DBSCAN gif&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Lastly, as always, regardless of the elegance of the algorithm, the machine can only take the data we provide. Junk in still equals junk out, even if it goes through an ultraintelligent washing machine.&lt;/p&gt;
+&lt;p&gt;As you can see here, “unsupervised” machine learning is clever and useful, but not exactly “unsupervised.” You have to choose which algorithm to use in the first place, and almost all algorithms have some parameters you have to set yourself, often without knowing exactly which values will be best(would &lt;code class=&quot;highlighter-rouge&quot;&gt;minPts = 3&lt;/code&gt; have been better here, to catch that bottom right group?). It is not so different from selecting a drug and its dosage in a complex case: sometimes you will have clinical trials to help you make that decision, sometimes you have to go with what worked well in the past, and sometimes it’s pure trial-and-error, aided by your clinical acumen and luck.&lt;/p&gt;
+
+&lt;p&gt;Lastly, as always, regardless of the elegance of the algorithm, the machine can only take the data we provide. Junk in still equals &lt;a href=&quot;http://www.tylervigen.com/spurious-correlations&quot;&gt;junk out&lt;/a&gt;, even if it goes through an &lt;a href=&quot;https://xkcd.com/1838/&quot;&gt;ultraintelligent washing machine&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;deep-learning&quot;&gt;Deep Learning&lt;/h2&gt;
 
 &lt;p&gt;Deep Learning (DL) is a subset of machine learning, best known for its use in computer vision and language processing. Most DL techniques use the analogy of the human brain. A “neural network” connects discrete “neurons,” individual algorithms that each process a simple bit of information and decide whether it is worth passing to the next neuron. Over time the accumulation of simple decisions yields the ability to process huge amounts of complex data.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn.pixabay.com/photo/2018/08/28/13/20/neural-network-3637503_1280.png&quot; alt=&quot;Deep learning free stock image from Pixabay&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-neural-network.png&quot; alt=&quot;Deep learning free stock image from Pixabay&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For example, the neural network may be able to tell you &lt;a href=&quot;https://medium.com/@timanglade/how-hbos-silicon-valley-built-not-hotdog-with-mobile-tensorflow-keras-react-native-ef03260747f3&quot;&gt;whether or not something is a hotdog&lt;/a&gt;, what you probably meant &lt;a href=&quot;https://developer.amazon.com/blogs/alexa/post/4e6db03f-6048-4b62-ba4b-6544da9ac440/the-scalable-neural-architecture-behind-alexa-s-ability-to-arbitrate-skills&quot;&gt;when you asked Alexa to “play Prince,”&lt;/a&gt; or whether the retina shows signs of &lt;a href=&quot;https://doi.org/10.1001/jama.2016.17216&quot;&gt;diabetic retinopathy&lt;/a&gt;. These successes in previously intractable problems led researchers and pundits to claim that DL was the breakthrough that would lead to general AI, but, in line with Kevin Kelly’s fluid definition cited above, experience has now tempered these claims with &lt;a href=&quot;https://arxiv.org/abs/1801.00631&quot;&gt;specific concerns and shortcomings&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;big-data&quot;&gt;Big data&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn.pixabay.com/photo/2014/05/03/01/02/three-wheeler-336700_1280.jpg&quot; alt=&quot;Most of the time, &amp;quot;big data&amp;quot; is an overkill term. Sometimes, it isn't. Tricycle chained to light pole.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-trike.jpg&quot; alt=&quot;Most of the time, &amp;quot;big data&amp;quot; is an overkill term. Sometimes, it isn't. This is a picture of a tricycle chained to light pole.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The best definition of “big data” borders on the tautological:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Data are “big” when they require specialized software to process.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In other words, if you can deal with it easily in Microsoft Excel, your database probably is not big enough to qualify. If you need something fancy like Hadoop or NoSQL, you are probably dealing with big data. Put simply, these applications excel at breaking massive datasets into smaller chunks that are analyzed across many machines and/or in a step-wise fashion, with the results stitched together along the way or at the end.&lt;/p&gt;
+&lt;p&gt;In other words, if you can deal with it easily in Microsoft Excel, your database probably is not big enough to qualify. If you need something fancy like Hadoop or NoSQL, you are probably dealing with big data. Put simply, these applications &lt;a href=&quot;https://www.brainscape.com/blog/wp-content/uploads/2012/10/Jj5i1Ge.jpg&quot;&gt;excel&lt;/a&gt; at breaking massive datasets into smaller chunks that are analyzed across many machines and/or in a step-wise fashion, with the results stitched together along the way or at the end.&lt;/p&gt;
 
-&lt;p&gt;There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or bytes in a file, and no single “big data algorithm.” In general, the size of big data is increasing rapidly, especially with such tools as always-on fitness trackers that include a growing number of sensors and can yield troves of data, per person, per day.&lt;/p&gt;
+&lt;p&gt;There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or bytes in a file, and no single “big data algorithm.” In general, the size of big data is increasing rapidly, especially with such tools as always-on fitness trackers that include a growing number of sensors and can yield troves of data, per person, per day. The major task is to separate the wheat from the chaff, the signal from the noise, and find novel, actionable trends. The larger the data, the more the potential: for finding something meaningful; for drowning in so many meaningless bits and bobs.&lt;/p&gt;
 
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 
-&lt;p&gt;AI and related terms have no completely satisfying or accepted definitions. They are relatively new and constantly evolving. Flexibility is required&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Behind all of the technological terms, there are humans with mathematics and computers, creativity and bias, just as there is a human inside the white coat next to the EKG machine.&lt;/p&gt;
-
-&lt;p&gt;As an important aside and ending note: if you were smart enough to learn to read those EKGs, you are smart enough to learn the basics of artificial intelligence and apply them in your own work.&lt;/p&gt;
+&lt;p&gt;AI and related terms have no completely satisfying or accepted definitions. They are relatively new and constantly evolving. Flexibility is required&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Behind all of the technological terms, there are humans with mathematics and computers, creativity and bias, just as there is a human inside the white coat next to the EKG machine.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Lest you think I’ve lost perspective on what really matters, here’s a &lt;a href=&quot;https://trends.google.com/trends/explore?date=all&amp;amp;q=%2Fm%2F0mkz,%2Fm%2F05vtc&quot;&gt;comparison of the Google search trends over time for “Artificial Intelligence” and “potato.”&lt;/a&gt; Happy Thanksgiving. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;A linguistic gem from an early AI researcher is here apropos: “Time flies like an arrow. Fruit flies like a banana.” The source of this Oettinger quote is frustratingly hard to find, as is often the case with classic papers from the middle of the 1900s. &lt;a href=&quot;http://worrydream.com/refs/Scientific%20American,%20September,%201966.pdf&quot;&gt;Here’s a PDF&lt;/a&gt;. The article starts on p. 166. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;A linguistic gem from an early AI researcher is here apropos: “Time flies like an arrow. Fruit flies like a banana.” There are a &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_flies_like_an_arrow;_fruit_flies_like_a_banana#Analysis_of_the_basic_ambiguities&quot;&gt;delightful number of ways to interpret&lt;/a&gt; this sentence, especially if you happen to be a computer. How much flexibility is too much? Too little?&lt;/p&gt;
+
+      &lt;p&gt;The source of this Oettinger quote is frustratingly hard to find, as is often the case with classic papers from the middle of the 1900s. &lt;a href=&quot;http://worrydream.com/refs/Scientific%20American,%20September,%201966.pdf&quot;&gt;Here’s a PDF&lt;/a&gt;. The article starts on p. 166. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;</content><category term="artificial intelligence" /><category term="machine learning" /><category term="deep learning" /><category term="big data" /><category term="definitions" /><summary>Introduction</summary></entry><entry><title>Remember all the things</title><link href="http://localhost:4000/a-workflow-for-remembering-all-that-science-and-also-everything/" rel="alternate" type="text/html" title="Remember all the things" /><published>2018-10-20T00:00:00-04:00</published><updated>2018-10-20T00:00:00-04:00</updated><id>http://localhost:4000/a-workflow-for-remembering-all-that-science-and-also-everything</id><content type="html" xml:base="http://localhost:4000/a-workflow-for-remembering-all-that-science-and-also-everything/">&lt;h1 id=&quot;we-spend-so-much-time-reading&quot;&gt;We spend so much time reading&lt;/h1&gt;

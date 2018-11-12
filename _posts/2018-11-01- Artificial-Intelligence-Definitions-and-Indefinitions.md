@@ -17,7 +17,7 @@ tags:
 
 ![cheezy AI stock image for visual interest. Brain on one side, circuit on the other]({{ site.url }}/images/pixabay-brain.jpg)
 
-Artificial Intelligence is [kind of a big deal](https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0mkz,potato). [^2] Despite real advances, particularly in medicine, for most clinicians "AI" is at best a shadowy figure, a vaguely defined ethereal mass of bits and bytes that lives in Silicon Valley basements and NYT headlines.
+Artificial Intelligence is kind of a big deal.[^2] Despite real advances, particularly in medicine, for most clinicians "AI" is at best a shadowy figure, a vaguely defined ethereal mass of bits and bytes that lives in Silicon Valley basements and NYT headlines.
 
 "Bob, the AI is getting hungry."
 
@@ -51,9 +51,11 @@ With that in mind, we offer three definitions:
     Kelly's quote calls to mind George R.R. Martin's [humerously sobering line](http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/),
     >Fantasy flies on the wings of Icarus, reality on Southwest airlines.
 
-    If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet. AI is now, in the minds of many, more akin to Icarus than the 5:15 to Atlanta.
+    If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet.
 
-    In this series we hope to gain the middle ground: help the reader maintain a sense of possibility and perspective, but also understand the mundane ins-and-outs of day-to-day AI.
+    AI is now, in the minds of many, more akin to Icarus than the 5:15 to Atlanta.
+
+    In this series we hope to gain the middle ground: help the reader gain and maintain a sense of possibility and perspective, but also understand the mundane ins-and-outs of day-to-day AI.
 
 # Machine Learning
 
@@ -72,11 +74,11 @@ While linear regression is powerful and should not be underestimated, it depends
 
 Since the goal of this series is to help the reader try out some machine learning with hands-on coding, we should also note here that in most cases, running a GBM is exactly as easy as running linear regression (LR), if not easier: same number of lines of code, same basic syntax. Most of the time you have to change only one or a few words to switch, for example, from GBM to LR and vice versa. Often, an algorithm such as GBM is actually _easier_ to put into play, because it does not place as many requirements on the type and shape of data it will accept ([roughly 80% ](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/) of a data science job is collecting and whipping data into something palatable to the algorithm). Complexities may come later, when fine-tuning, and interpreting and implementing findings, but those problems are by no means intractable. We'll get to that in a later post.
 
-Even "unsupervised" machine learning, wherein the algorithm seeks to find relationships in data rather than being told exactly what these relationships should be, is based on iterations of simple rules. Below is an example of an unsupervised learning algorithm called [DBSCAN](https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/). DBSCAN is meant to automatically detect groupings, for example, gene expression signatures or areas of interest in a radiographic image. It randomly selects data points, applies a simple rule to see what other points are "close enough," and repeats this over and over to find groups. You have to choose which numbers to use for `epsilon`: how close points have to be to share a group; and `minPts`: the minimum number of points needed to count as a group.
+Even "unsupervised" machine learning, wherein the algorithm seeks to find relationships in data rather than being told exactly what these relationships should be, is based on iterations of simple rules. Below is an example of an unsupervised learning algorithm called [DBSCAN](https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/). DBSCAN is meant to automatically detect groupings, for example, gene expression signatures or areas of interest in a radiographic image. It randomly selects data points, applies a simple rule to see what other points are "close enough," and repeats this over and over to find groups. You have to choose which numbers to use for `epsilon`: how close points have to be to share a group; and `minPts`: the minimum number of points needed to count as a group. They chose 1 and 4, respectively.
 
 ![unsupervised learning DBSCAN gif](https://dashee87.github.io/images/DBSCAN_tutorial.gif)
 
-As you can see here, "unsupervised" machine learning is clever and useful, but not exactly "unsupervised." You have to choose which algorithm to use in the first place, and almost all algorithms have some parameters you have to set yourself, often without knowing exactly which values will be best. It is not so different from selecting a drug and its dosage in a complex case: sometimes you will have clinical trials to help you make that decision, sometimes you have to go with what worked well in the past, and sometimes it's pure trial-and-error, aided by your clinical acumen and luck.
+As you can see here, "unsupervised" machine learning is clever and useful, but not exactly "unsupervised." You have to choose which algorithm to use in the first place, and almost all algorithms have some parameters you have to set yourself, often without knowing exactly which values will be best(would `minPts = 3` have been better here, to catch that bottom right group?). It is not so different from selecting a drug and its dosage in a complex case: sometimes you will have clinical trials to help you make that decision, sometimes you have to go with what worked well in the past, and sometimes it's pure trial-and-error, aided by your clinical acumen and luck.
 
 Lastly, as always, regardless of the elegance of the algorithm, the machine can only take the data we provide. Junk in still equals [junk out](http://www.tylervigen.com/spurious-correlations), even if it goes through an [ultraintelligent washing machine](https://xkcd.com/1838/).
 
@@ -109,4 +111,4 @@ AI and related terms have no completely satisfying or accepted definitions. They
 
     The source of this Oettinger quote is frustratingly hard to find, as is often the case with classic papers from the middle of the 1900s. [Here's a PDF](http://worrydream.com/refs/Scientific%20American,%20September,%201966.pdf). The article starts on p. 166.
 
-[^2]: Lest you think I've lost perspective on what really matters, here's a [comparison of the Google search trends over time for "Artificial Intelligence" and "potato."](https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0mkz,potato) <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1605_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/0mkz","geo":"","time":"all"},{"keyword":"potato","geo":"","time":"all"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=%2Fm%2F0mkz,potato","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>  Happy Thanksgiving.
+[^2]: Lest you think I've lost perspective on what really matters, here's a [comparison of the Google search trends over time for "Artificial Intelligence" and "potato."](https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0mkz,%2Fm%2F05vtc) Happy Thanksgiving.
