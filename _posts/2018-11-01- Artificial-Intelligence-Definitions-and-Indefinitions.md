@@ -23,7 +23,7 @@ Artificial Intelligence is kind of a big deal.[^2] Despite real advances, partic
 
 "I don't know, Jane, just throw some AI on it."
 
-"AI AI AI, I think I'm getting a headache".
+"AI AI AI, I think I'm getting a headache."
 
 This article is the first of a series meant to demystify AI, aimed at MDs and other clinicians but without too much medical jargon. We begin with definitions (and indefinitions), with examples, of a few of the most popular terms in the lay and technical presses.
 
@@ -78,7 +78,7 @@ Even "unsupervised" machine learning, wherein the algorithm seeks to find relati
 
 ![unsupervised learning DBSCAN gif](https://dashee87.github.io/images/DBSCAN_tutorial.gif)
 
-As you can see here, "unsupervised" machine learning is clever and useful, but not exactly "unsupervised." You have to choose which algorithm to use in the first place, and almost all algorithms have some parameters you have to set yourself, often without knowing exactly which values will be best(would `minPts = 3` have been better here, to catch that bottom right group?). It is not so different from selecting a drug and its dosage in a complex case: sometimes you will have clinical trials to help you make that decision, sometimes you have to go with what worked well in the past, and sometimes it's pure trial-and-error, aided by your clinical acumen and luck.
+As you can see here, "unsupervised" machine learning is clever and useful, but not exactly "unsupervised." You have to choose which algorithm to use in the first place, and almost all algorithms have some parameters you have to set yourself, often without knowing exactly which values will be best (would `minPts = 3` have been better here, to catch that bottom right group?). It is not so different from selecting a drug and its dosage in a complex case: sometimes you will have clinical trials to help you make that decision, sometimes you have to go with what worked well in the past, and sometimes it's pure trial-and-error, aided by your clinical acumen and luck.
 
 Lastly, as always, regardless of the elegance of the algorithm, the machine can only take the data we provide. Junk in still equals [junk out](http://www.tylervigen.com/spurious-correlations), even if it goes through an [ultraintelligent washing machine](https://xkcd.com/1838/).
 
@@ -92,7 +92,7 @@ Deep Learning (DL) is a subset of machine learning, best known for its use in co
 For example, the neural network may be able to tell you [whether or not something is a hotdog](https://medium.com/@timanglade/how-hbos-silicon-valley-built-not-hotdog-with-mobile-tensorflow-keras-react-native-ef03260747f3), what you probably meant [when you asked Alexa to "play Prince,"](https://developer.amazon.com/blogs/alexa/post/4e6db03f-6048-4b62-ba4b-6544da9ac440/the-scalable-neural-architecture-behind-alexa-s-ability-to-arbitrate-skills) or whether the retina shows signs of [diabetic retinopathy](https://doi.org/10.1001/jama.2016.17216). These successes in previously intractable problems led researchers and pundits to claim that DL was the breakthrough that would lead to general AI, but, in line with Kevin Kelly's fluid definition cited above, experience has now tempered these claims with [specific concerns and shortcomings](https://arxiv.org/abs/1801.00631).
 
 
-# Big data
+# Big Data
 
 ![Most of the time, "big data" is an overkill term. Sometimes, it isn't. This is a picture of a tricycle chained to light pole.]({{ site.url }}/images/pixabay-trike.jpg)
 
@@ -105,10 +105,16 @@ There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or by
 
 # Summary
 
-AI and related terms have no completely satisfying or accepted definitions. They are relatively new and constantly evolving. Flexibility is required[^1]. Behind all of the technological terms, there are humans with mathematics and computers, creativity and bias, just as there is a human inside the white coat next to the EKG machine.
+AI and related terms have no completely satisfying or accepted definitions.
+
+They are relatively new and constantly evolving.
+
+Flexibility is required[^1].
+
+Behind all of the technological terms, there are humans with mathematics and computers, creativity and bias, just as there is a human inside the white coat next to the EKG.
 
 [^1]: A linguistic gem from an early AI researcher is here apropos: "Time flies like an arrow. Fruit flies like a banana." There are a [delightful number of ways to interpret](https://en.wikipedia.org/wiki/Time_flies_like_an_arrow;_fruit_flies_like_a_banana#Analysis_of_the_basic_ambiguities) this sentence, especially if you happen to be a computer. How much flexibility is too much? Too little?
 
-    The source of this Oettinger quote is frustratingly hard to find, as is often the case with classic papers from the middle of the 1900s. [Here's a PDF](http://worrydream.com/refs/Scientific%20American,%20September,%201966.pdf). The article starts on p. 166.
+    The paper with the original Oettinger quote was frustratingly hard to find, as is often the case with classic papers from the middle of the 1900s. So save you the hassle, [here's a PDF](http://worrydream.com/refs/Scientific%20American,%20September,%201966.pdf). The article starts on p. 166.
 
 [^2]: Lest you think I've lost perspective on what really matters, here's a [comparison of the Google search trends over time for "Artificial Intelligence" and "potato."](https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0mkz,%2Fm%2F05vtc) Happy Thanksgiving.

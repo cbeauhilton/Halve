@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-12T10:29:56-05:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>On the buzziest of buzzwords: what is AI, anyway?</title><link href="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/" rel="alternate" type="text/html" title="On the buzziest of buzzwords: what is AI, anyway?" /><published>2018-11-01T00:00:00-04:00</published><updated>2018-11-01T00:00:00-04:00</updated><id>http://localhost:4000/ Artificial-Intelligence-Definitions-and-Indefinitions</id><content type="html" xml:base="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-12T11:00:11-05:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>On the buzziest of buzzwords: what is AI, anyway?</title><link href="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/" rel="alternate" type="text/html" title="On the buzziest of buzzwords: what is AI, anyway?" /><published>2018-11-01T00:00:00-04:00</published><updated>2018-11-01T00:00:00-04:00</updated><id>http://localhost:4000/ Artificial-Intelligence-Definitions-and-Indefinitions</id><content type="html" xml:base="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-brain.jpg&quot; alt=&quot;cheezy AI stock image for visual interest. Brain on one side, circuit on the other&quot; /&gt;&lt;/p&gt;
 
@@ -8,7 +8,7 @@
 
 &lt;p&gt;“I don’t know, Jane, just throw some AI on it.”&lt;/p&gt;
 
-&lt;p&gt;“AI AI AI, I think I’m getting a headache”.&lt;/p&gt;
+&lt;p&gt;“AI AI AI, I think I’m getting a headache.”&lt;/p&gt;
 
 &lt;p&gt;This article is the first of a series meant to demystify AI, aimed at MDs and other clinicians but without too much medical jargon. We begin with definitions (and indefinitions), with examples, of a few of the most popular terms in the lay and technical presses.&lt;/p&gt;
 
@@ -75,7 +75,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://dashee87.github.io/images/DBSCAN_tutorial.gif&quot; alt=&quot;unsupervised learning DBSCAN gif&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As you can see here, “unsupervised” machine learning is clever and useful, but not exactly “unsupervised.” You have to choose which algorithm to use in the first place, and almost all algorithms have some parameters you have to set yourself, often without knowing exactly which values will be best(would &lt;code class=&quot;highlighter-rouge&quot;&gt;minPts = 3&lt;/code&gt; have been better here, to catch that bottom right group?). It is not so different from selecting a drug and its dosage in a complex case: sometimes you will have clinical trials to help you make that decision, sometimes you have to go with what worked well in the past, and sometimes it’s pure trial-and-error, aided by your clinical acumen and luck.&lt;/p&gt;
+&lt;p&gt;As you can see here, “unsupervised” machine learning is clever and useful, but not exactly “unsupervised.” You have to choose which algorithm to use in the first place, and almost all algorithms have some parameters you have to set yourself, often without knowing exactly which values will be best (would &lt;code class=&quot;highlighter-rouge&quot;&gt;minPts = 3&lt;/code&gt; have been better here, to catch that bottom right group?). It is not so different from selecting a drug and its dosage in a complex case: sometimes you will have clinical trials to help you make that decision, sometimes you have to go with what worked well in the past, and sometimes it’s pure trial-and-error, aided by your clinical acumen and luck.&lt;/p&gt;
 
 &lt;p&gt;Lastly, as always, regardless of the elegance of the algorithm, the machine can only take the data we provide. Junk in still equals &lt;a href=&quot;http://www.tylervigen.com/spurious-correlations&quot;&gt;junk out&lt;/a&gt;, even if it goes through an &lt;a href=&quot;https://xkcd.com/1838/&quot;&gt;ultraintelligent washing machine&lt;/a&gt;.&lt;/p&gt;
 
@@ -87,7 +87,7 @@
 
 &lt;p&gt;For example, the neural network may be able to tell you &lt;a href=&quot;https://medium.com/@timanglade/how-hbos-silicon-valley-built-not-hotdog-with-mobile-tensorflow-keras-react-native-ef03260747f3&quot;&gt;whether or not something is a hotdog&lt;/a&gt;, what you probably meant &lt;a href=&quot;https://developer.amazon.com/blogs/alexa/post/4e6db03f-6048-4b62-ba4b-6544da9ac440/the-scalable-neural-architecture-behind-alexa-s-ability-to-arbitrate-skills&quot;&gt;when you asked Alexa to “play Prince,”&lt;/a&gt; or whether the retina shows signs of &lt;a href=&quot;https://doi.org/10.1001/jama.2016.17216&quot;&gt;diabetic retinopathy&lt;/a&gt;. These successes in previously intractable problems led researchers and pundits to claim that DL was the breakthrough that would lead to general AI, but, in line with Kevin Kelly’s fluid definition cited above, experience has now tempered these claims with &lt;a href=&quot;https://arxiv.org/abs/1801.00631&quot;&gt;specific concerns and shortcomings&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;big-data&quot;&gt;Big data&lt;/h1&gt;
+&lt;h1 id=&quot;big-data&quot;&gt;Big Data&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-trike.jpg&quot; alt=&quot;Most of the time, &amp;quot;big data&amp;quot; is an overkill term. Sometimes, it isn't. This is a picture of a tricycle chained to light pole.&quot; /&gt;&lt;/p&gt;
 
@@ -102,7 +102,13 @@
 
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 
-&lt;p&gt;AI and related terms have no completely satisfying or accepted definitions. They are relatively new and constantly evolving. Flexibility is required&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Behind all of the technological terms, there are humans with mathematics and computers, creativity and bias, just as there is a human inside the white coat next to the EKG machine.&lt;/p&gt;
+&lt;p&gt;AI and related terms have no completely satisfying or accepted definitions.&lt;/p&gt;
+
+&lt;p&gt;They are relatively new and constantly evolving.&lt;/p&gt;
+
+&lt;p&gt;Flexibility is required&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Behind all of the technological terms, there are humans with mathematics and computers, creativity and bias, just as there is a human inside the white coat next to the EKG.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -112,7 +118,7 @@
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;A linguistic gem from an early AI researcher is here apropos: “Time flies like an arrow. Fruit flies like a banana.” There are a &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_flies_like_an_arrow;_fruit_flies_like_a_banana#Analysis_of_the_basic_ambiguities&quot;&gt;delightful number of ways to interpret&lt;/a&gt; this sentence, especially if you happen to be a computer. How much flexibility is too much? Too little?&lt;/p&gt;
 
-      &lt;p&gt;The source of this Oettinger quote is frustratingly hard to find, as is often the case with classic papers from the middle of the 1900s. &lt;a href=&quot;http://worrydream.com/refs/Scientific%20American,%20September,%201966.pdf&quot;&gt;Here’s a PDF&lt;/a&gt;. The article starts on p. 166. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;The paper with the original Oettinger quote was frustratingly hard to find, as is often the case with classic papers from the middle of the 1900s. So save you the hassle, &lt;a href=&quot;http://worrydream.com/refs/Scientific%20American,%20September,%201966.pdf&quot;&gt;here’s a PDF&lt;/a&gt;. The article starts on p. 166. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;</content><category term="artificial intelligence" /><category term="machine learning" /><category term="deep learning" /><category term="big data" /><category term="definitions" /><summary>Introduction</summary></entry><entry><title>Remember all the things</title><link href="http://localhost:4000/a-workflow-for-remembering-all-that-science-and-also-everything/" rel="alternate" type="text/html" title="Remember all the things" /><published>2018-10-20T00:00:00-04:00</published><updated>2018-10-20T00:00:00-04:00</updated><id>http://localhost:4000/a-workflow-for-remembering-all-that-science-and-also-everything</id><content type="html" xml:base="http://localhost:4000/a-workflow-for-remembering-all-that-science-and-also-everything/">&lt;h1 id=&quot;we-spend-so-much-time-reading&quot;&gt;We spend so much time reading&lt;/h1&gt;
