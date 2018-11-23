@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-12T11:02:34-05:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>On the buzziest of buzzwords: what is AI, anyway?</title><link href="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/" rel="alternate" type="text/html" title="On the buzziest of buzzwords: what is AI, anyway?" /><published>2018-11-01T00:00:00-04:00</published><updated>2018-11-01T00:00:00-04:00</updated><id>http://localhost:4000/ Artificial-Intelligence-Definitions-and-Indefinitions</id><content type="html" xml:base="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-23T15:43:23-05:00</updated><id>http://localhost:4000/</id><title>cbh</title><subtitle>sola dosis facit venenum</subtitle><entry><title>On the buzziest of buzzwords: what is AI, anyway?</title><link href="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/" rel="alternate" type="text/html" title="On the buzziest of buzzwords: what is AI, anyway?" /><published>2018-11-01T00:00:00-04:00</published><updated>2018-11-01T00:00:00-04:00</updated><id>http://localhost:4000/ Artificial-Intelligence-Definitions-and-Indefinitions</id><content type="html" xml:base="http://localhost:4000/Artificial-Intelligence-Definitions-and-Indefinitions/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-brain.jpg&quot; alt=&quot;cheezy AI stock image for visual interest. Brain on one side, circuit on the other&quot; /&gt;&lt;/p&gt;
 
@@ -24,46 +24,49 @@
 
 &lt;p&gt;With that in mind, we offer three definitions:&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;General AI: This is the kind of AI that can reason about any kind of problem, without the requirement for explicit programming. In other words, general AI can think flexibly and creatively, much in the same way humans can. &lt;em&gt;General AI has not yet been achieved&lt;/em&gt;. &lt;a href=&quot;https://hackernoon.com/frontier-ai-how-far-are-we-from-artificial-general-intelligence-really-5b13b1ebcd4e&quot;&gt;Predictions&lt;/a&gt; about when it will be achieved range from the next few decades, to the next few centuries, to never. &lt;a href=&quot;https://www.newyorker.com/magazine/2018/05/14/how-frightened-should-we-be-of-ai&quot;&gt;Perceptions&lt;/a&gt; of what will happen if it is achieved range from salvific to apocalyptic.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Narrow AI: This is the kind of AI that can perform well if the problem is well-defined, but isn’t good for much else. Most AI breakthroughs in recent years are “narrow,” algorithms that can meet or exceed human performance on a specific task. Instead of “thinking, general-purpose wonder-boxes,” current AI successes are more akin to “&lt;a href=&quot;https://aeon.co/ideas/the-ai-revolution-will-be-led-by-toasters-not-droids&quot;&gt;highly specialised toasters&lt;/a&gt;.” Because most AI is narrow, and quite so, when clinicians see any article or headline claiming that “AI beats doctors,” they would be wise to ask questions proposed by radiologist and AI researcher, &lt;a href=&quot;https://lukeoakdenrayner.wordpress.com/2016/11/27/do-computers-already-outperform-doctors/&quot;&gt;Dr. Oakden-Rayner&lt;/a&gt;: “What, &lt;em&gt;exactly&lt;/em&gt;, did the algorithm do, and is that a thing that doctors actually do (or even want to do)?” A more comprehensive rubric for evaluating narrow AI and planning projects is available in the appendix to Brynjolfsson and Mitchell’s &lt;a href=&quot;http://science.sciencemag.org/content/358/6370/1530.full&quot;&gt;practical guide to AI&lt;/a&gt; from &lt;em&gt;Science&lt;/em&gt; magazine.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;AI: We will finish with Kevin Kelly’s &lt;a href=&quot;https://ideas.ted.com/why-we-need-to-create-ais-that-think-in-ways-that-we-cant-even-imagine/&quot;&gt;flexible and aware definition&lt;/a&gt;:&lt;/p&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;In the past, we would have said only a superintelligent AI could beat a human at Jeopardy! or recognize a billion faces. But once our computers did each of those things, we considered that achievement obviously mechanical and hardly worth the label of true intelligence. We label it “machine learning.” Every achievement in AI redefines that success as “not AI.”&lt;/p&gt;
-    &lt;/blockquote&gt;
+&lt;h2 id=&quot;general-ai&quot;&gt;General AI&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-robot1.png&quot; alt=&quot;image of a robot looking at itself in a mirror&quot; height=&quot;400px&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;This view of AI takes into account the continual progression of the field, in sync with the progression of humans that produce and use the technology.&lt;/p&gt;
+&lt;p&gt;This is the kind of AI that can reason about any kind of problem, without the requirement for explicit programming. In other words, general AI can think flexibly and creatively, much in the same way humans can. &lt;em&gt;General AI has not yet been achieved&lt;/em&gt;. &lt;a href=&quot;https://hackernoon.com/frontier-ai-how-far-are-we-from-artificial-general-intelligence-really-5b13b1ebcd4e&quot;&gt;Predictions&lt;/a&gt; about when it will be achieved range from the next few decades, to the next few centuries, to never. &lt;a href=&quot;https://www.newyorker.com/magazine/2018/05/14/how-frightened-should-we-be-of-ai&quot;&gt;Perceptions&lt;/a&gt; of what will happen if it is achieved range from salvific to apocalyptic.&lt;/p&gt;
 
-    &lt;p&gt;Kelly’s quote calls to mind George R.R. Martin’s &lt;a href=&quot;http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/&quot;&gt;humerously sobering line&lt;/a&gt;,&lt;/p&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Fantasy flies on the wings of Icarus, reality on Southwest airlines.&lt;/p&gt;
-    &lt;/blockquote&gt;
+&lt;h2 id=&quot;narrow-ai&quot;&gt;Narrow AI&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-toaster.jpg&quot; alt=&quot;stock image of a toaster&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet.&lt;/p&gt;
+&lt;p&gt;This is the kind of AI that can perform well if the problem is well-defined, but isn’t good for much else. Most AI breakthroughs in recent years are “narrow,” algorithms that can meet or exceed human performance on a specific task. Instead of “thinking, general-purpose wonder-boxes,” current AI successes are more akin to “&lt;a href=&quot;https://aeon.co/ideas/the-ai-revolution-will-be-led-by-toasters-not-droids&quot;&gt;highly specialised toasters&lt;/a&gt;.” Because most AI is narrow, and quite so, when clinicians see any article or headline claiming that “AI beats doctors,” they would be wise to ask questions proposed by radiologist and AI researcher, &lt;a href=&quot;https://lukeoakdenrayner.wordpress.com/2016/11/27/do-computers-already-outperform-doctors/&quot;&gt;Dr. Oakden-Rayner&lt;/a&gt;: “What, &lt;em&gt;exactly&lt;/em&gt;, did the algorithm do, and is that a thing that doctors actually do (or even want to do)?” A more comprehensive rubric for evaluating narrow AI and planning projects is available in the appendix to Brynjolfsson and Mitchell’s &lt;a href=&quot;http://science.sciencemag.org/content/358/6370/1530.full&quot;&gt;practical guide to AI&lt;/a&gt; from &lt;em&gt;Science&lt;/em&gt; magazine.&lt;/p&gt;
 
-    &lt;p&gt;AI is now, in the minds of many, more akin to Icarus than the 5:15 to Atlanta.&lt;/p&gt;
+&lt;h2 id=&quot;ai&quot;&gt;AI&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/pixabay-spring.jpg&quot; alt=&quot;stock image of a spring&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;In this series we hope to gain the middle ground: help the reader gain and maintain a sense of possibility and perspective, but also understand the mundane ins-and-outs of day-to-day AI.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;We will finish with Kevin Kelly’s &lt;a href=&quot;https://ideas.ted.com/why-we-need-to-create-ais-that-think-in-ways-that-we-cant-even-imagine/&quot;&gt;flexible and aware definition&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In the past, we would have said only a superintelligent AI could beat a human at Jeopardy! or recognize a billion faces. But once our computers did each of those things, we considered that achievement obviously mechanical and hardly worth the label of true intelligence. We label it “machine learning.” Every achievement in AI redefines that success as “not AI.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This view of AI takes into account the continual progression of the field, in sync with the progression of humans that produce and use the technology.&lt;/p&gt;
+
+&lt;p&gt;Kelly’s quote calls to mind George R.R. Martin’s &lt;a href=&quot;http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/&quot;&gt;humorously sobering line&lt;/a&gt;,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Fantasy flies on the wings of Icarus, reality on Southwest airlines.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet.&lt;/p&gt;
+
+&lt;p&gt;AI is now, in the minds of many, more akin to Icarus than the 5:15 to Atlanta.&lt;/p&gt;
+
+&lt;p&gt;In this series we hope to gain the middle ground: help the reader gain and maintain a sense of possibility and perspective, but also understand the mundane ins-and-outs of day-to-day AI.&lt;/p&gt;
 
 &lt;h1 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h1&gt;
 
 &lt;p&gt;A common definition of ML goes something like,&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Given examples and some set of inputs, an algorithm predicts the output without being told explicitly how to get there. It ‘learns’ the relationship between inputs and outputs.&lt;/p&gt;
+  &lt;p&gt;Given enough examples, an algorithm “learns” the relationship between inputs and outputs, that is, how to get from point A to point B, without being told exactly how points A and B are related.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;This is reasonable, but incomplete. Each algorithm has its own &lt;a href=&quot;https://xkcd.com/2048/&quot;&gt;flavor&lt;/a&gt;: assumptions, strengths, weaknesses, uses, and adherents.&lt;/p&gt;
 
 &lt;p&gt;The simplest example generalizes well to more complex algorithms:&lt;/p&gt;
 
-&lt;p&gt;Imagine an AI agent that is shown input and output values of multiple cases. If it assumes a linear relationship between input and output, which is often a reasonable approach, it can then calculate (“learn”) a line that approximates the trend. After that, all you have to do is give the AI an input, even one it hasn’t seen before, and it will tell you the most likely output. This describes the basic ML algorithm known as &lt;a href=&quot;https://www.youtube.com/watch?v=zPG4NjIkCjc&quot;&gt;Linear Regression&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Imagine an AI agent that is shown point A and point B of multiple cases. If it assumes a linear relationship between input (A) and output (B), which is often a reasonable approach, it can then calculate (“learn”) a line that approximates the trend. After that, all you have to do is give the AI an input, even one it hasn’t seen before, and it will tell you the most likely output. This describes the basic ML algorithm known as &lt;a href=&quot;https://www.youtube.com/watch?v=zPG4NjIkCjc&quot;&gt;Linear Regression&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/JointPartialIslandcanary-size_restricted.gif&quot; alt=&quot;illustration of linear regression&quot; /&gt;&lt;/p&gt;
 
@@ -71,7 +74,7 @@
 
 &lt;p&gt;Since the goal of this series is to help the reader try out some machine learning with hands-on coding, we should also note here that in most cases, running a GBM is exactly as easy as running linear regression (LR), if not easier: same number of lines of code, same basic syntax. Most of the time you have to change only one or a few words to switch, for example, from GBM to LR and vice versa. Often, an algorithm such as GBM is actually &lt;em&gt;easier&lt;/em&gt; to put into play, because it does not place as many requirements on the type and shape of data it will accept (&lt;a href=&quot;https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/&quot;&gt;roughly 80% &lt;/a&gt; of a data science job is collecting and whipping data into something palatable to the algorithm). Complexities may come later, when fine-tuning, and interpreting and implementing findings, but those problems are by no means intractable. We’ll get to that in a later post.&lt;/p&gt;
 
-&lt;p&gt;Even “unsupervised” machine learning, wherein the algorithm seeks to find relationships in data rather than being told exactly what these relationships should be, is based on iterations of simple rules. Below is an example of an unsupervised learning algorithm called &lt;a href=&quot;https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/&quot;&gt;DBSCAN&lt;/a&gt;. DBSCAN is meant to automatically detect groupings, for example, gene expression signatures or areas of interest in a radiographic image. It randomly selects data points, applies a simple rule to see what other points are “close enough,” and repeats this over and over to find groups. You have to choose which numbers to use for &lt;code class=&quot;highlighter-rouge&quot;&gt;epsilon&lt;/code&gt;: how close points have to be to share a group; and &lt;code class=&quot;highlighter-rouge&quot;&gt;minPts&lt;/code&gt;: the minimum number of points needed to count as a group. They chose 1 and 4, respectively.&lt;/p&gt;
+&lt;p&gt;Even “unsupervised” machine learning, wherein the algorithm seeks to find relationships in data rather than being told exactly what these relationships should be, is based on iterations of simple rules. Below is an example of an unsupervised learning algorithm called &lt;a href=&quot;https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/&quot;&gt;DBSCAN&lt;/a&gt;. DBSCAN is meant to automatically detect groupings, for example, gene expression signatures or areas of interest in a radiographic image. It randomly selects data points, applies a simple rule to see what other points are “close enough,” and repeats this over and over to find groups. You have to choose which numbers to use for &lt;code class=&quot;highlighter-rouge&quot;&gt;epsilon&lt;/code&gt;: how close points have to be to share a group; and &lt;code class=&quot;highlighter-rouge&quot;&gt;minPts&lt;/code&gt;: the minimum number of points needed to count as a group. The makers of this GIF chose 1 and 4, respectively.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://dashee87.github.io/images/DBSCAN_tutorial.gif&quot; alt=&quot;unsupervised learning DBSCAN gif&quot; /&gt;&lt;/p&gt;
 
@@ -98,7 +101,7 @@
 
 &lt;p&gt;In other words, if you can deal with it easily in Microsoft Excel, your database probably is not big enough to qualify. If you need something fancy like Hadoop or NoSQL, you are probably dealing with big data. Put simply, these applications &lt;a href=&quot;https://www.brainscape.com/blog/wp-content/uploads/2012/10/Jj5i1Ge.jpg&quot;&gt;excel&lt;/a&gt; at breaking massive datasets into smaller chunks that are analyzed across many machines and/or in a step-wise fashion, with the results stitched together along the way or at the end.&lt;/p&gt;
 
-&lt;p&gt;There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or bytes in a file, and no single “big data algorithm.” In general, the size of big data is increasing rapidly, especially with such tools as always-on fitness trackers that include a growing number of sensors and can yield troves of data, per person, per day. The major task is to separate the wheat from the chaff, the signal from the noise, and find novel, actionable trends. The larger the data, the more the potential: for finding something meaningful; for drowning in so many meaningless bits and bobs.&lt;/p&gt;
+&lt;p&gt;There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or bytes in a file, and no single “big data algorithm.” In general, the size of big data is increasing rapidly, especially with such tools as always-on fitness trackers that include a growing number of sensors and can yield &lt;a href=&quot;https://ouraring.com/how-oura-works/&quot;&gt;troves of data&lt;/a&gt;, per person, per day. The major task is to separate the wheat from the chaff, the signal from the noise, and find novel, actionable trends. The &lt;a href=&quot;https://www.wired.co.uk/article/craig-venter-human-longevity-genome-diseases-ageing&quot;&gt;larger the data&lt;/a&gt;, the more the potential: for finding something meaningful; for drowning in so many meaningless bits and bobs.&lt;/p&gt;
 
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 

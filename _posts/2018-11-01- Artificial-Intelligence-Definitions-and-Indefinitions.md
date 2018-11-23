@@ -39,29 +39,35 @@ While the phrase "AI" has been around since [1955](https://aaai.org/ojs/index.ph
 
 With that in mind, we offer three definitions:
 
-![image of a robot looking at itself in a mirror]({{ site.url }}/images/pixabay-robot1.png)
 
-1. General AI: This is the kind of AI that can reason about any kind of problem, without the requirement for explicit programming. In other words, general AI can think flexibly and creatively, much in the same way humans can. _General AI has not yet been achieved_. [Predictions](https://hackernoon.com/frontier-ai-how-far-are-we-from-artificial-general-intelligence-really-5b13b1ebcd4e) about when it will be achieved range from the next few decades, to the next few centuries, to never. [Perceptions](https://www.newyorker.com/magazine/2018/05/14/how-frightened-should-we-be-of-ai) of what will happen if it is achieved range from salvific to apocalyptic.
+## General AI
+![image of a robot looking at itself in a mirror]({{ site.url }}/images/pixabay-robot1.png){:height="400px"}
 
-![stock image of a toaster]({{ site.url }}/images/pixabay-toaster.jpg)
+This is the kind of AI that can reason about any kind of problem, without the requirement for explicit programming. In other words, general AI can think flexibly and creatively, much in the same way humans can. _General AI has not yet been achieved_. [Predictions](https://hackernoon.com/frontier-ai-how-far-are-we-from-artificial-general-intelligence-really-5b13b1ebcd4e) about when it will be achieved range from the next few decades, to the next few centuries, to never. [Perceptions](https://www.newyorker.com/magazine/2018/05/14/how-frightened-should-we-be-of-ai) of what will happen if it is achieved range from salvific to apocalyptic.
 
-2. Narrow AI: This is the kind of AI that can perform well if the problem is well-defined, but isn't good for much else. Most AI breakthroughs in recent years are "narrow," algorithms that can meet or exceed human performance on a specific task. Instead of "thinking, general-purpose wonder-boxes," current AI successes are more akin to "[highly specialised toasters](https://aeon.co/ideas/the-ai-revolution-will-be-led-by-toasters-not-droids)." Because most AI is narrow, and quite so, when clinicians see any article or headline claiming that "AI beats doctors," they would be wise to ask questions proposed by radiologist and AI researcher, [Dr. Oakden-Rayner](https://lukeoakdenrayner.wordpress.com/2016/11/27/do-computers-already-outperform-doctors/): "What, _exactly_, did the algorithm do, and is that a thing that doctors actually do (or even want to do)?" A more comprehensive rubric for evaluating narrow AI and planning projects is available in the appendix to Brynjolfsson and Mitchell's [practical guide to AI](http://science.sciencemag.org/content/358/6370/1530.full) from _Science_ magazine.
 
+## Narrow AI
+![stock image of a toaster]({{ site.url }}/images/pixabay-toaster.jpg){:class="img-responsive"}
+
+This is the kind of AI that can perform well if the problem is well-defined, but isn't good for much else. Most AI breakthroughs in recent years are "narrow," algorithms that can meet or exceed human performance on a specific task. Instead of "thinking, general-purpose wonder-boxes," current AI successes are more akin to "[highly specialised toasters](https://aeon.co/ideas/the-ai-revolution-will-be-led-by-toasters-not-droids)." Because most AI is narrow, and quite so, when clinicians see any article or headline claiming that "AI beats doctors," they would be wise to ask questions proposed by radiologist and AI researcher, [Dr. Oakden-Rayner](https://lukeoakdenrayner.wordpress.com/2016/11/27/do-computers-already-outperform-doctors/): "What, _exactly_, did the algorithm do, and is that a thing that doctors actually do (or even want to do)?" A more comprehensive rubric for evaluating narrow AI and planning projects is available in the appendix to Brynjolfsson and Mitchell's [practical guide to AI](http://science.sciencemag.org/content/358/6370/1530.full) from _Science_ magazine.
+
+
+## AI
 ![stock image of a spring]({{ site.url }}/images/pixabay-spring.jpg)
 
-3. AI: We will finish with Kevin Kelly's [flexible and aware definition](https://ideas.ted.com/why-we-need-to-create-ais-that-think-in-ways-that-we-cant-even-imagine/):
+We will finish with Kevin Kelly's [flexible and aware definition](https://ideas.ted.com/why-we-need-to-create-ais-that-think-in-ways-that-we-cant-even-imagine/):
 >In the past, we would have said only a superintelligent AI could beat a human at Jeopardy! or recognize a billion faces. But once our computers did each of those things, we considered that achievement obviously mechanical and hardly worth the label of true intelligence. We label it "machine learning." Every achievement in AI redefines that success as "not AI."
 
-    This view of AI takes into account the continual progression of the field, in sync with the progression of humans that produce and use the technology.
+This view of AI takes into account the continual progression of the field, in sync with the progression of humans that produce and use the technology.
 
-    Kelly's quote calls to mind George R.R. Martin's [humorously sobering line](http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/),
-    >Fantasy flies on the wings of Icarus, reality on Southwest airlines.
+Kelly's quote calls to mind George R.R. Martin's [humorously sobering line](http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/),
+  >Fantasy flies on the wings of Icarus, reality on Southwest airlines.
 
-    If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet.
+If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet.
 
-    AI is now, in the minds of many, more akin to Icarus than the 5:15 to Atlanta.
+AI is now, in the minds of many, more akin to Icarus than the 5:15 to Atlanta.
 
-    In this series we hope to gain the middle ground: help the reader gain and maintain a sense of possibility and perspective, but also understand the mundane ins-and-outs of day-to-day AI.
+In this series we hope to gain the middle ground: help the reader gain and maintain a sense of possibility and perspective, but also understand the mundane ins-and-outs of day-to-day AI.
 
 # Machine Learning
 
