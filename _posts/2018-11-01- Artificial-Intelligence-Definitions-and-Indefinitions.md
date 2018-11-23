@@ -39,16 +39,22 @@ While the phrase "AI" has been around since [1955](https://aaai.org/ojs/index.ph
 
 With that in mind, we offer three definitions:
 
+![image of a robot looking at itself in a mirror]({{ site.url }}/images/pixabay-robot1.png)
+
 1. General AI: This is the kind of AI that can reason about any kind of problem, without the requirement for explicit programming. In other words, general AI can think flexibly and creatively, much in the same way humans can. _General AI has not yet been achieved_. [Predictions](https://hackernoon.com/frontier-ai-how-far-are-we-from-artificial-general-intelligence-really-5b13b1ebcd4e) about when it will be achieved range from the next few decades, to the next few centuries, to never. [Perceptions](https://www.newyorker.com/magazine/2018/05/14/how-frightened-should-we-be-of-ai) of what will happen if it is achieved range from salvific to apocalyptic.
 
+![stock image of a toaster]({{ site.url }}/images/pixabay-toaster.jpg)
+
 2. Narrow AI: This is the kind of AI that can perform well if the problem is well-defined, but isn't good for much else. Most AI breakthroughs in recent years are "narrow," algorithms that can meet or exceed human performance on a specific task. Instead of "thinking, general-purpose wonder-boxes," current AI successes are more akin to "[highly specialised toasters](https://aeon.co/ideas/the-ai-revolution-will-be-led-by-toasters-not-droids)." Because most AI is narrow, and quite so, when clinicians see any article or headline claiming that "AI beats doctors," they would be wise to ask questions proposed by radiologist and AI researcher, [Dr. Oakden-Rayner](https://lukeoakdenrayner.wordpress.com/2016/11/27/do-computers-already-outperform-doctors/): "What, _exactly_, did the algorithm do, and is that a thing that doctors actually do (or even want to do)?" A more comprehensive rubric for evaluating narrow AI and planning projects is available in the appendix to Brynjolfsson and Mitchell's [practical guide to AI](http://science.sciencemag.org/content/358/6370/1530.full) from _Science_ magazine.
+
+![stock image of a spring]({{ site.url }}/images/pixabay-spring.jpg)
 
 3. AI: We will finish with Kevin Kelly's [flexible and aware definition](https://ideas.ted.com/why-we-need-to-create-ais-that-think-in-ways-that-we-cant-even-imagine/):
 >In the past, we would have said only a superintelligent AI could beat a human at Jeopardy! or recognize a billion faces. But once our computers did each of those things, we considered that achievement obviously mechanical and hardly worth the label of true intelligence. We label it "machine learning." Every achievement in AI redefines that success as "not AI."
 
     This view of AI takes into account the continual progression of the field, in sync with the progression of humans that produce and use the technology.
 
-    Kelly's quote calls to mind George R.R. Martin's [humerously sobering line](http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/),
+    Kelly's quote calls to mind George R.R. Martin's [humorously sobering line](http://www.georgerrmartin.com/about-george/on-writing-essays/on-fantasy-by-george-r-r-martin/),
     >Fantasy flies on the wings of Icarus, reality on Southwest airlines.
 
     If we flip this quote on its head a bit, we can see that real-life flight is a comprehensible thing, intellectually accessible to any person willing to put in time to learn a little physics and engineering, to the point that it becomes banal. Even for those who know nothing of the math and science, most are unmovably bored during their typical commuter flight, some fast asleep even before the roar of the tarmac gives way to the smooth and steady stream at 30,000 feet.
@@ -60,13 +66,13 @@ With that in mind, we offer three definitions:
 # Machine Learning
 
 A common definition of ML goes something like,
->Given examples and some set of inputs, an algorithm predicts the output without being told explicitly how to get there. It 'learns' the relationship between inputs and outputs.
+>Given enough examples, an algorithm "learns" the relationship between inputs and outputs, that is, how to get from point A to point B, without being told exactly how points A and B are related.
 
 This is reasonable, but incomplete. Each algorithm has its own [flavor](https://xkcd.com/2048/): assumptions, strengths, weaknesses, uses, and adherents.
 
 The simplest example generalizes well to more complex algorithms:
 
-Imagine an AI agent that is shown input and output values of multiple cases. If it assumes a linear relationship between input and output, which is often a reasonable approach, it can then calculate (“learn”) a line that approximates the trend. After that, all you have to do is give the AI an input, even one it hasn't seen before, and it will tell you the most likely output. This describes the basic ML algorithm known as [Linear Regression](https://www.youtube.com/watch?v=zPG4NjIkCjc).
+Imagine an AI agent that is shown point A and point B of multiple cases. If it assumes a linear relationship between input (A) and output (B), which is often a reasonable approach, it can then calculate (“learn”) a line that approximates the trend. After that, all you have to do is give the AI an input, even one it hasn't seen before, and it will tell you the most likely output. This describes the basic ML algorithm known as [Linear Regression](https://www.youtube.com/watch?v=zPG4NjIkCjc).
 
 ![illustration of linear regression](https://thumbs.gfycat.com/JointPartialIslandcanary-size_restricted.gif)
 
@@ -74,7 +80,7 @@ While linear regression is powerful and should not be underestimated, it depends
 
 Since the goal of this series is to help the reader try out some machine learning with hands-on coding, we should also note here that in most cases, running a GBM is exactly as easy as running linear regression (LR), if not easier: same number of lines of code, same basic syntax. Most of the time you have to change only one or a few words to switch, for example, from GBM to LR and vice versa. Often, an algorithm such as GBM is actually _easier_ to put into play, because it does not place as many requirements on the type and shape of data it will accept ([roughly 80% ](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/) of a data science job is collecting and whipping data into something palatable to the algorithm). Complexities may come later, when fine-tuning, and interpreting and implementing findings, but those problems are by no means intractable. We'll get to that in a later post.
 
-Even "unsupervised" machine learning, wherein the algorithm seeks to find relationships in data rather than being told exactly what these relationships should be, is based on iterations of simple rules. Below is an example of an unsupervised learning algorithm called [DBSCAN](https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/). DBSCAN is meant to automatically detect groupings, for example, gene expression signatures or areas of interest in a radiographic image. It randomly selects data points, applies a simple rule to see what other points are "close enough," and repeats this over and over to find groups. You have to choose which numbers to use for `epsilon`: how close points have to be to share a group; and `minPts`: the minimum number of points needed to count as a group. They chose 1 and 4, respectively.
+Even "unsupervised" machine learning, wherein the algorithm seeks to find relationships in data rather than being told exactly what these relationships should be, is based on iterations of simple rules. Below is an example of an unsupervised learning algorithm called [DBSCAN](https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/). DBSCAN is meant to automatically detect groupings, for example, gene expression signatures or areas of interest in a radiographic image. It randomly selects data points, applies a simple rule to see what other points are "close enough," and repeats this over and over to find groups. You have to choose which numbers to use for `epsilon`: how close points have to be to share a group; and `minPts`: the minimum number of points needed to count as a group. The makers of this GIF chose 1 and 4, respectively.
 
 ![unsupervised learning DBSCAN gif](https://dashee87.github.io/images/DBSCAN_tutorial.gif)
 
@@ -101,7 +107,7 @@ The best definition of "big data" borders on the tautological:
 
 In other words, if you can deal with it easily in Microsoft Excel, your database probably is not big enough to qualify. If you need something fancy like Hadoop or NoSQL, you are probably dealing with big data. Put simply, these applications [excel](https://www.brainscape.com/blog/wp-content/uploads/2012/10/Jj5i1Ge.jpg) at breaking massive datasets into smaller chunks that are analyzed across many machines and/or in a step-wise fashion, with the results stitched together along the way or at the end.
 
-There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or bytes in a file, and no single "big data algorithm." In general, the size of big data is increasing rapidly, especially with such tools as always-on fitness trackers that include a growing number of sensors and can yield troves of data, per person, per day. The major task is to separate the wheat from the chaff, the signal from the noise, and find novel, actionable trends. The larger the data, the more the potential: for finding something meaningful; for drowning in so many meaningless bits and bobs.
+There is no hard-and-fast cutoff, no magic number of rows on a spreadsheet or bytes in a file, and no single "big data algorithm." In general, the size of big data is increasing rapidly, especially with such tools as always-on fitness trackers that include a growing number of sensors and can yield [troves of data](https://ouraring.com/how-oura-works/), per person, per day. The major task is to separate the wheat from the chaff, the signal from the noise, and find novel, actionable trends. The [larger the data](https://www.wired.co.uk/article/craig-venter-human-longevity-genome-diseases-ageing), the more the potential: for finding something meaningful; for drowning in so many meaningless bits and bobs.
 
 # Summary
 
