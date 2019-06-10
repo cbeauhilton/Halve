@@ -35,7 +35,6 @@ If you're not familiar with Python or Pandas, don't worry - just walk through th
 The basic syntax is:
 
 ```python
-
 some_descriptive_name = some_dataset["some_column_in_that_dataset"].some_mathy_bit()
 ```
 
@@ -47,7 +46,6 @@ Here's the basic idea. First, declare the name of the block of words. Then open 
 Add in the code within curly brackets, `{code}`, add some optional formatting after a colon, `{code:formatting_options}`, and prosper.
 
 ```python
-
 name_of_word_block = f"Some words with some {code} we want Python to evaluate, maybe with some extra formatting thrown in for fun, such as commas to make long numbers more readable ({long_number:,}), or a number of decimal places to round to ({number_with_stuff_after_the_decimal_but_we_only_want_two_places:.2f}, or a conversion from a decimal to a percentage and get rid of everything after the '.' {some_number_divided_by/some_other_number*100:.0f}%)."
 ```
 
@@ -60,7 +58,6 @@ Here's an example of how I made the example sentences above. First the example a
 The median number of hospitalizations per patient was 1 (range 1-176, [1.0 , 2.0])."
 
 ```python
-
 n_encs = data["encounterid"].nunique()
 n_pts = data["patientid"].nunique()
 
@@ -78,7 +75,6 @@ sentence02 = f"The median number of hospitalizations per patient was {median_enc
 If you want to get real ~~lazy~~ ~~fancy~~ lazy, you can combine these sentences into a paragraph, save that paragraph to a text file, and then automatically include this text file in your final document.
 
 ```python
-
 paragraph01 = sentence01 + sentence02
 results_text_file = "results_paragraphs.txt"
 with open(results_text_file, "w") as text_file:
@@ -110,17 +106,18 @@ Addendum: As I was writing this, I found a similar treatment of the same subject
 [^5]: Assign it to a resident, of course.
 
 [^6]: You may have noticed that the name of this file is "results_paragraphs_latex.txt" rather than "results_paragraphs.txt," and that's because LaTeX needs a little special treatment if you're going to use the percentage symbol. LaTeX uses the percentage symbol as a comment sign, meaning that anything after the symbol is ignored and left out of the document. You have to "escape" the percentage symbol with a slash, like this: `\%`. I have this simple bit of code that converts the normal text file into a LaTeX-friendly version:
-  ```python
-  # make a LaTeX-friendly version (escape the % symbols with \)
-  # Read in the file
-  with open(results_text_file, "r") as file:
-      filedata = file.read()
-  # Replace the target string
-  filedata = filedata.replace("%", "\%")
-  # Write the file
-  text_file_latex = "results_paragraphs_latex.txt"
-  with open(text_file_latex, "w") as file:
-      file.write(filedata)
-  ```
+
+    ```python
+    # make a LaTeX-friendly version (escape the % symbols with \)
+    # Read in the file
+    with open(results_text_file, "r") as file:
+        filedata = file.read()
+    # Replace the target string
+    filedata = filedata.replace("%", "\%")
+    # Write the file
+    text_file_latex = "results_paragraphs_latex.txt"
+    with open(text_file_latex, "w") as file:
+        file.write(filedata)
+    ```
 
 [^7]: You may have noticed there are two datasets I'm pulling from for this, "data," which includes everything on the basis of _hospitalizations_, and "df," short for "dataframe," which is a subset of "data" that only includes each _patient_ once (rather than a new entry for every hospitalization), along with a few other alterations that allow me to do patient-wise calculations.
