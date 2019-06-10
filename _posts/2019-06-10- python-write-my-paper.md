@@ -28,29 +28,38 @@ How might we automate the writing of this paragraph?[^5]
 
 ## The solution
 
-First, we're going to do the math (which we were doing anyway, using your preferred programming language), and assign each math-y bit a unique name. Then we're going to plug in the results of these calculations to our sentences.
-If you're not familiar with Python or Pandas, don't worry - just walk through the names one-by-one and glance at the stuff after the equals sign, but don't get hung up on it.
+First, we're going to do the math (which we were doing anyway), and assign each math-y bit a unique name. Then we're going to plug in the results of these calculations to our sentences.
+If you're not familiar with Python or Pandas, don't worry - just walk through the names and glance at the stuff after the equals sign, but don't get hung up on it.
 The basic syntax is:
 
 ```python
 some_descriptive_name = some_dataset["some_column_in_that_dataset"].some_mathy_bit()
 ```
 
-After we generate the numbers we want, we write the sentence we want to insert the number into, and then use a couple tricks to get the numbers into the sentence in the format we want.
+After we generate the numbers we want, we write the sentence, insert the code, and then use some tricks to get the numbers in the format we want.
 
-In most programming languages, "string" means "words, not code or math." So an `f-string` is a `formatted-string`, and allows us to insert code into blocks of normal words using an easy, intuitive syntax.
+In most programming languages, "string" means "text, not code or numbers." So an `f-string` is a `formatted-string`, and allows us to insert code into blocks of normal words using an easy, intuitive syntax.
 
-Here's the basic idea. First, declare the name of the block of words. Then open some quotes with the words we want and prepend the quotes with an "f," which will tell Python we want it to insert the results of some code.
-Add in the code within curly brackets, `{code}`, add some optional formatting after a colon, `{code:formatting_options}`, and prosper.
+Here's an example:
+
+
 
 ```python
-name_of_word_block = f"Some words with some {code} we want Python to evaluate, maybe with some extra formatting thrown in for fun, such as commas to make long numbers more readable ({long_number:,}), or a number of decimal places to round to ({number_with_stuff_after_the_decimal_but_we_only_want_two_places:.2f}, or a conversion from a decimal to a percentage and get rid of everything after the '.' {some_number_divided_by/some_other_number*100:.0f}%)."
+name_of_word_block = f"""Some words with some {code} we want Python to evaluate,
+maybe with some extra formatting thrown in for fun,
+such as commas to make long numbers more readable ({long_number:,}),
+or a number of decimal places to round to
+({number_with_stuff_after_the_decimal_but_we_only_want_two_places:.2f},
+or a conversion from a decimal to a percentage and get rid of everything after the '.'
+{some_number_divided_by/some_other_number*100:.0f}%)."""
 ```
 
-As you can see from the last clause, you can throw in arbitrarily long bits of code in whatever combinations you like. I typically like to do the math outside of the strings to keep them cleaner looking, but for simple stuff it can be nice to just throw the math in the f-string itself.
+First, declare the name of the block of words. Then write an `f`, which will tell Python we want it to insert the results of some code into the following string, which we start and end with single or triple quotes (triple quotes let you break strings into multiple lines). 
+Add in the code within curly brackets, `{code}`, add some optional formatting after a colon, `{code:formatting_options}`, and prosper.
 
+As you can see from the last clause, you can do additional math or any operation you want within the `{code}` block. I typically like to do the math outside of the strings to keep them cleaner looking, but for simple stuff it can be nice to just throw the math in the f-string itself.
 
-Here's an example of how I made the example sentences above. First the example again, then the math, then the f-strings.[^7] 
+Here's the actual code I used to make those first two sentences from earlier. First the example again, then the math, then the f-strings.[^7] 
 
 "In the study period there were 1,485,880 hospitalizations for 708,089 unique patients, 439,696 (62%) of whom had only one hospitalization recorded. 
 The median number of hospitalizations per patient was 1 (range 1-176, [1.0 , 2.0])."
