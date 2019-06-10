@@ -71,6 +71,8 @@ For the poets, it can be a gorgeous and focused writing environment with infinit
 
 For me, the coolest thing is that I can have [one central hub](https://medium.com/@sroberts/how-i-atom-12988bce8fce) to do it all, with very little need for Word. If I use Atom to push things to GitHub, it also nearly replaces Google Docs for keeping everything safely in the cloud (caveat for the latter:as long as I don't mind making my work public).
 
+Note from 2019: I switched to [VS Code](https://code.visualstudio.com/). It's very similar to Atom, but faster.
+
 ## Markdown
 [![Markdown](https://github.com/dcurtis/markdown-mark/blob/master/png/208x128.png?raw=true)](https://daringfireball.net/projects/markdown/)
 
