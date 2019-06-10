@@ -25,6 +25,7 @@ In summary, this is a _static website_ made with _Jekyll software_ using the cod
 Most of the internet we interact with on a day-to-day basis is "dynamic," meaning we request something from a web server (e.g. click on a Facebook post or search for something on Amazon), which then talks to a database to pull all the relevant information and fill in a template (e.g. post content + comments, or product page with images, ratings, ads, etc.). The "static" web is much more old school: ask for something and the server gives you something, no database and comparatively little processing. Whatever is on the server has to be pretty much prebuilt and ready to go. This process is much simpler, faster, and more secure. The basic protocols are old and well established, unlikely to change or break.  For most online writing, such as a blog, static is the way to go, especially if it is likely to be consumed over a mobile internet connection.
 
 ## Jekyll
+
 [![Jekyll](https://jekyllrb.com/img/logo-2x.png)](https://jekyllrb.com/)
 
 Jekyll is an open-source suite of open-source software for making static web pages.
@@ -54,7 +55,6 @@ I had two basic requirements for my theme. First, it had to be [pretty](http://w
 
 I'll say more about specific choices, such as color, logo, and tagline in another post.
 
-
 ## Atom
 
 [![Atom](https://avatars2.githubusercontent.com/u/1089146?s=200&v=4)](https://atom.io/)
@@ -67,12 +67,9 @@ For the nerds, for example, it has full support for LaTeX and all the typesettin
 
 Here's a [post that details a full plain-text academic workflow with Atom](http://u.arizona.edu/~selisker/post/workflow/).
 
-
-
 For the poets, it can be a gorgeous and focused writing environment with infinitely more flexibility than Word. Here's [a post that describes how one creative writer uses Atom](https://8bitbuddhism.com/2017/12/29/a-novel-approach-to-writing-with-atom-and-markdown/). The [Zen package](https://atom.io/packages/Zen) alone should entice you Hemingway types, but also take a look at the writing assistance tools detailed in previous hyperlink or the hyperlink in the next paragraph.
 
 For me, the coolest thing is that I can have [one central hub](https://medium.com/@sroberts/how-i-atom-12988bce8fce) to do it all, with very little need for Word. If I use Atom to push things to GitHub, it also nearly replaces Google Docs for keeping everything safely in the cloud (caveat for the latter:as long as I don't mind making my work public).
-
 
 ## Markdown
 [![Markdown](https://github.com/dcurtis/markdown-mark/blob/master/png/208x128.png?raw=true)](https://daringfireball.net/projects/markdown/)
@@ -115,6 +112,35 @@ Alt-H1
 
 Pretty cool, eh?
 
+## OK, so what do you _actually_ do?
+
+- Install all the stuff from one of the Jekyll how-tos mentioned above, follow one of the guides to set up GitHub pages, Travis CI, and your local jekyll environment.
+- Open a new `.md` file in your favorite text editor.
+- Insert something like this at the top:
+
+```
+---
+layout: post
+title: "On the tools used to make this website"
+toc: false #table of contents
+categories:
+  - technical
+tags:
+  - jekyll
+  - markdown
+  - atom
+  - hosting
+  - static web
+  - blog
+  - technical
+---
+
+```
+
+- Write all your stuff using Markdown syntax.
+- Commit your changes to GitHub
+- Wait for Travis CI to build, fix any errors (for example, you might need to delete the `BUNDLED WITH` lines in the gemfile.lock). 
+- Check out your new post!
 
 ## Wishlist/possibilities
 

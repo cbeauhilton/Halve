@@ -1,26 +1,30 @@
 ---
 layout: post
 title: "Python, Write My Paper"
-toc: true
+toc: false
 image: /images/unsplash-grey-flowerbuds.jpg
 categories:
   - AI for MDs
 tags:
   - coding
   - python
+  - fstring
   - laziness
-  - tableone
 ---
 
 ![laziness is prioritization]({{ site.url }}/images/pixabay-lazy-1.png){:class="img-responsive"}
 
-Computers are good at doing tedious things.[^1] Many of the early advances in computing were accomplished to help people do tedious things they didn't want to do, like the million tiny equations that make up a calculus problem.[^2] It has also been said, and repeated, and I agree, that one of the three virtues of a good programmer is laziness.[^3] One of the most tedious parts of my job is writing paragraphs containing the results of lots of math relating to some biomedical research project. To make this way easier, I use a core Python utility called the `f-string`, in addition to some other tools I may write about at a later date.[^4]
+Computers are good at doing tedious things.[^1]
+
+Many of the early advances in computing were accomplished to help people do tedious things they didn't want to do, like the million tiny equations that make up a calculus problem.[^2] It has also been said, and repeated, and I agree, that one of the three virtues of a good programmer is laziness.[^3]
+
+One of the most tedious parts of my job is writing paragraphs containing the results of lots of math relating to some biomedical research project. To make this way easier, I use a core Python utility called the `f-string`, in addition to some other tools I may write about at a later date.[^4]
 
 ## The problem
 
 First, here's an example of the kinds of sentences that are tedious to type out, error prone, and have to be fixed every time something changes on the back end (--> more tedium, more room for errors).
 
-"In the study period there were 1,485,880 hospitalizations for 708,089 unique patients, 439,696 (62%) of whom had only one hospitalization recorded. 
+"In the study period there were 1,485,880 hospitalizations for 708,089 unique patients, 439,696 (62%) of whom had only one hospitalization recorded.
 The median number of hospitalizations per patient was 1 (range 1-176, [1.0 , 2.0])."
 
 The first paragraph of a results section of a typical medical paper is chock-full of this stuff. If we find an error in how we calculated any of this, or find that there was a mistake in the database that needs fixing (and this happens woefully often), all of the numbers need replaced. It's a pain.
@@ -42,8 +46,6 @@ In most programming languages, "string" means "text, not code or numbers." So an
 
 Here's an example:
 
-
-
 ```python
 name_of_word_block = f"""Some words with some {code} we want Python to evaluate,
 maybe with some extra formatting thrown in for fun,
@@ -54,14 +56,14 @@ or a conversion from a decimal to a percentage and get rid of everything after t
 {some_number_divided_by/some_other_number*100:.0f}%)."""
 ```
 
-First, declare the name of the block of words. Then write an `f`, which will tell Python we want it to insert the results of some code into the following string, which we start and end with single or triple quotes (triple quotes let you break strings into multiple lines). 
+First, declare the name of the block of words. Then write an `f`, which will tell Python we want it to insert the results of some code into the following string, which we start and end with single or triple quotes (triple quotes let you break strings into multiple lines).
 Add in the code within curly brackets, `{code}`, add some optional formatting after a colon, `{code:formatting_options}`, and prosper.
 
 As you can see from the last clause, you can do additional math or any operation you want within the `{code}` block. I typically like to do the math outside of the strings to keep them cleaner looking, but for simple stuff it can be nice to just throw the math in the f-string itself.
 
-Here's the actual code I used to make those first two sentences from earlier. First the example again, then the math, then the f-strings.[^7] 
+Here's the actual code I used to make those first two sentences from earlier. First the example again, then the math, then the f-strings.[^7]
 
-"In the study period there were 1,485,880 hospitalizations for 708,089 unique patients, 439,696 (62%) of whom had only one hospitalization recorded. 
+"In the study period there were 1,485,880 hospitalizations for 708,089 unique patients, 439,696 (62%) of whom had only one hospitalization recorded.
 The median number of hospitalizations per patient was 1 (range 1-176, [1.0 , 2.0])."
 
 ```python
@@ -88,7 +90,7 @@ with open(results_text_file, "w") as text_file:
     print(paragraph01, file=text_file)
 ```
 
-To automatically include the text file in your document, you'll have to figure out some tool appropriate to your writing environment. I think there's a way to source text files in Microsoft Word, though I'm less familiar with Word than other document preparation tools such as LaTeX. If you know how to do it in Word, let me know (or I'll look into it and update this post). 
+To automatically include the text file in your document, you'll have to figure out some tool appropriate to your writing environment. I think there's a way to source text files in Microsoft Word, though I'm less familiar with Word than other document preparation tools such as LaTeX. If you know how to do it in Word, let me know (or I'll look into it and update this post).
 
 Here's how to do it in LaTeX. Just put `\input` and the path to your text file at the appropriate place in your document:[^6]
 
@@ -96,7 +98,7 @@ Here's how to do it in LaTeX. Just put `\input` and the path to your text file a
 \input{"results_paragraphs_latex.txt"}
 ```
 
-With this workflow, I can run the entire analysis, have all the mathy bits translated into paragraphs that include the right numbers, and have those paragraphs inserted into my text in the right spots. 
+With this workflow, I can run the entire analysis, have all the mathy bits translated into paragraphs that include the right numbers, and have those paragraphs inserted into my text in the right spots.
 
 I should note that there are other ways to do this. There are ways of weaving actual Python and R code into LaTeX documents, and RMarkdown is a cool way of using the simple syntax of Markdown with input from R. I like the modular approach outlined here, as it lets me just tag on a bit to the end of the Python code I was writing anyway, and integrate it into the LaTeX I was writing anyway. I plan to use this approach for the foreseeable future, but if you have strong arguments for why I should switch to another method, I would love to hear it, especially if it might better suit my laziness.
 
