@@ -97,6 +97,8 @@ With this workflow, I can run the entire analysis, have all the mathy bits trans
 
 I should note that there are other ways to do this. There are ways of weaving actual Python and R code into LaTeX documents, and RMarkdown is a cool way of using the simple syntax of Markdown with input from R. I like the modular approach outlined here, as it lets me just tag on a bit to the end of the Python code I was writing anyway, and integrate it into the LaTeX I was writing anyway. I plan to use this approach for the foreseeable future, but if you have strong arguments for why I should switch to another method, I would love to hear it, especially if it might better suit my laziness.
 
+Addendum: As I was writing this, I found a similar treatment of the same subject. It's great, with examples in R and Python. [Check it out](https://jabranham.com/blog/2018/05/reporting-statistics-in-latex/).
+
 [^1]: _Automate the Boring Stuff_ by Al Sweigart is a great introduction to programming in general, and is available for free as a [hypertext book](https://automatetheboringstuff.com/). It teaches exactly what its name denotes, in an interactive and easy-to-understand combination of code and explanation.
 
 [^2]: I'm revisiting [Walter Isaacson's _The Innovators"](https://en.wikipedia.org/wiki/The_Innovators_(book)), which I first listened to before I got deeply into programming, and on this go-through I am vibing much harder with the repeated (and repeated) (and again repeated) impetus for building the first and subsequent computing machines: tedious things are tedious.
