@@ -12,8 +12,6 @@ tags:
   - tableone
 ---
 
-# Introduction
-
 ![laziness is prioritization]({{ site.url }}/images/pixabay-lazy-1.png){:class="img-responsive"}
 
 Computers are good at doing tedious things.[^1] Many of the early advances in computing were accomplished to help people do tedious things they didn't want to do, like the million tiny equations that make up a calculus problem.[^2] It has also been said, and repeated, and I agree, that one of the three virtues of a good programmer is laziness.[^3] One of the most tedious parts of my job is writing paragraphs containing the results of lots of math relating to some biomedical research project. To make this way easier, I use a core Python utility called the `f-string`, in addition to some other tools I may write about at a later date.[^4]
