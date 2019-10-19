@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'sass-rails'
 gem "rake" # We'll need rake to build our site in TravisCI
 gem 'jekyll'
 gem 'jekyll-sitemap'
