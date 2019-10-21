@@ -16,7 +16,7 @@ Here are some I find useful, and some I've found useful in the past.
 
 ## Extensions I Have Installed Right Now
 
-### Vimium
+### [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 
 Navigating a modern web browser is usually done with a mouse or a finger/stylus.
 I like to use the keyboard as much as possible.
@@ -38,7 +38,7 @@ Some examples:
 - `x` closes a tab.
 - `gt` Goes to the next Tab. `gT` Goes to the previous tab (think of this as `g-shift-t` and it's intuitive).
 
-### ColorPick Eyedropper
+### [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en)
 
 The ability to grab an exact color from a webpage (or PDF) is very useful.
 Maybe you are preparing a presentation and would like to/are forced to use a particular color palette from your institution, or the institution you will be presenting at.
@@ -50,7 +50,7 @@ ColorPick Eyedropper is an extension that gives you a crosshair you can place on
 that will give you the code for that color in whichever format you need
 (hex code, RGB, etc.).
 
-### Loom
+### [Loom](https://www.loom.com/)
 
 Loom is free video recording software that can run in Chrome or on a desktop app.
 It's great for simple screencasts, which is all most of us need to get some idea across.
@@ -67,7 +67,7 @@ as long as you have a machine modern enough to run Chrome,
 and your admin have at least allowed Chrome on the machine.
 
 
-### Poll Everywhere for Google Slides
+### [Poll Everywhere for Google Slides](https://www.polleverywhere.com/app/google-slides/chrome)
 
 PollEv is awesome for audience participation in Google Slide presentations.
 You have to have the extension installed for it to work.
@@ -102,13 +102,13 @@ showing you how you could have done that with a keyboard shortcut.
 
 When you stop getting so many popups, you have become proficient with the shortcuts. At some point, you deactivate the extension and bid it a fond adieu.
 
-### Librarian for arXiv
+### [Librarian for arXiv](https://blogs.cornell.edu/arxiv/2017/09/28/arxiv-developer-spotlight-librarian-from-fermats-library/)
 
 arXiv.org is a great resource for finding and disseminating
 research, particularly in computational sciences and related areas.
 Librarian is an extension that makes getting the citations and references very easy.
 
-### Unsplash Instant
+### [Unsplash Instant](https://chrome.google.com/webstore/detail/unsplash-instant/pejkokffkapolfffcgbmdmhdelanoaih?hl=en)
 
 This replaces your new tab screen with a randomly chosen image from Unsplash.
 Unsplash.com is a wonderful resource for freely usable, gorgeous images.
@@ -119,7 +119,7 @@ P.S. Most of the splash images on my website are from Unsplash (e.g. the one at 
 
 I might just reactivate this extension. I'm not sure why I deactivated it.
 
-### Markdown Viewer
+### [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=en)
 
 I think it is clear that I love Markdown.
 Markdown Viewer is an extension that allows you to preview
@@ -132,11 +132,11 @@ P.S. I turned it back on. It's awesome.
 
 ### Others...
 
-This are just the ones I had disabled, but not uninstalled.
+These are just the ones I had disabled, but not uninstalled.
 I know I've used others, and I'm sure many of them were cool.
 My laziness at the moment is such that I'm not going to go digging around.
 
 ## What about you?
 
-Do you have extensions you know and love?
+Do you have extensions you know and love, or have known and loved?
 Let me know, and I'll check them out.
