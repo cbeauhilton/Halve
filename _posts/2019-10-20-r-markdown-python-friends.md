@@ -2,7 +2,7 @@
 layout: post
 title: "R Markdown, Python, and friends: write my paper"
 toc: true
-image: https://upload.wikimedia.org/wikipedia/commons/3/31/Vi_source_code_join_line_logic.png
+image: https://source.unsplash.com/OfMq2hIbWMQ
 categories:
   - AI for MDs
 tags:
