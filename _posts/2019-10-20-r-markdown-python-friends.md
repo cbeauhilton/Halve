@@ -14,6 +14,7 @@ tags:
   - Markdown
   - "academic writing"
 ---
+
 # R Markdown is my spirit animal
 
 In a [previous post]({% post_url 2019-06-10-python-write-my-paper %}) I talked about how easy it is, if you're already doing your own stats anyway in some research project, to have a Python script output paragraphs with all the stats written out and updated for you to add into your paper.
