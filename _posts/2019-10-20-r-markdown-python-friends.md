@@ -2,7 +2,7 @@
 layout: post
 title: "R Markdown, Python, and friends: write my paper"
 toc: true
-image: https://en.wikipedia.org/wiki/Vi#/media/File:Vi_source_code_join_line_logic.png
+image: https://upload.wikimedia.org/wikipedia/commons/3/31/Vi_source_code_join_line_logic.png
 categories:
   - AI for MDs
 tags:
@@ -41,7 +41,7 @@ Though I was at first resistant to learning about R Markdown, mostly because I a
 
 # Writing code
 R Markdown, as the name implies, can also run R code.
-Any analysis you can dream of in R can be seamlessly included in your document, and you can choose whether you want to show the code and its output, the output alone, or the code alone.
+Any analysis you can dream of in R can be included in your document, and you can choose whether you want to show the code and its output, the output alone, or the code alone.
 People will think you went through all the work of making that figure, editing it in PowerPoint, screenshotting it to a .png, then dropping that .png file into your manuscript, but the truth is...
 you scripted all of that, so the manuscript itself made the .png and included it where it needed to go.
 
