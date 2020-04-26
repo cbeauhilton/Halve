@@ -209,7 +209,12 @@ Summary: Tons of alphabet soup. Most of us will focus on R01 and ways to get to 
     - One problem with overambitious aims: the reviewers will know that you probably have no idea how long it takes to actually [establish an animal model, recruit patients, build the software, etc.] and you are seen as not having sufficient experience
     - Aims complementary but not conditional
     - Generate useful data whether or not your hypothesis is confirmed
-    - **check out the sample R01s from the NIAID** - the link in the book is old, but here's a PDF of the Wahlby grant applicaiton they mention (Image analysis for C elegans) - [Wahlby](https://emergencymed.arizona.edu/sites/emergencymed.arizona.edu/files/sample_nih_proposal_4.pdf), cool for me bc it's fairly ML/AI, and here's the Ratner application, notable for using a schema to communicate the experimental flow - [Ratner](https://www.niaid.nih.gov/sites/default/files/ratnerfull.pdf). 
+    - **check out the sample R01s from the NIAID** - the link in the book is old, but here's a PDF of the Wahlby grant applicaiton they mention (Image analysis for C elegans) - [Wahlby](https://emergencymed.arizona.edu/sites/emergencymed.arizona.edu/files/sample_nih_proposal_4.pdf), cool for me bc it's fairly ML/AI, and here's the Ratner application, notable for using a schema to communicate the experimental flow - [Ratner](https://www.niaid.nih.gov/sites/default/files/ratnerfull.pdf). Because these were kind of hard to find, I put copies at the following links:
+    - [Ratner PDF](/assets/pdf/ratnerNIHproposal.pdf)
+    - [Wahlby PDF](/assets/pdf/wahlbyNIHproposal.pdf)
     - ![pic](/images/ratneraims.png)
-    - ![ratnerPDF](/assets/pdf/ratnerNIHproposal.pdf)
-    - ![wahlbyPDF](/assets/pdf/wahlbyNIHproposal.pdf)
+    - Can also conclude with a paragraph "Overall Impact" summarizing what you'd like the reviewer to use as the take-home message in their presentation. "..what will be possible after your research has been completed that is not possible or known now."
+- On approach:
+    - modular approach based on aims
+        - briefly restate rationale and hypothesis, integrate relevant prelim data, summarize design and individual experiments, conclude with analysis, interpretation of results, potential problems, alternative approaches.
+        - Consider an illustration
