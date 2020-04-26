@@ -1,0 +1,215 @@
+---
+layout: post
+title: "Notes on the book 'How the NIH Can Help You Get Funded'"
+toc: true
+image: https://source.unsplash.com/OfMq2hIbWMQ
+tags:
+  - "physician-scientist"
+  - "academic writing"
+  - funding
+  - "career development"
+---
+
+# How the NIH Can Help You Get Funded
+
+[Mike Becich](https://www.dbmi.pitt.edu/person/michael-j-becich-md-phd) is a wonderful researcher and entrepreneur, and chairman of the Department of Biomedical Informatics at the University of Pittsburgh. I met him on the residency and fellowship interview trail, and, among other things, we talked about grant strategy and how to build a career doing research in biomedical machine learning/informatics/data science/etc. He was kind enough to give me a copy of the book <ins>How the NIH Can Help You Get Funded</ins>, which is exactly what it sounds like: a how-to and strategy book for academic research scientists, most of whom depend on funding from the National Institutes of Health to support their work and salaries. The book is a publication of [Oxford University Press](https://global.oup.com/academic/product/how-the-nih-can-help-you-get-funded-9780199989645?cc=us&lang=en&) and also available from [Amazon](https://www.amazon.com/How-NIH-Can-Help-Funded/dp/0199989648).
+
+These are my notes from and synthesis of this book. The synthesis was made by going through my notes and extracting things I thought were key and may be useful for quick review; the full notes I took as I was reading are copied below that.
+
+If you notice any mistakes, misconceptions, or flatout wrongheadedness, please shoot me an email. Also, though the general outline of how the NIH works is fairly stable, specifics change from year to year and this book, as with almost every book of its genre, was outdated upon publication. It will be at least a few years before I apply for funding, at which point an even larger number of specific details will be out of date, so what I am looking for is general strategy and key history.
+
+# Synthesis
+
+# Notes
+
+## National Institutes of Health
+This chapter provides a background on the NIH.
+- NIH = 27 Institutes and Centers (ICs)
+- began in 1937 with the National Cancer Institute (NCI), then in 1938 cornerstone laid for NIH campus
+- part of executive branch, but Congress authorizes and appropriates funding
+- budget grew ~2x from 1998-2003, but then failed to keep pace with inflation or dropped. This is problematic because ICs would like to plan for multiple years ahead and provide stable commitments to researchers doing important but longer-than-a-year research. The payline (the score and percentile at which grants are funded) is subject to variations in appropriations.
+- budget allocation (rough percents): 80% extramural funding, 11% intramural funding, 5% salaries/admin, 2.5% formal training programs (80+11+5+2.5 = 98.5%)
+- Program Officers (POs) are extramural staff associated with each I/C. The authors make the point first here, and repeatedly throughout the text, that *applicants should contact their PO at each stage of the application, review, and award process*.
+- Office of the Director: coolest thing here is the Office of Strategic Coordination's Common Fund Programs, including the NIH Director awards. These fund cross-cutting, high-risk, possibly high-yield projects (see [here](https://commonfund.nih.gov/highlights) for current highlights), touting the program as the "venture capital" space within the NIH. Some of the data science-y stuff funded by the NIH was/is via the Common Fund, e.g. development of a [data commons](https://grants.nih.gov/grants/guide/notice-files/NOT-RM-17-031.html). The language is purposefully obtuse, matching the tone of Silicon Valley VC, as I think it has to be when they are looking for (again, purposefully) underspecified opportunity to fund interesting work that doesn't quite fall under any IC purview but has potential to be generally useful.
+- A "grant" is different than a loan, contract, or cooperative agreement. The idea is for the IC to determine if your proposed project fits within their strategic plan to have "significant and lasting impact on the field and public health," and then they get out of the way to let you carry out your plan as you see fit, and evaluate your productivity and promise as you apply for renewals, etc.
+    - This jives with what I learned early on in anthropological/ethnomusicological research: it is widely understood that everything might (will) change when you get in the field, but funding and approval bodies need to see evidence of innovation, possible impact, and careful thought before they hand out money and rubber stamps. You then have freedom to do your work as best you know how, and react to unexpected realities as you see fit.
+    - Contracts are for specific needs (e.g. developing an animal model, operating a facility); cooperative agreements are similar to grants but involve substantial "scientific or programmatic" involvement from the federal government (i.e. they are less independent).
+- At this point, the rest of the book is summarized and a timeline is given. The timeline is a concordance of the timelines of Congress, the ICs, the principle investigator (PI), and the standard funding opportunity announcements.
+
+## Institutes and Centers
+- More on the program officer (PO).
+    - POs often were investigators in the field, and have a deep interest in its success.
+    - They see the PIs as "their investigators"
+    - It's ok and encouraged to contact POs in the several ICs that might cover your work, and work with them to determine strategy at every key point along the way
+    - ICs are differents, and POs are different, so don't expect your friend's experience to necessarily match your own
+- Advisory Councils
+    - main job is to determine how well the proposed research fits with the mission of the IC, and if the scientific review was adequate. They don't say much about the scientific merit of a project, as that is the job of the review.
+    - also review concepts for future initiatives, and *cleared concepts* are the fodder for Requests for Applications - keep the pulse on cleared concepts, and you can get a head start on preparing your applications
+- ICs
+    - a list of each IC and key data is presented. Some notes on ideas I found interesting:
+        - Love this sentence on clinical vs. basic science research "The NHLBI believes all the clinical research should have some return on investment, unlike basic science research, which should be designed to explore, not build, and in which return decades later is not uncommon." For one recent example, the Shapley value was developed in the 1950s-60s, but was too computationally expensive for all but rather restricted use, and now undergirds some of the most important paradigms in explainable machine learning systems (SHAP was published in 2017, IIRC). I think we have an uneasy relationship with this concept, that basic and theoretical researchers should essentially be encouraged to play, and play their best, knowing full well that much of the research will never be particularly useful, that some of what will be useful will not be useful for decades, and that it is very, very difficult to determine beforehand which is which. The embrace of intellectual freedom and creativity always butts up against funding constraints, and people want ROI.
+        - NCI R01 success rates financial year 2012: 12.5% for new, 29.4% for renewals, 11.8% for supplement.
+        - NHLBI R01 success rates in financial year 2012: 13% for new, 25.4% for renewal, 33.3% for supplement.
+
+## Center for Scientific Review and the Peer Review Process
+- "Scientific review groups" is the official name for the colloquially known "study sections"
+- Some alphabet soup decoded:
+    - P - program project/center
+    - U - cooperative agreement
+    - T - training
+    - K - career development
+    - N - contracts
+    - F - fellowship
+- How to get your application rejected quickly:
+    - Don't have a cover letter from the IC approving the submission if your budget exceeds $500,000 direct costs in any 1 year
+    - Don't comply with the formatting restrictions
+    - Have the wrong budget type (modular vs. detailed, depending if >/< $250k)
+    - Ignore specific requirements for your application type
+    - Fail to pass the sniff test for A2 applications (revision of an unfunded A1) - apparently they use a combination of NLP and a manual review process to find out if you're just swinging away without changing bats
+- A0/A1/A2
+    - A0 - first/new application
+    - A1 - first revised/amended application
+    - A2 - second revised application, no longer allowed (max attempts = A1)
+    - To convert A2 to A0:
+        - 2/3 of aims must be new
+        - research plan must be substantively changed
+        - OR submit under new mechanism OR in response to an RFA (request for applications) if it happens to match your science
+- Application ID number decoded:
+    - Ex: 1R01 CA1234567-01 A1; 5R01 GM000091-62
+    - First example: New (type I) R01, in the NCI (CA), number 1234567, first year of funding (01), first amendment (A1)
+    - Type 1: new; Type 2: competing renewal; Type 3: competitive supplement; Type 5: noncompetitive supplement
+    - Second example: Noncompeting renewal (type 5) RO1, in the National Institute of General Medical Sciences (NIGMS, abbrev GM here), number 91, in the 62nd year of funding. Cool example - was for the "Structure and Function of Enzymes---Role of Metals." Zinc fingers ftw?!
+- Study section assignment tip: almost always go with the one they give you, not necessarily the one you wanted. Their interest is in getting you a good review, and know the ins and outs likely better than the individual PI.
+- Check the [CSR](https://public.csr.nih.gov/StudySections) website and [RePORTER](https://projectreporter.nih.gov/) to find out which study groups have which interests.
+    - The CSR website gives more granular details on the study section topics, RePORTER gives results and other data, so CSR -> RePORTER is the usual workflow (though I could imagine reasons for RePORTER -> CSR)
+- Also ask your program officer, mentors, and colleagues which study sections you should target.
+- **Think about your study sections at the outset**
+    - If your audience is specific, you can save space and write directly to their knowledge and interests.
+    - This extends all the way to: know their names and what they've published, and create your steel-man arguments (and a little [Carnegie-esque](https://creativesamba.substack.com/p/feeding-the-baby-rabbits) baby rabbit/Edgar Thomson Steel Works action) by citing their work.
+    - Also make sure your work gets in front of them and stuck in their heads with some "presuasion" techniques: present at the conferences they are at, invite them to your seminar series, get their take on what is important in their field now and going forward. Just don't bring up any specific proposals (i.e. don't break the rules, but feel free to water the field).
+- **Hours spent in different parts of the review process** (this is huge):
+    - You spent: 100s of hours
+    - Primary reviewer spends: several hours
+    - Secondary reviewer: less than primary reviewer
+    - Unassigned panel members: zero hours to a few minutes (maybe read abstract and specific aims)
+    - Panel discussion: 10-15 minutes
+    - SO be kind, it's an elevator pitch not a thesis. ?Read [Brief](https://thebrieflab.com/book_brief/) again?
+
+## Getting at Mechanism
+Aha! This is part of why I picked this book. I've always been curious about the specific mxns the NIH uses, and when to use which.
+- R01
+    - ~1/2 of extramural NIH funding is R01
+    - up to 5y length - average length mandated to be 4y, and new and early stage applicants more likely to get 5y award
+        - when you are no longer early or new, then proposing work with shorter time frames is a bit sexier and more likely to get funded
+    - renewable
+    - favors early state investigators (reviewed in their own group, also can reapply within the same funding cycle)
+- R21
+    - "starter" grant
+    - success rate actually lower than R01, d/t large number of increased applications
+    - NIH recommends that the R21 *not* be used as an entry for junior investigators, because:
+        - cannot be renewed
+        - generally limited to ~$275k over 2y
+        - no payline break for new or early applicants
+    - kinda seems like one to avoid, overall - what are the upsides? Not clear from this reading.
+- R03
+    - "Small research grant"
+    - $50k per year for 2y, nonrenewable
+    - time limited, focused - e.g. collect pilot data, perform data analysis, develop assay or model
+    - sometimes limited to K awardees and new investigators
+    - sometimes used to respond to reviewer concerns for R21s, so it would be a (long path) R21 application -> R03 application -> R03 award -> R01 application and award
+- R13
+    - Conference awards, supports specific costs, usually less than $20k (???)
+    - Needs letter from IC R13 PO
+    - 60% success rate
+-  R15
+    - Academic Research Enhancement Award (AREA)
+    - Limited to academic components w/in institutions with < $6m in funding from >=4 of the past 7y. 
+    - $300k direct costs over 3y, renewable
+    - Seems like a mini-R01 for early researchers at underfunded/newer programs
+- R33
+    - 4 offered per year.
+    - Phase II for successful R21.
+    - Often solicited by funding opportunity announcements and ICs.
+    - Milestone driven (must be quantifiable) w/ Gantt chart or similar timeline
+- R34
+    - Clinical Trial Planning Grant (phase III trials)
+    - E.g. data collection tools, manuals, recruitment strategies, data sharing and multiple IRB submissions if multisite, also pilot studies
+
+Small business grants
+- Small Business Innovation Research (SBIR) R41 and R42
+    - >=40% of the work performed by small business, >=30% by a nonprofit research institution, rest either split or include a third party
+- Small business Technology Transfer (STTR), R43
+    - Primary PI primarily employed by small business. >=67% of the work performed by small business if phase I, >=50% if phase II.
+
+P grants
+- Program projects (P01) or Center (P20, P30, P50, P60) 
+- Themes that would benefit from collaboration, and would be unlikely to be successful otherwise
+- Emphasis on supporting new and nontraditional researchers
+- Could be basic or have a clinical component
+- Need a large number of R01 and other awards to justify, and if you are interested in starting one of these work closely with the PO
+
+K awards
+- Career Development Awards
+- Setup:
+    - Award is both for the work itself (e.g. specific aims) and to prepare the investigator for R01, so write it this way - emphasize how the training and mentorship will not only make the project more likely to succeed, but will also set you up for a successful career in your field
+    - This sounds a lot like the ASH awards, with similar strategies:
+        - make sure your primary advisor is going to be an actual advisor, not just a big name on the proposal (the reviewers will probably know if this is the case, and you would be seemingly paradoxically less likely to get the award)
+        - go ahead and have that big name as a secondary advisor/part of an advisory panel, and use their expertise to get a broad view of the field and how to succeed in it (if they have time for specific mentoring, gravy)
+        - write in the first person, about *your* career goals and accomplishments thus far
+        - start the Candidate section with your long-term goals, to frame the conversation and show the reviewers that you are going somewhere
+        - acknowledge your gaps and show how the K award will help you fill them - if you have no major gaps, go for the R01, not the K
+        - have great letters from your mentor and advisory team, that you participate in writing, showing a personalized recommendation and plan, and the qualifications of the mentor(s). Make sure the details in the letters all jive. 
+    - Have some first author papers, to the extent possible (reviewers are understanding if you are a clinical scientist and stuff takes forever to get to the manuscript phase)
+    - A collection of poster presentations that never -> manuscript is a bad look
+    - Review papers are +/- helpful, depends on the journal, but might be useful to show commitment to and understanding of the field
+- The grant itself:
+    - Less is more, be ambitious and innovative but realistic about what can be accomplished in the time frame
+- All the Ks:
+    - Different ICs use the same codes for different things, so check the K Kiosk at the NIH website.
+    - But generally:
+        - K08, K23, K24: applicants with clinical degrees
+        - K01, K02: basic scientists
+        - K01, K08, K23, K25: junior investigators
+        - K02, K05, K18, K24: established investigators
+        - K22, K99/R00 (kangaroo!): postdocs (also needs academic appt during award, and need to submit R01 before end of 2nd year of the 3y award). K99 while a postdoc, then R00 activated when faculty appt received
+        - K12: clinical research career dev, established PI submits application to NIH then trainees compete for slots. Coupled with intensive training and resources (similar to the PSTP programs, with biostats support, grant-writing committees and extensive pre-review, etc.)
+        - KL2: similar to K12, Clinical and Translational Science Award (CSTA)
+
+F and T awards
+- F: fellowship, T: training
+- Like Ks, but required to pay back 1y of support through research and teaching (not patient care). 
+- Can be obtained predoctoral (e.g. MD-PhDs in training - up to 6y) or postdoctoral - up to 3y. 
+  
+Summary: Tons of alphabet soup. Most of us will focus on R01 and ways to get to R01 (K,F,T, maybe R21/R03). For more specific stuff, it's always changing anyway, so look it up and talk to your PO.
+
+## Telling Your Story Well
+- Specific Aims may be the only page everyone reads, and then likely cursorily, so grab attention and cut the cruft
+- One way to cut the cruft: know your audience, give only the background that is absolutely necessary and unlikely to be known/agreed upon by all
+- The reviewer is going to be writing bullet points for the summary statement - make this easy for them, do all the work so they don't have to
+- How important, relatively, are the sections of the report?
+- Table 8.1 gives the correlation coefficients bw overall impact score and 5 criterion scores for 2010. The ones that are likely to be of most interest to me:
+
+| Institute 	| Approach 	| Significance 	| Innovation 	| Investigator 	| Environment 	| N    	|
+| -----------	 | ----------	 | --------------	 | ------------	 | --------------	 | -------------	 | ------	 |
+| NCI              | 0.80             | 0.67             | 0.59             | 0.53             | 0.45             | 5396     |
+| NHLBI            | 0.82             | 0.67             | 0.64             | 0.56             | 0.48             | 3157     |
+
+- So Approach is most correlative, then Significance. In other words, it appears that the way you are doing something is the most important thing (though note that every part of the score is indeed part of the score). 
+- On specific aims:
+    - write it first, and rewrite it often
+    - Should address: 
+        - why the work is important
+        - why are you the one to solve it
+        - what problems you will solve
+        - how you will do so
+        - what the impact will be
+    - Send a bare-bones version to the PO and colleagues, and take note of the questions they ask
+    - Narrative order (pretty standard): 1. significance of problem, +/- prior contributions of author if available, 2. your take on the problem, lead the reviewer to your hypothesis and approach by integrating prior work and prelim data, 3. hypothesis and overall approach
+    - Picture/diagram/table: can be very useful, but don't just repeat the text, and don't make it harder to understand than just reading the proposal.
+    - One problem with overambitious aims: the reviewers will know that you probably have no idea how long it takes to actually [establish an animal model, recruit patients, build the software, etc.] and you are seen as not having sufficient experience
+    - Aims complementary but not conditional
+    - Generate useful data whether or not your hypothesis is confirmed
+    - **check out the sample R01s from the NIAID** - the link in the book is old, but here's a PDF of the Wahlby grant applicaiton they mention (Image analysis for C elegans) - [Wahlby](https://emergencymed.arizona.edu/sites/emergencymed.arizona.edu/files/sample_nih_proposal_4.pdf), cool for me bc it's fairly ML/AI, and here's the Ratner application, notable for using a schema to communicate the experimental flow - [Ratner](https://www.niaid.nih.gov/sites/default/files/ratnerfull.pdf). 
+    - ![pic](/images/ratneraims.png)
+    - ![ratnerPDF](/assets/pdf/ratnerNIHproposal.pdf)
+    - ![wahlbyPDF](/assets/pdf/wahlbyNIHproposal.pdf)
