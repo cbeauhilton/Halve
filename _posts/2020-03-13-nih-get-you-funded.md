@@ -258,46 +258,51 @@ Summary: Tons of alphabet soup. Most of us will focus on R01 and ways to get to 
         - Use bullets and indentations to delineate comments and responses
         - *brief* appreciative acknowledgement, then get to the meat (obsequiousness is ugly)
         - make sure you are addressing the actual concerns, run it by your PO and friends
+
 - other sections
     - Protection of Research Subjects is another area in which your goal is to comfort the reviewers, assure them you know what you're doing (i.e. a great PoRS is unlikely to get you a top score, but a bad one is a red flag).
         -   included in this is your sample size calculation - if not done, or done poorly, will reflect poorly. Biostatisticians are your friends, and will be on the review committees.
     - Make each biosketch support the overall narrative. Don't copypasta. Seems that the PI (me) should be willing to write/rewrite others' biosketches for jiviness, and send for approval (a la letters of support)
     - Budgets either modular (module = $25k) or detailed. Detailed if project >$250k, involves foreign institutions, or is one of a few specific mxns that always require it
         - a too-low budget is also often a sign that you don't know what you're doing
+
 - on writing in general
     - Use language from the criteria in your section subheadings to make it easy for your reviewers - imagine they have a list of checkboxes they are going through. It's much better to not be creative here, so they can find what they are looking for
     - Think pagewise: what 2-3 points should no one miss on this page? Consider (sparing) use of bold, italic, etc., but favor white space and emphasis by subtraction.
     - q: which fonts *does* the NIH allow?
     - page 123: nice list of how to structure writing for max impact (i.e. use psychological principles: make the first word the subject if possible, put the impactful thing at the end of the sentence, build schema through introductory and summary sentences, etc.)
     - writing in first person is often less wordy and creates more excitement, buy-in, so use it! (I know there's some difference of opinion on this one, but I'm into bringing personality back to academic and scientific writing, so count me in)
-    - omit needless words. Use modifiers if they have meaning (e.g. "weakly fluorescent")
+    - omit needless words. Use modifiers if they have meaning (e.g. "weakly fluorescent").
     - Don't say your work is "innovative." Show it. OK to use the word "novel" in the strictly technical sense, but even then use sparingly.
 
-- "Getting by with a Little Help from Your Friends"
+## "Getting by with a Little Help from Your Friends"
     - Homework for talking to your PO: NIH Guide, target IC website, RePORTER. Remember they are not only a go-between, but an advocate.
     - Know when your PO truly can't tell you anything - wait for your summary statement (not just percentile/score) before asking for revision advice, then notice of award
     - write so that an educated friend could get through your narrative in <1h, ideally less, certainly not more
     - might be nice to go through all these notes, quick runthrough of the book again, to pull out all the PO-related tips
 
-- Before and after Your Study Section Meets
+## Before and after Your Study Section Meets
     - Cleared Concepts are available either on dedicated websites or in the Council Minutes (might be a good target for a webscrape - are these minutes in plaintext or PDF?)
 
-- Is the Check in the Mail?
+## Is the Check in the Mail?
     - Proportion of applications discussed: NCI 55.6% of grant applications, 46.6% career development applications. NHLBI 57.6% grants, 65.9% career dev. Also, these two are the big dogs in terms of pure number of grants reviewed - the Appendix in this book has nice summaries of all the ICs, would be worth looking into other sources for funding for the type of research I'm into: data science, healthcare disparities, etc.
     - PO is the one who advocates for select pay and pay by exception (see, not just a go-between!)
     - It's ok to let your PO know if you have tenure evaluation or some other time-sensitive career event coming up so they put you on speed dial, but know that there are tons of other PIs also asking for that special treatment
     - Early stage investigators can resubmit 6wk after receipt of summary statement, but make sure it's actually a good idea to do so (how much stronger would the A1 be if you had more prelim data, etc.?)
     - It's a Good Idea to start revising your A0 immediately after you turn it in. It will either help you advance scientifically (the research itself or drafting manuscripts, abstracts) or get you a head start on your A1, or both.
-- The Check is Not in the Mail...
+
+## The Check is Not in the Mail...
     - A1 must be w/in 37mo of A0, but this is too much time. Either the field will have advanced to the point that you need a new A0 to be current, or the field is stagnant and funding is unlikely (though I would submit that there's a slim possibility that the time for the first A0 was a little too early, but you should be reworking it during that time anyway and reevaluating)
     - on long term strategy:
         - see if your work might be of interest to multiple ICs. Example they give is HPV in the context of head and neck cancer - could involve NCI, National Institute of Dental and Craniofacial Research (NIDCR), National Institute of Allergy and Infectious Diseases (NIAID)
         - remember the NIH isn't the only player in the game. DoD, NSF, Agency for Healthcare Research and Quality, etc., etc.
-- The Check is in the Mail, but...
+
+## The Check is in the Mail, but...
     -  Change of Institution - awards are typically tied to you, not your institution, but there is red tape and negotiation (and tact!) necessary when making a move
     - Carryover of funds: if <25% of annual budget, no approval or explanation needed
     - No Cost Extension: usually easy to get, no application, lets you carry funds in the year after the award period, can extend to 2y with approval of PO.
-- Appendix:
+
+## Appendix
     - some interesting organizations to check out, tailored to my interests (webpages in the book, links may be added here at a future date):
         - NCI - Cancer Control and Population Sciences; Cancer Treatment and Diagnosis
         - NHLBI - Blood Diseases and Resources
