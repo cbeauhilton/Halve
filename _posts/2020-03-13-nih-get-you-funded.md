@@ -227,6 +227,7 @@ Summary: Tons of alphabet soup. Most of us will focus on R01 and ways to get to 
     - [Wahlby PDF](/assets/pdf/wahlbyNIHproposal.pdf)
     - ![pic](/images/ratneraims.png)
     - Can also conclude with a paragraph "Overall Impact" summarizing what you'd like the reviewer to use as the take-home message in their presentation. "..what will be possible after your research has been completed that is not possible or known now."
+
 - On approach:
     - modular approach based on aims
         - briefly restate rationale and hypothesis, integrate relevant prelim data, summarize design and individual experiments, conclude with analysis, interpretation of results, potential problems, alternative approaches.
@@ -237,18 +238,18 @@ Summary: Tons of alphabet soup. Most of us will focus on R01 and ways to get to 
     - indicate how you will interpret the data, especially if they are surprising, and what you will do if the data ends up more fuzzy than expected. I wonder if it would be useful to do what Sekeres recommends and mock up the tables and figures beforehand, to make sure you're collecting the right stuff and analyzing it the right way? (especially if you use the Rmd approach that builds on Sekeres', of actually writing the code that makes the figs, and populating them with mock data, to be filled in as the real stuff comes in)
     - Consider the proposed work as part of a 10y plan - for you, and for the reviewers (given that renewing R01 is a thing you will pursue and they will encourage). It's not a single project, but a piece of a career.
 
-- on significance:
+- On significance:
     - Significance assumes your work was successful - will the field substantively change as a result? Why does your project deserve funding?
     - consider splitting into sections: Importance of the Problem, Knowledge to Be Gained/Impact on the Field
     - know your reviewers, and freely cite their papers as appropriate - they probably think their own work is important and impactful, and you want them nodding along in agreement, if not pounding the table with "Amen!"
 
-- on innovation:
+- On innovation:
     - why is your work different and better than the current approaches?
     - methods do not need to be innovative, if their application is likely to yield innovative findings
     - consider splitting into sections: Technical Innovation, Conceptual Innovation
     - another good place for a bullet point, feed the reviewer their line at the meeting
 
-- on the introduction:
+- On the introduction:
     - If it's an A1, first page will be response/rebuttal.
         - Remember the reviewer is always right - tell your friends your visceral reaction, write it down, then shred it, rinse and repeat a few times until you've cooled off.
         - Remember the reviewers that see your rebuttal may be different than the initial reviewers
@@ -259,14 +260,14 @@ Summary: Tons of alphabet soup. Most of us will focus on R01 and ways to get to 
         - *brief* appreciative acknowledgement, then get to the meat (obsequiousness is ugly)
         - make sure you are addressing the actual concerns, run it by your PO and friends
 
-- other sections
+- Other sections
     - Protection of Research Subjects is another area in which your goal is to comfort the reviewers, assure them you know what you're doing (i.e. a great PoRS is unlikely to get you a top score, but a bad one is a red flag).
         -   included in this is your sample size calculation - if not done, or done poorly, will reflect poorly. Biostatisticians are your friends, and will be on the review committees.
     - Make each biosketch support the overall narrative. Don't copypasta. Seems that the PI (me) should be willing to write/rewrite others' biosketches for jiviness, and send for approval (a la letters of support)
     - Budgets either modular (module = $25k) or detailed. Detailed if project >$250k, involves foreign institutions, or is one of a few specific mxns that always require it
         - a too-low budget is also often a sign that you don't know what you're doing
 
-- on writing in general
+- On writing in general
     - Use language from the criteria in your section subheadings to make it easy for your reviewers - imagine they have a list of checkboxes they are going through. It's much better to not be creative here, so they can find what they are looking for
     - Think pagewise: what 2-3 points should no one miss on this page? Consider (sparing) use of bold, italic, etc., but favor white space and emphasis by subtraction.
     - q: which fonts *does* the NIH allow?
@@ -275,39 +276,39 @@ Summary: Tons of alphabet soup. Most of us will focus on R01 and ways to get to 
     - omit needless words. Use modifiers if they have meaning (e.g. "weakly fluorescent").
     - Don't say your work is "innovative." Show it. OK to use the word "novel" in the strictly technical sense, but even then use sparingly.
 
-## "Getting by with a Little Help from Your Friends"
-    - Homework for talking to your PO: NIH Guide, target IC website, RePORTER. Remember they are not only a go-between, but an advocate.
-    - Know when your PO truly can't tell you anything - wait for your summary statement (not just percentile/score) before asking for revision advice, then notice of award
-    - write so that an educated friend could get through your narrative in <1h, ideally less, certainly not more
-    - might be nice to go through all these notes, quick runthrough of the book again, to pull out all the PO-related tips
+## Getting by with a Little Help from Your Friends
+- Homework for talking to your PO: NIH Guide, target IC website, RePORTER. Remember they are not only a go-between, but an advocate.
+- Know when your PO truly can't tell you anything - wait for your summary statement (not just percentile/score) before asking for revision advice, then notice of award
+- write so that an educated friend could get through your narrative in <1h, ideally less, certainly not more
+- might be nice to go through all these notes, quick runthrough of the book again, to pull out all the PO-related tips
 
 ## Before and after Your Study Section Meets
-    - Cleared Concepts are available either on dedicated websites or in the Council Minutes (might be a good target for a webscrape - are these minutes in plaintext or PDF?)
+- Cleared Concepts are available either on dedicated websites or in the Council Minutes (might be a good target for a webscrape - are these minutes in plaintext or PDF?)
 
 ## Is the Check in the Mail?
-    - Proportion of applications discussed: NCI 55.6% of grant applications, 46.6% career development applications. NHLBI 57.6% grants, 65.9% career dev. Also, these two are the big dogs in terms of pure number of grants reviewed - the Appendix in this book has nice summaries of all the ICs, would be worth looking into other sources for funding for the type of research I'm into: data science, healthcare disparities, etc.
-    - PO is the one who advocates for select pay and pay by exception (see, not just a go-between!)
-    - It's ok to let your PO know if you have tenure evaluation or some other time-sensitive career event coming up so they put you on speed dial, but know that there are tons of other PIs also asking for that special treatment
-    - Early stage investigators can resubmit 6wk after receipt of summary statement, but make sure it's actually a good idea to do so (how much stronger would the A1 be if you had more prelim data, etc.?)
-    - It's a Good Idea to start revising your A0 immediately after you turn it in. It will either help you advance scientifically (the research itself or drafting manuscripts, abstracts) or get you a head start on your A1, or both.
+- Proportion of applications discussed: NCI 55.6% of grant applications, 46.6% career development applications. NHLBI 57.6% grants, 65.9% career dev. Also, these two are the big dogs in terms of pure number of grants reviewed - the Appendix in this book has nice summaries of all the ICs, would be worth looking into other sources for funding for the type of research I'm into: data science, healthcare disparities, etc.
+- PO is the one who advocates for select pay and pay by exception (see, not just a go-between!)
+- It's ok to let your PO know if you have tenure evaluation or some other time-sensitive career event coming up so they put you on speed dial, but know that there are tons of other PIs also asking for that special treatment
+- Early stage investigators can resubmit 6wk after receipt of summary statement, but make sure it's actually a good idea to do so (how much stronger would the A1 be if you had more prelim data, etc.?)
+- It's a Good Idea to start revising your A0 immediately after you turn it in. It will either help you advance scientifically (the research itself or drafting manuscripts, abstracts) or get you a head start on your A1, or both.
 
 ## The Check is Not in the Mail...
-    - A1 must be w/in 37mo of A0, but this is too much time. Either the field will have advanced to the point that you need a new A0 to be current, or the field is stagnant and funding is unlikely (though I would submit that there's a slim possibility that the time for the first A0 was a little too early, but you should be reworking it during that time anyway and reevaluating)
-    - on long term strategy:
-        - see if your work might be of interest to multiple ICs. Example they give is HPV in the context of head and neck cancer - could involve NCI, National Institute of Dental and Craniofacial Research (NIDCR), National Institute of Allergy and Infectious Diseases (NIAID)
-        - remember the NIH isn't the only player in the game. DoD, NSF, Agency for Healthcare Research and Quality, etc., etc.
+- A1 must be w/in 37mo of A0, but this is too much time. Either the field will have advanced to the point that you need a new A0 to be current, or the field is stagnant and funding is unlikely (though I would submit that there's a slim possibility that the time for the first A0 was a little too early, but you should be reworking it during that time anyway and reevaluating)
+- on long term strategy:
+    - see if your work might be of interest to multiple ICs. Example they give is HPV in the context of head and neck cancer - could involve NCI, National Institute of Dental and Craniofacial Research (NIDCR), National Institute of Allergy and Infectious Diseases (NIAID)
+    - remember the NIH isn't the only player in the game. DoD, NSF, Agency for Healthcare Research and Quality, etc., etc.
 
 ## The Check is in the Mail, but...
-    -  Change of Institution - awards are typically tied to you, not your institution, but there is red tape and negotiation (and tact!) necessary when making a move
-    - Carryover of funds: if <25% of annual budget, no approval or explanation needed
-    - No Cost Extension: usually easy to get, no application, lets you carry funds in the year after the award period, can extend to 2y with approval of PO.
+-  Change of Institution - awards are typically tied to you, not your institution, but there is red tape and negotiation (and tact!) necessary when making a move
+- Carryover of funds: if <25% of annual budget, no approval or explanation needed
+- No Cost Extension: usually easy to get, no application, lets you carry funds in the year after the award period, can extend to 2y with approval of PO.
 
 ## Appendix
-    - some interesting organizations to check out, tailored to my interests (webpages in the book, links may be added here at a future date):
-        - NCI - Cancer Control and Population Sciences; Cancer Treatment and Diagnosis
-        - NHLBI - Blood Diseases and Resources
-        - NIEHS - Risk and Integrated Sciences; Susceptibility and Population Health
-        - NIGMS - Biomedical Technology, Bioinformatics, and Computational Biology
-        - National Institute of Minority Health and Healthcare Disparities
-        - NLM might be fun for NLP work, web scraping stuff, etc.
-    - A related to-do: I know the researchers I follow that have R01 funding, but haven't looked deeper. Which orgs are funding the cool data science and crossover stuff for my favorite PIs?
+- some interesting organizations to check out, tailored to my interests (webpages in the book, links may be added here at a future date):
+    - NCI - Cancer Control and Population Sciences; Cancer Treatment and Diagnosis
+    - NHLBI - Blood Diseases and Resources
+    - NIEHS - Risk and Integrated Sciences; Susceptibility and Population Health
+    - NIGMS - Biomedical Technology, Bioinformatics, and Computational Biology
+    - National Institute of Minority Health and Healthcare Disparities
+    - NLM might be fun for NLP work, web scraping stuff, etc.
+- A related to-do: I know the researchers I follow that have R01 funding, but haven't looked deeper. Which orgs are funding the cool data science and crossover stuff for my favorite PIs?
