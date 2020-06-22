@@ -1,7 +1,7 @@
 # Site
 title:              cbh
 description:        sola dosis facit venenum
-url:                https://beauhilton.com
+url:                https://cbeauhilton.github.io
 locale:             en_US
 
 # Site logo
@@ -35,7 +35,7 @@ google-analytics:   UA-124056131-1
 email:              cbeauhilton@gmail.com
 #google.plus:       username
 # twitter:          beauhilton
-rssfeed:            https://beauhilton.com/feed.xml
+rssfeed:            https://cbeauhilton.github.io/feed.xml
 #facebook:          username
 github:             cbeauhilton
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
