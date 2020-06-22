@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet 
+  version="1.0" 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"  
+  xmlns:flickr="urn:flickr:" 
+  xmlns:media="http://search.yahoo.com/mrss/"
+>
+    <xsl:output method="html" indent="yes"/>
+    <xsl:template match="/">
+      <html>
+        <head>
+          <title><xsl:value-of select="atom:feed/atom:title"/></title>
+		  <link rel="stylesheet" href="/media/css/style.css" />
+        </head>
+        <body>
+			<div id="wrapper">
+			<h1><xsl:value-of select="atom:feed/atom:title"/></h1>
+			<h2><xsl:value-of select="atom:feed/atom:subtitle"/></h2>
+			<div style="border:1px #ccc solid; padding:0 10px; margin-bottom:20px;">
+			<h3>What is this page?</h3>
+						<p>RSS feeds are cool. </p>
+						<p>To subscribe to this one, you will need an RSS Reader. <a href="https://www.inoreader.com/">Inoreader</a>  and <a href="https://feedly.com/">Feedly</a> are standards. If you're into the command line, check out my personal favorite, <a href="https://newsboat.org/">Newsboat</a>.</p>
+			</div>
+          <ul class="nobullets">
+            <xsl:apply-templates select="//atom:entry"/>
+          </ul>
+		</div>
+        </body>
+      </html>
+    </xsl:template>
+  <xsl:template match="atom:entry">
+    <li>
+        <h2><xsl:value-of select="atom:title" disable-output-escaping="yes"/></h2>
+        <div><xsl:value-of select="atom:content" disable-output-escaping="yes"/></div>
+    </li>
+  </xsl:template>
+</xsl:stylesheet>
